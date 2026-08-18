@@ -1,0 +1,15 @@
+{
+  "name": "student-performance-analyzer-ml",
+  "version": "1.0.0",
+  "description": "Student Performance Analyzer using Machine Learning",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "ml": "python ml/app.py",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"npm run ml\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

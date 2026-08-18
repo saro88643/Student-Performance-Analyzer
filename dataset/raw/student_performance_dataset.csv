@@ -1,0 +1,1001 @@
+student_id,age,gender,department,year,semester,attendance_percentage,internal_marks,assignment_score,exam_score,previous_semester_score,cgpa,arrear_count,study_hours,activity_count,certificate_count,technical_activity_count,sports_activity_count,positive_review_count,negative_review_count,discipline_score,teacher_feedback_score,communication_score,teamwork_score,skill_score,academic_progress,performance_category,at_risk
+STU2026001,18,Male,AIDS,III,Sem-5,55,45,45,53,46,4.98,1,15,3,3,3,0,3,2,81,45,58,50,63,Improving,Needs Improvement,1
+STU2026002,21,Female,Computer Science,II,Sem-4,53,53,59,50,44,5.12,2,16,5,5,4,1,5,1,90,59,53,58,79,Improving,Average,0
+STU2026003,18,Female,AIDS,III,Sem-5,72,80,76,76,70,7.76,0,28,3,1,3,0,6,0,100,84,79,73,77,Improving,Very Good,0
+STU2026004,20,Female,Information Technology,III,Sem-5,69,73,71,67,73,6.94,0,23,4,8,1,3,6,0,95,79,71,66,95,Declining,Excellent,0
+STU2026005,20,Female,Electronics & Comm,I,Sem-1,93,96,90,85,92,8.94,0,28,10,7,1,9,7,0,97,97,86,92,100,Declining,Excellent,0
+STU2026006,22,Female,AIDS,IV,Sem-8,54,59,66,50,43,5.36,1,18,10,2,6,4,6,1,89,62,63,62,74,Improving,Average,0
+STU2026007,21,Female,Mechanical,I,Sem-1,79,81,76,76,71,7.8,0,23,6,2,3,3,4,0,99,79,72,77,80,Improving,Very Good,0
+STU2026008,18,Female,AIDS,II,Sem-3,55,60,51,59,66,5.94,1,17,5,4,1,4,3,2,80,53,54,55,68,Declining,Average,0
+STU2026009,21,Male,Mechanical,II,Sem-3,78,70,75,81,86,7.66,0,22,8,3,5,3,6,0,100,82,77,75,89,Declining,Very Good,0
+STU2026010,22,Female,Computer Science,II,Sem-3,45,44,42,38,30,4.04,1,17,10,0,1,9,2,1,88,39,50,50,40,Improving,At Risk,1
+STU2026011,19,Female,AIDS,IV,Sem-7,74,75,75,65,72,6.9,0,25,6,3,0,6,4,0,100,72,73,67,69,Declining,Good,0
+STU2026012,21,Female,Electrical,I,Sem-1,46,40,40,38,36,4.0,1,16,7,2,3,4,3,3,66,35,50,50,51,Improving,At Risk,1
+STU2026013,21,Male,Computer Science,I,Sem-1,98,86,86,92,99,8.96,0,28,3,6,0,3,6,0,100,96,79,88,98,Declining,Excellent,0
+STU2026014,20,Female,Electronics & Comm,IV,Sem-8,45,43,41,38,40,4.0,1,14,9,7,4,5,3,1,91,46,50,50,79,Declining,Needs Improvement,1
+STU2026015,18,Male,AIDS,II,Sem-4,47,41,40,37,42,4.0,3,17,9,8,2,7,4,2,81,42,50,50,75,Declining,Needs Improvement,1
+STU2026016,20,Female,Information Technology,III,Sem-6,62,63,50,46,52,5.28,3,20,1,1,1,0,4,3,61,48,60,52,53,Declining,Needs Improvement,1
+STU2026017,19,Female,Electronics & Comm,II,Sem-4,91,81,76,83,78,8.22,0,25,4,1,0,4,6,0,99,91,84,86,74,Improving,Very Good,0
+STU2026018,19,Female,Information Technology,III,Sem-6,59,45,47,55,55,5.1,1,15,5,2,5,0,5,2,78,51,59,56,66,Improving,Needs Improvement,1
+STU2026019,18,Male,Computer Science,II,Sem-3,89,85,80,87,83,8.62,0,24,4,5,4,0,5,0,100,89,81,87,100,Improving,Excellent,0
+STU2026020,19,Male,Electronics & Comm,IV,Sem-7,88,96,86,84,89,8.88,0,25,2,5,2,0,8,0,100,100,86,86,100,Declining,Excellent,0
+STU2026021,19,Male,Electrical,I,Sem-2,57,58,57,51,52,5.38,1,16,0,3,0,0,5,3,60,45,52,51,54,Declining,Needs Improvement,1
+STU2026022,22,Female,AIDS,III,Sem-5,45,40,45,35,30,4.0,3,16,5,5,3,2,2,4,56,35,50,50,66,Improving,At Risk,1
+STU2026023,18,Female,Computer Science,II,Sem-4,67,69,64,62,57,6.48,3,20,8,4,5,3,6,0,100,70,67,68,83,Improving,Good,0
+STU2026024,20,Male,Information Technology,IV,Sem-8,73,78,76,78,70,7.8,0,23,4,3,3,1,6,0,100,83,81,76,84,Improving,Very Good,0
+STU2026025,19,Female,AIDS,II,Sem-3,58,57,56,46,45,5.04,3,18,3,3,1,2,3,1,86,52,62,58,60,Improving,Needs Improvement,1
+STU2026026,18,Female,Electrical,II,Sem-4,63,61,58,58,63,5.92,1,20,8,7,0,8,5,0,96,71,72,62,82,Declining,Good,0
+STU2026027,21,Female,Electrical,IV,Sem-8,95,94,94,92,92,9.28,0,31,3,4,3,0,8,0,100,98,85,84,98,Improving,Excellent,0
+STU2026028,21,Male,AIDS,III,Sem-5,52,60,48,47,43,5.22,1,18,2,3,0,2,6,4,52,46,61,55,56,Improving,Needs Improvement,1
+STU2026029,18,Male,Electrical,IV,Sem-7,93,88,89,91,83,8.98,0,26,4,6,4,0,8,0,100,96,83,85,100,Improving,Excellent,0
+STU2026030,19,Female,Electrical,IV,Sem-7,64,63,64,55,61,5.82,1,21,8,0,3,5,3,1,93,58,66,57,59,Declining,Needs Improvement,1
+STU2026031,21,Male,Computer Science,III,Sem-6,57,55,59,58,58,5.68,2,18,1,7,0,1,3,3,62,47,52,63,75,Improving,Average,0
+STU2026032,18,Male,Information Technology,II,Sem-3,71,68,79,65,63,6.62,0,24,4,5,1,3,4,0,97,76,73,67,83,Improving,Good,0
+STU2026033,22,Male,Electronics & Comm,IV,Sem-8,89,84,89,83,84,8.34,0,31,10,1,6,4,5,0,100,95,93,93,97,Declining,Very Good,0
+STU2026034,20,Male,Mechanical,III,Sem-5,94,85,80,88,91,8.68,0,29,7,2,3,4,6,0,100,92,83,87,88,Declining,Excellent,0
+STU2026035,22,Female,Electrical,IV,Sem-8,53,62,50,54,60,5.72,1,22,7,6,2,5,3,4,52,42,54,58,76,Declining,Needs Improvement,1
+STU2026036,19,Female,Electronics & Comm,III,Sem-6,94,94,86,77,85,8.38,0,25,1,3,1,0,8,0,100,97,84,91,87,Declining,Excellent,0
+STU2026037,21,Female,Electrical,I,Sem-1,55,59,54,53,56,5.54,2,20,8,5,3,5,5,3,66,49,56,54,74,Declining,Average,0
+STU2026038,20,Male,Computer Science,II,Sem-4,46,50,43,41,39,4.46,3,16,4,8,4,0,4,1,86,46,50,50,81,Improving,Average,0
+STU2026039,20,Male,Electronics & Comm,I,Sem-1,47,55,55,47,54,5.02,1,21,0,4,0,0,6,4,52,46,52,50,60,Declining,Needs Improvement,1
+STU2026040,20,Female,Computer Science,I,Sem-2,69,69,59,59,55,6.3,3,21,1,3,0,1,7,0,100,75,65,72,66,Improving,Good,0
+STU2026041,22,Female,Electrical,IV,Sem-8,87,83,78,79,77,8.06,0,29,3,4,3,0,5,0,97,90,83,81,96,Improving,Excellent,0
+STU2026042,22,Male,Information Technology,I,Sem-2,67,63,64,54,53,5.76,2,23,4,7,0,4,4,0,99,67,62,64,80,Improving,Good,0
+STU2026043,18,Male,AIDS,II,Sem-4,80,77,80,83,84,8.06,0,26,1,7,1,0,7,0,100,93,82,85,100,Declining,Excellent,0
+STU2026044,22,Female,Electrical,I,Sem-1,94,86,87,77,71,8.06,0,25,10,0,6,4,7,0,100,96,78,92,91,Improving,Very Good,0
+STU2026045,19,Female,Mechanical,IV,Sem-8,51,48,56,40,47,4.32,2,17,5,5,5,0,3,2,76,43,55,55,75,Declining,Needs Improvement,1
+STU2026046,21,Female,AIDS,IV,Sem-7,63,61,66,56,60,5.8,3,24,0,8,0,0,6,0,95,71,62,66,85,Declining,Very Good,0
+STU2026047,20,Female,AIDS,IV,Sem-7,51,45,51,53,60,4.98,1,14,10,3,5,5,4,3,67,42,50,53,68,Declining,Needs Improvement,1
+STU2026048,21,Male,Information Technology,I,Sem-2,96,97,86,96,97,9.64,0,29,4,6,4,0,8,0,100,100,87,90,100,Declining,Excellent,0
+STU2026049,22,Male,Electrical,II,Sem-3,86,91,90,86,94,8.8,0,26,0,4,0,0,7,0,100,95,91,81,88,Declining,Excellent,0
+STU2026050,21,Female,Electronics & Comm,III,Sem-6,63,70,62,60,64,6.4,1,24,6,0,2,4,6,0,100,71,68,68,59,Declining,Average,0
+STU2026051,19,Female,Computer Science,II,Sem-4,95,92,92,79,87,8.42,0,27,0,2,0,0,6,0,96,93,91,91,80,Declining,Excellent,0
+STU2026052,20,Female,Mechanical,IV,Sem-7,94,88,89,85,92,8.62,0,30,8,0,4,4,5,0,98,90,84,81,83,Declining,Very Good,0
+STU2026053,18,Female,Computer Science,I,Sem-2,45,55,40,38,40,4.48,1,16,5,5,3,2,3,2,79,42,55,52,68,Declining,Needs Improvement,1
+STU2026054,19,Male,Information Technology,I,Sem-2,70,73,68,69,75,7.06,0,25,4,7,2,2,4,0,100,76,73,76,94,Declining,Very Good,0
+STU2026055,22,Male,Computer Science,IV,Sem-8,93,96,97,91,97,9.3,0,32,4,3,3,1,8,0,96,100,89,91,98,Declining,Excellent,0
+STU2026056,22,Female,Mechanical,III,Sem-6,46,43,44,37,30,4.0,3,18,10,0,4,6,5,3,62,35,50,50,45,Improving,At Risk,1
+STU2026057,19,Female,AIDS,II,Sem-3,94,81,89,92,85,8.76,0,29,5,2,0,5,7,0,100,97,91,83,81,Improving,Excellent,0
+STU2026058,19,Male,Mechanical,III,Sem-6,84,91,91,83,85,8.62,0,30,1,7,0,1,6,0,98,91,86,89,98,Declining,Excellent,0
+STU2026059,22,Female,Computer Science,IV,Sem-7,48,53,56,51,55,5.18,3,17,1,3,1,0,3,3,68,43,54,58,59,Declining,Needs Improvement,1
+STU2026060,18,Female,AIDS,III,Sem-6,45,38,47,49,44,4.46,1,14,8,2,3,5,5,3,69,40,52,50,54,Improving,At Risk,1
+STU2026061,19,Female,AIDS,I,Sem-2,71,65,75,68,74,6.68,0,23,3,5,0,3,6,0,100,80,75,66,80,Declining,Very Good,0
+STU2026062,21,Female,Information Technology,I,Sem-2,45,47,40,34,36,4.0,1,14,9,3,0,9,3,2,74,38,50,51,48,Declining,At Risk,1
+STU2026063,19,Male,Electronics & Comm,II,Sem-3,75,63,63,58,54,6.0,1,21,3,5,0,3,5,0,99,74,61,64,77,Improving,Good,0
+STU2026064,21,Male,AIDS,I,Sem-2,62,64,58,67,75,6.58,0,19,9,0,5,4,5,0,100,69,56,58,67,Declining,Average,0
+STU2026065,21,Female,Electrical,I,Sem-2,80,72,71,78,74,7.56,0,22,2,4,2,0,6,0,100,85,78,78,87,Improving,Very Good,0
+STU2026066,22,Female,Computer Science,I,Sem-1,59,61,64,66,70,6.4,2,23,1,5,1,0,5,3,64,56,59,67,74,Declining,Average,0
+STU2026067,21,Male,Computer Science,I,Sem-1,68,66,65,56,49,6.0,3,22,8,5,5,3,3,0,100,64,66,67,87,Improving,Good,0
+STU2026068,21,Male,Electronics & Comm,III,Sem-6,46,40,41,49,48,4.54,1,15,8,5,0,8,4,2,77,41,50,50,56,Improving,Needs Improvement,1
+STU2026069,20,Male,Information Technology,III,Sem-6,90,82,85,83,87,8.26,0,25,2,0,0,2,6,0,100,96,92,89,74,Declining,Very Good,0
+STU2026070,20,Male,Electronics & Comm,III,Sem-6,86,83,75,72,68,7.64,0,24,9,0,5,4,5,0,99,86,86,84,83,Improving,Very Good,0
+STU2026071,21,Female,Mechanical,IV,Sem-8,59,55,49,54,59,5.44,1,17,10,7,4,6,5,1,86,56,59,58,84,Declining,Good,0
+STU2026072,18,Male,Information Technology,III,Sem-5,88,78,81,81,76,7.98,0,23,7,6,1,6,6,0,100,88,78,82,94,Improving,Excellent,0
+STU2026073,22,Female,Computer Science,IV,Sem-7,64,70,57,62,67,6.52,0,22,6,6,2,4,3,0,100,64,55,62,82,Declining,Good,0
+STU2026074,19,Female,AIDS,III,Sem-5,58,59,68,64,72,6.2,1,21,4,5,1,3,5,0,97,68,57,65,75,Declining,Good,0
+STU2026075,18,Male,Electronics & Comm,III,Sem-5,47,49,50,46,42,4.72,3,15,2,7,2,0,6,3,69,48,55,50,76,Improving,Average,0
+STU2026076,21,Male,Electrical,IV,Sem-8,87,75,85,88,82,8.28,0,25,7,7,0,7,5,0,100,87,82,76,96,Improving,Excellent,0
+STU2026077,18,Female,Electrical,I,Sem-2,93,92,86,89,96,9.02,0,29,2,0,2,0,5,0,100,93,80,89,80,Declining,Excellent,0
+STU2026078,19,Male,Information Technology,IV,Sem-8,71,62,70,68,69,6.56,0,22,6,5,5,1,4,0,100,71,69,62,91,Declining,Good,0
+STU2026079,20,Male,Mechanical,IV,Sem-8,59,55,49,52,46,5.32,3,20,2,5,2,0,6,2,80,53,50,52,69,Improving,Average,0
+STU2026080,22,Female,AIDS,III,Sem-5,83,79,69,78,86,7.84,0,23,0,5,0,0,5,0,98,80,77,81,83,Declining,Excellent,0
+STU2026081,21,Male,Information Technology,II,Sem-3,49,48,40,48,56,4.8,1,18,5,2,4,1,5,2,73,42,50,50,55,Declining,Needs Improvement,1
+STU2026082,22,Male,AIDS,IV,Sem-7,65,65,60,65,66,6.5,3,23,7,3,4,3,4,3,66,53,60,61,75,Declining,Average,0
+STU2026083,22,Female,Electrical,III,Sem-6,67,61,64,60,60,6.04,1,24,7,5,4,3,4,0,100,70,61,64,87,Improving,Good,0
+STU2026084,18,Male,Electronics & Comm,IV,Sem-7,81,91,83,88,91,8.92,0,24,6,0,3,3,7,0,98,93,86,78,79,Declining,Excellent,0
+STU2026085,20,Male,Computer Science,III,Sem-5,90,83,80,79,72,8.06,0,26,7,2,6,1,8,0,100,95,75,79,96,Improving,Excellent,0
+STU2026086,18,Female,Information Technology,II,Sem-4,45,41,46,37,30,4.0,1,16,10,7,0,10,2,4,56,35,50,50,65,Improving,At Risk,1
+STU2026087,22,Male,AIDS,II,Sem-4,65,60,61,65,62,6.3,3,23,1,8,1,0,3,1,89,60,70,57,86,Improving,Good,0
+STU2026088,21,Female,Electronics & Comm,I,Sem-2,82,78,76,82,78,8.04,0,23,5,8,2,3,6,0,100,89,86,86,100,Improving,Excellent,0
+STU2026089,21,Male,Information Technology,I,Sem-2,45,34,40,31,33,4.0,2,16,6,8,3,3,4,1,93,41,50,50,74,Declining,Needs Improvement,1
+STU2026090,20,Male,AIDS,III,Sem-6,45,44,50,49,53,4.7,2,14,7,7,2,5,4,1,89,46,50,50,71,Declining,Average,0
+STU2026091,22,Male,Mechanical,III,Sem-6,45,47,46,43,49,4.46,3,18,6,2,5,1,5,3,66,39,50,51,59,Declining,At Risk,1
+STU2026092,20,Female,Electronics & Comm,I,Sem-1,76,73,72,65,61,6.82,0,27,9,7,0,9,5,0,96,81,74,81,91,Improving,Very Good,0
+STU2026093,20,Female,Electrical,I,Sem-1,76,74,82,68,64,7.04,0,25,5,6,2,3,6,0,98,83,70,69,93,Improving,Very Good,0
+STU2026094,19,Female,Mechanical,IV,Sem-7,51,57,59,48,49,5.16,3,18,3,1,1,2,3,4,49,39,60,50,51,Declining,At Risk,1
+STU2026095,20,Female,AIDS,I,Sem-2,96,83,84,89,97,8.66,0,25,1,3,1,0,6,0,98,94,92,80,88,Declining,Excellent,0
+STU2026096,20,Female,Electrical,II,Sem-3,45,46,50,48,53,4.72,2,18,9,1,1,8,4,1,90,43,51,50,42,Declining,Needs Improvement,1
+STU2026097,22,Female,Information Technology,II,Sem-3,70,55,57,68,64,6.28,2,19,2,5,2,0,4,0,100,66,64,58,78,Improving,Good,0
+STU2026098,20,Male,AIDS,III,Sem-5,77,74,67,79,76,7.7,0,25,9,2,1,8,6,0,100,80,65,67,72,Improving,Very Good,0
+STU2026099,18,Male,AIDS,III,Sem-5,82,83,72,86,87,8.48,0,28,4,7,1,3,8,0,99,92,85,75,98,Declining,Excellent,0
+STU2026100,18,Male,Electrical,IV,Sem-8,63,66,60,64,66,6.48,3,24,5,6,1,4,6,0,100,72,59,63,80,Declining,Very Good,0
+STU2026101,19,Female,Computer Science,III,Sem-6,47,45,54,54,59,5.04,1,21,2,5,2,0,5,2,73,50,61,55,69,Declining,Needs Improvement,1
+STU2026102,21,Female,Electronics & Comm,IV,Sem-7,45,44,50,40,38,4.16,3,15,0,0,0,0,5,4,51,35,50,50,40,Improving,At Risk,1
+STU2026103,21,Male,Electronics & Comm,III,Sem-6,59,52,57,59,60,5.62,1,20,8,7,6,2,5,1,85,61,55,59,94,Declining,Good,0
+STU2026104,20,Female,Mechanical,III,Sem-5,51,48,43,40,33,4.32,1,19,5,7,4,1,6,2,80,50,50,50,81,Improving,Average,0
+STU2026105,22,Female,Information Technology,IV,Sem-8,74,77,78,70,77,7.28,0,26,0,5,0,0,4,0,100,74,72,77,79,Declining,Very Good,0
+STU2026106,18,Female,Electronics & Comm,II,Sem-3,67,72,74,64,63,6.72,0,20,9,1,1,8,4,0,100,74,72,70,66,Improving,Good,0
+STU2026107,19,Female,AIDS,II,Sem-4,70,73,73,57,53,6.34,3,20,8,5,5,3,7,0,100,76,70,65,90,Improving,Very Good,0
+STU2026108,19,Female,Mechanical,III,Sem-6,84,80,75,81,79,8.06,0,22,4,8,2,2,5,0,99,81,76,80,100,Improving,Excellent,0
+STU2026109,19,Female,Electronics & Comm,IV,Sem-8,76,73,69,68,63,7.0,0,24,10,8,3,7,7,0,100,79,65,67,99,Improving,Excellent,0
+STU2026110,18,Female,AIDS,I,Sem-2,95,86,96,85,83,8.54,0,31,8,4,4,4,7,0,97,98,82,91,100,Improving,Excellent,0
+STU2026111,22,Male,Information Technology,I,Sem-1,69,68,78,73,80,7.1,0,21,10,2,0,10,5,0,100,79,80,74,69,Declining,Good,0
+STU2026112,19,Female,Electronics & Comm,III,Sem-5,85,92,87,79,76,8.42,0,28,2,0,2,0,8,0,100,99,83,92,80,Improving,Excellent,0
+STU2026113,20,Male,Computer Science,III,Sem-5,90,87,95,96,100,9.24,0,26,8,7,2,6,6,0,96,96,89,84,100,Declining,Excellent,0
+STU2026114,21,Female,AIDS,II,Sem-3,86,76,77,74,78,7.48,0,28,6,8,2,4,4,0,100,82,73,74,100,Declining,Excellent,0
+STU2026115,19,Female,Electronics & Comm,II,Sem-3,50,53,53,52,53,5.24,3,20,9,0,2,7,5,2,71,51,50,55,50,Declining,Needs Improvement,1
+STU2026116,20,Male,Electrical,III,Sem-5,73,72,72,70,66,7.08,0,24,2,7,2,0,6,0,100,81,80,79,95,Improving,Very Good,0
+STU2026117,22,Male,Information Technology,I,Sem-2,67,62,62,58,66,5.96,1,23,8,2,1,7,6,0,100,75,74,63,67,Declining,Good,0
+STU2026118,19,Female,Computer Science,IV,Sem-7,66,62,69,54,60,5.72,3,24,4,0,3,1,5,0,95,69,62,67,62,Declining,Average,0
+STU2026119,18,Male,Electrical,III,Sem-5,63,75,62,73,66,7.38,0,21,6,2,6,0,5,0,100,74,73,67,83,Improving,Good,0
+STU2026120,21,Female,Electrical,IV,Sem-7,81,82,72,77,72,7.9,0,22,8,6,4,4,5,0,98,81,67,82,99,Improving,Excellent,0
+STU2026121,18,Female,Electrical,IV,Sem-8,82,84,86,78,78,8.04,0,24,1,0,1,0,8,0,100,94,74,80,73,Improving,Very Good,0
+STU2026122,19,Male,Computer Science,I,Sem-2,77,77,64,68,61,7.16,0,23,7,3,4,3,5,0,95,77,67,73,83,Improving,Very Good,0
+STU2026123,20,Male,AIDS,III,Sem-6,47,55,51,54,55,5.44,2,15,8,2,5,3,6,4,47,44,56,57,65,Declining,Needs Improvement,1
+STU2026124,21,Female,AIDS,IV,Sem-8,46,42,54,43,42,4.26,2,20,2,7,0,2,5,4,55,37,50,50,66,Improving,Needs Improvement,1
+STU2026125,19,Female,Information Technology,III,Sem-5,98,87,83,85,78,8.58,0,27,6,0,6,0,5,0,98,94,85,89,92,Improving,Very Good,0
+STU2026126,19,Female,Electronics & Comm,I,Sem-1,97,84,96,87,85,8.58,0,28,3,8,2,1,7,0,100,98,94,91,100,Improving,Excellent,0
+STU2026127,20,Female,Electronics & Comm,III,Sem-6,71,68,71,64,62,6.56,0,20,5,6,0,5,5,0,97,70,56,62,77,Improving,Very Good,0
+STU2026128,22,Female,Electronics & Comm,II,Sem-3,57,59,56,61,63,6.02,2,22,7,7,3,4,4,3,61,49,54,63,84,Declining,Average,0
+STU2026129,22,Female,Information Technology,I,Sem-1,81,91,77,75,80,8.14,0,25,10,3,0,10,6,0,95,91,81,86,82,Declining,Excellent,0
+STU2026130,21,Female,Computer Science,IV,Sem-8,45,40,45,29,30,4.0,3,17,4,8,2,2,2,4,49,35,50,50,70,Declining,At Risk,1
+STU2026131,22,Male,Information Technology,II,Sem-4,83,88,87,75,78,8.02,0,26,7,3,5,2,6,0,99,90,76,86,96,Declining,Excellent,0
+STU2026132,18,Male,Electrical,IV,Sem-8,64,72,61,64,58,6.72,0,23,6,5,4,2,4,0,100,72,62,66,89,Improving,Good,0
+STU2026133,19,Female,Electronics & Comm,I,Sem-1,75,83,69,71,73,7.58,0,21,3,2,3,0,7,0,96,85,76,72,80,Declining,Very Good,0
+STU2026134,22,Male,Mechanical,IV,Sem-8,65,55,54,65,68,6.1,1,17,6,3,6,0,3,3,68,50,64,66,79,Declining,Needs Improvement,1
+STU2026135,20,Male,AIDS,III,Sem-6,65,67,69,68,65,6.76,0,24,9,6,0,9,6,0,98,73,60,61,78,Improving,Very Good,0
+STU2026136,20,Male,Electrical,II,Sem-4,51,50,48,55,61,5.3,2,22,4,1,1,3,3,2,77,50,63,59,53,Declining,Needs Improvement,1
+STU2026137,22,Female,Computer Science,I,Sem-1,53,60,60,60,52,6.0,2,20,6,1,5,1,4,2,81,54,63,55,67,Improving,Needs Improvement,1
+STU2026138,19,Female,Electronics & Comm,III,Sem-6,45,46,47,49,50,4.78,2,20,1,5,1,0,3,4,56,35,50,50,61,Declining,At Risk,1
+STU2026139,18,Male,Electronics & Comm,I,Sem-2,60,56,59,60,62,5.84,2,22,10,2,2,8,5,2,78,55,60,54,61,Declining,Average,0
+STU2026140,21,Female,Electronics & Comm,IV,Sem-7,54,62,61,57,52,5.9,3,17,9,8,1,8,3,4,50,43,64,63,82,Improving,Average,0
+STU2026141,20,Male,Electrical,IV,Sem-7,71,70,69,76,80,7.36,0,21,7,7,4,3,7,0,100,83,78,75,100,Declining,Excellent,0
+STU2026142,18,Female,AIDS,I,Sem-1,86,84,83,76,69,7.92,0,27,10,6,6,4,7,0,100,90,74,74,100,Improving,Excellent,0
+STU2026143,18,Female,Information Technology,II,Sem-4,60,64,55,60,52,6.16,2,17,4,6,0,4,3,2,76,53,61,59,73,Improving,Average,0
+STU2026144,21,Male,Mechanical,IV,Sem-8,66,69,71,64,58,6.6,0,20,0,1,0,0,6,0,100,72,60,69,58,Improving,Good,0
+STU2026145,19,Male,Mechanical,II,Sem-3,57,57,56,58,55,5.76,1,21,10,6,3,7,3,2,78,51,63,58,80,Improving,Average,0
+STU2026146,18,Male,Information Technology,III,Sem-5,77,76,67,71,73,7.3,0,21,7,1,2,5,7,0,100,80,72,73,68,Declining,Very Good,0
+STU2026147,21,Female,Mechanical,I,Sem-2,59,60,55,56,50,5.76,3,18,5,1,1,4,5,1,85,60,62,64,55,Improving,Average,0
+STU2026148,19,Female,Electrical,II,Sem-4,63,65,59,56,63,5.96,2,19,2,5,2,0,6,1,88,66,54,63,77,Declining,Good,0
+STU2026149,19,Male,Electrical,IV,Sem-8,77,80,82,81,78,8.06,0,21,9,0,6,3,5,0,99,81,68,74,81,Improving,Very Good,0
+STU2026150,19,Female,Information Technology,IV,Sem-8,64,71,64,67,70,6.86,0,23,0,7,0,0,5,0,100,74,64,74,85,Declining,Very Good,0
+STU2026151,19,Female,Computer Science,IV,Sem-8,65,52,64,50,49,5.08,1,23,9,5,6,3,6,2,80,58,55,64,86,Improving,Average,0
+STU2026152,19,Male,Computer Science,III,Sem-6,68,69,72,70,70,6.96,0,26,8,1,1,7,7,0,95,81,71,75,66,Improving,Good,0
+STU2026153,19,Male,Information Technology,II,Sem-4,92,90,88,89,85,8.94,0,28,10,4,5,5,8,0,100,95,88,78,100,Improving,Excellent,0
+STU2026154,18,Female,Mechanical,III,Sem-6,65,62,56,55,61,5.78,3,23,5,1,5,0,6,0,98,71,69,61,72,Declining,Average,0
+STU2026155,21,Female,Electronics & Comm,III,Sem-6,65,71,76,68,61,6.92,0,19,1,7,0,1,4,0,97,72,74,70,85,Improving,Very Good,0
+STU2026156,18,Female,Information Technology,II,Sem-4,45,41,51,45,39,4.34,2,19,10,2,0,10,5,3,62,42,54,53,47,Improving,At Risk,1
+STU2026157,18,Male,Computer Science,II,Sem-4,45,39,49,32,30,4.0,3,15,1,6,1,0,3,4,48,35,50,50,62,Improving,At Risk,1
+STU2026158,18,Male,Computer Science,III,Sem-6,85,86,82,81,75,8.3,0,28,9,0,4,5,6,0,100,93,88,91,84,Improving,Very Good,0
+STU2026159,19,Male,Electrical,IV,Sem-7,45,38,40,45,48,4.22,2,15,2,3,2,0,2,2,79,36,50,51,54,Declining,At Risk,1
+STU2026160,18,Female,Information Technology,II,Sem-4,49,60,54,59,63,5.94,1,17,7,1,4,3,3,3,64,45,52,56,61,Declining,Needs Improvement,1
+STU2026161,22,Female,Electronics & Comm,II,Sem-4,99,85,82,83,75,8.38,0,27,3,0,0,3,8,0,100,100,90,93,76,Improving,Excellent,0
+STU2026162,22,Female,Electrical,IV,Sem-7,77,76,69,72,66,7.36,0,23,1,8,1,0,5,0,100,79,75,73,96,Improving,Excellent,0
+STU2026163,22,Male,Electronics & Comm,IV,Sem-7,45,49,47,34,40,4.0,3,16,0,4,0,0,3,1,83,41,50,50,50,Declining,Needs Improvement,1
+STU2026164,18,Male,Electrical,III,Sem-6,45,52,48,40,32,4.48,2,20,6,4,4,2,2,3,68,36,50,50,67,Improving,At Risk,1
+STU2026165,21,Female,Computer Science,IV,Sem-7,57,64,54,51,50,5.62,3,21,0,0,0,0,3,2,71,53,67,58,49,Improving,Needs Improvement,1
+STU2026166,21,Male,Information Technology,I,Sem-2,48,50,53,48,42,4.88,3,17,1,8,1,0,3,2,74,45,50,52,77,Improving,Average,0
+STU2026167,18,Female,Electronics & Comm,III,Sem-6,45,36,47,39,40,4.0,3,19,4,3,3,1,4,4,50,35,50,50,57,Declining,At Risk,1
+STU2026168,18,Female,Computer Science,II,Sem-4,79,81,65,73,65,7.62,0,27,10,6,6,4,6,0,96,81,71,75,100,Improving,Excellent,0
+STU2026169,19,Female,Electrical,I,Sem-1,74,71,76,84,89,7.88,0,27,5,7,5,0,4,0,100,81,72,79,100,Declining,Excellent,0
+STU2026170,19,Female,Computer Science,I,Sem-2,72,71,76,73,75,7.22,0,27,6,5,2,4,7,0,99,84,73,70,88,Declining,Very Good,0
+STU2026171,19,Male,Mechanical,I,Sem-1,45,44,47,47,42,4.58,3,15,3,7,2,1,5,3,60,39,50,50,70,Improving,Needs Improvement,1
+STU2026172,20,Male,Information Technology,III,Sem-5,45,42,48,49,42,4.62,3,15,4,2,0,4,5,4,55,35,50,50,44,Improving,At Risk,1
+STU2026173,21,Male,Information Technology,I,Sem-1,47,38,40,37,41,4.0,2,17,10,1,4,6,4,1,83,43,50,50,50,Declining,At Risk,1
+STU2026174,21,Male,Computer Science,III,Sem-5,45,34,40,43,47,4.0,2,12,6,6,1,5,4,2,73,38,50,50,60,Declining,Needs Improvement,1
+STU2026175,21,Male,Computer Science,II,Sem-4,68,66,59,58,58,6.12,2,20,6,3,5,1,5,0,100,72,58,66,82,Improving,Good,0
+STU2026176,20,Female,Mechanical,IV,Sem-8,92,87,92,87,84,8.7,0,25,5,3,0,5,7,0,95,97,93,89,86,Improving,Excellent,0
+STU2026177,20,Male,Information Technology,I,Sem-1,74,76,67,71,75,7.3,0,23,2,2,1,1,6,0,100,82,66,79,73,Declining,Very Good,0
+STU2026178,20,Male,Mechanical,II,Sem-4,65,68,61,60,53,6.32,1,23,3,0,3,0,7,0,95,78,70,71,66,Improving,Good,0
+STU2026179,19,Male,Electronics & Comm,II,Sem-4,45,44,40,34,42,4.0,2,12,5,6,4,1,2,3,63,35,50,50,70,Declining,At Risk,1
+STU2026180,19,Female,AIDS,IV,Sem-8,50,52,52,45,42,4.78,2,16,4,2,1,3,3,4,56,35,50,50,51,Improving,At Risk,1
+STU2026181,22,Female,Mechanical,II,Sem-3,88,88,83,87,90,8.74,0,27,2,1,2,0,7,0,100,98,80,87,85,Declining,Excellent,0
+STU2026182,19,Male,AIDS,I,Sem-2,47,57,45,43,47,4.86,2,20,6,2,3,3,6,4,52,45,58,50,60,Declining,At Risk,1
+STU2026183,21,Male,Information Technology,IV,Sem-7,78,80,74,82,82,8.12,0,23,1,5,1,0,8,0,97,93,75,83,92,Improving,Excellent,0
+STU2026184,18,Female,Mechanical,IV,Sem-7,67,57,67,57,50,5.7,1,20,3,3,3,0,5,0,100,68,64,61,73,Improving,Average,0
+STU2026185,19,Male,Computer Science,IV,Sem-8,45,40,52,38,39,4.0,3,19,9,7,1,8,2,1,86,44,50,53,70,Declining,Needs Improvement,1
+STU2026186,20,Male,Electrical,I,Sem-2,84,82,81,74,78,7.72,0,24,5,6,2,3,6,0,100,88,73,79,98,Declining,Excellent,0
+STU2026187,21,Female,Electronics & Comm,II,Sem-4,66,75,64,61,64,6.66,0,26,8,6,6,2,5,0,100,75,62,69,100,Declining,Very Good,0
+STU2026188,22,Female,Mechanical,IV,Sem-7,60,64,58,70,78,6.76,0,24,9,2,0,9,7,0,97,74,62,62,62,Declining,Good,0
+STU2026189,19,Male,Computer Science,IV,Sem-7,95,89,88,91,93,9.02,0,31,1,1,1,0,8,0,100,100,92,89,84,Declining,Excellent,0
+STU2026190,22,Female,Computer Science,IV,Sem-7,58,63,56,54,49,5.76,2,24,8,5,3,5,5,4,57,51,69,65,80,Improving,Average,0
+STU2026191,22,Female,Computer Science,II,Sem-4,64,63,65,51,55,5.58,2,22,3,0,3,0,6,3,64,57,53,60,59,Declining,Needs Improvement,1
+STU2026192,20,Female,Electronics & Comm,IV,Sem-7,91,87,92,96,98,9.24,0,28,6,1,1,5,8,0,98,100,94,95,84,Declining,Excellent,0
+STU2026193,21,Female,Computer Science,II,Sem-3,58,55,52,61,53,5.86,1,17,3,0,1,2,3,4,47,42,60,62,49,Improving,At Risk,1
+STU2026194,19,Female,Electronics & Comm,IV,Sem-8,69,77,65,70,73,7.28,0,24,9,7,1,8,7,0,100,83,76,72,92,Declining,Excellent,0
+STU2026195,19,Female,AIDS,I,Sem-2,45,35,40,36,35,4.0,3,13,4,6,4,0,2,1,90,37,50,50,69,Improving,Needs Improvement,1
+STU2026196,19,Male,Information Technology,III,Sem-6,84,81,77,81,85,8.1,0,28,5,7,2,3,5,0,100,83,78,81,99,Declining,Excellent,0
+STU2026197,22,Female,Mechanical,I,Sem-1,71,73,70,65,66,6.82,0,24,1,7,0,1,6,0,99,74,69,65,83,Declining,Very Good,0
+STU2026198,20,Female,Information Technology,II,Sem-3,96,94,91,88,84,9.04,0,30,0,7,0,0,7,0,100,96,90,87,100,Improving,Excellent,0
+STU2026199,18,Male,Electronics & Comm,II,Sem-4,94,86,89,83,80,8.42,0,27,1,7,1,0,7,0,100,97,83,91,100,Improving,Excellent,0
+STU2026200,20,Male,Information Technology,III,Sem-5,79,79,81,80,80,7.96,0,26,4,7,4,0,4,0,100,82,71,83,100,Improving,Excellent,0
+STU2026201,22,Male,Electrical,II,Sem-3,88,87,87,89,82,8.82,0,30,2,2,1,1,7,0,100,95,90,81,83,Improving,Excellent,0
+STU2026202,20,Male,Computer Science,IV,Sem-8,70,71,66,63,69,6.62,0,23,3,2,3,0,5,0,100,78,67,69,78,Declining,Good,0
+STU2026203,22,Female,AIDS,IV,Sem-8,63,61,54,53,51,5.62,3,20,0,5,0,0,4,1,93,62,55,67,71,Improving,Average,0
+STU2026204,19,Male,AIDS,III,Sem-6,45,47,47,40,34,4.28,1,15,4,7,4,0,4,4,57,35,50,50,77,Improving,Needs Improvement,1
+STU2026205,21,Female,Information Technology,II,Sem-4,45,44,40,35,30,4.0,3,16,2,1,2,0,2,4,57,35,50,50,42,Improving,At Risk,1
+STU2026206,22,Male,Mechanical,I,Sem-1,69,68,69,77,83,7.34,0,24,1,8,1,0,7,0,97,84,72,79,97,Declining,Excellent,0
+STU2026207,18,Female,Electrical,I,Sem-2,79,68,78,66,74,6.68,0,26,9,1,2,7,4,0,96,76,79,69,70,Declining,Good,0
+STU2026208,22,Male,Electronics & Comm,II,Sem-4,76,72,70,82,80,7.8,0,27,7,5,1,6,4,0,95,80,70,72,87,Improving,Very Good,0
+STU2026209,22,Female,Information Technology,I,Sem-1,74,85,78,75,81,7.9,0,24,4,7,0,4,4,0,97,81,70,76,93,Declining,Excellent,0
+STU2026210,20,Female,Electrical,I,Sem-1,81,78,81,80,82,7.92,0,26,7,4,5,2,5,0,100,90,85,80,100,Declining,Very Good,0
+STU2026211,18,Female,Electrical,IV,Sem-8,91,91,91,87,84,8.86,0,24,2,0,2,0,6,0,96,91,88,86,76,Improving,Excellent,0
+STU2026212,21,Female,Information Technology,IV,Sem-8,80,75,68,77,84,7.62,0,20,6,7,0,6,4,0,99,75,74,66,88,Declining,Excellent,0
+STU2026213,22,Male,AIDS,III,Sem-5,68,58,69,63,67,6.1,1,24,8,0,0,8,4,0,100,66,70,64,52,Declining,Average,0
+STU2026214,19,Male,Electrical,III,Sem-5,55,50,56,58,62,5.48,1,16,7,7,6,1,6,1,90,61,64,57,93,Declining,Good,0
+STU2026215,18,Female,AIDS,I,Sem-1,55,62,53,52,53,5.6,3,21,3,7,2,1,5,1,86,63,67,60,84,Declining,Good,0
+STU2026216,22,Female,AIDS,III,Sem-6,50,48,44,34,36,4.0,2,19,10,4,4,6,4,1,83,45,50,50,65,Declining,Needs Improvement,1
+STU2026217,19,Female,Computer Science,III,Sem-5,55,48,47,52,50,5.04,3,16,1,6,0,1,3,4,54,35,50,51,64,Improving,Needs Improvement,1
+STU2026218,18,Male,Mechanical,IV,Sem-8,97,96,86,84,80,8.88,0,25,6,5,4,2,8,0,100,100,86,86,100,Improving,Excellent,0
+STU2026219,21,Female,Electronics & Comm,IV,Sem-7,49,50,48,46,44,4.76,1,15,9,4,5,4,4,2,81,43,50,50,69,Improving,Needs Improvement,1
+STU2026220,22,Female,AIDS,I,Sem-2,73,71,74,68,73,6.92,0,26,0,8,0,0,4,0,100,73,65,63,90,Declining,Very Good,0
+STU2026221,18,Male,Electronics & Comm,II,Sem-4,73,82,69,75,73,7.78,0,27,8,0,2,6,7,0,96,85,74,81,69,Improving,Very Good,0
+STU2026222,22,Female,Information Technology,III,Sem-5,91,89,91,80,72,8.36,0,30,4,3,4,0,8,0,98,100,90,94,98,Improving,Excellent,0
+STU2026223,22,Male,AIDS,II,Sem-4,68,57,60,58,66,5.76,1,21,0,6,0,0,5,0,97,69,61,67,76,Declining,Good,0
+STU2026224,20,Male,Electronics & Comm,IV,Sem-7,45,43,40,39,46,4.06,3,16,5,1,5,0,4,2,73,38,50,50,52,Declining,At Risk,1
+STU2026225,22,Male,Electrical,IV,Sem-7,55,61,60,57,60,5.86,2,18,9,8,3,6,3,1,93,56,62,60,89,Declining,Good,0
+STU2026226,19,Male,Computer Science,III,Sem-6,86,88,88,88,80,8.8,0,29,5,8,5,0,8,0,100,99,80,85,100,Improving,Excellent,0
+STU2026227,19,Female,Mechanical,I,Sem-1,53,49,40,39,37,4.3,3,19,3,6,3,0,2,2,79,40,55,53,72,Improving,Needs Improvement,1
+STU2026228,18,Male,Computer Science,IV,Sem-8,45,34,40,38,32,4.0,3,18,3,4,3,0,5,4,57,35,50,50,58,Improving,At Risk,1
+STU2026229,20,Male,Electrical,I,Sem-1,78,68,67,66,69,6.68,0,25,1,4,1,0,6,0,100,81,67,71,80,Declining,Very Good,0
+STU2026230,21,Female,Electrical,I,Sem-2,45,42,52,46,42,4.44,2,19,10,5,0,10,3,1,83,46,50,52,59,Improving,Needs Improvement,1
+STU2026231,22,Female,Mechanical,I,Sem-2,55,57,54,46,51,5.04,3,21,8,2,1,7,4,2,80,46,52,50,52,Declining,Needs Improvement,1
+STU2026232,18,Male,AIDS,I,Sem-2,70,71,68,72,67,7.16,0,22,9,7,2,7,6,0,97,81,72,69,95,Improving,Very Good,0
+STU2026233,20,Male,Information Technology,III,Sem-6,67,66,64,57,60,6.06,2,21,2,0,2,0,4,0,98,67,69,62,58,Declining,Average,0
+STU2026234,20,Male,AIDS,III,Sem-6,63,69,65,69,64,6.9,0,19,10,1,6,4,6,0,97,72,62,62,75,Improving,Good,0
+STU2026235,18,Male,Computer Science,I,Sem-2,79,88,73,79,86,8.26,0,28,2,5,2,0,6,0,100,88,80,76,93,Declining,Excellent,0
+STU2026236,21,Male,Electrical,III,Sem-5,83,80,72,81,77,8.06,0,24,2,2,2,0,5,0,100,80,77,69,76,Improving,Very Good,0
+STU2026237,19,Female,Information Technology,I,Sem-2,53,62,57,64,67,6.32,2,20,7,0,0,7,5,1,91,61,60,65,49,Declining,Average,0
+STU2026238,20,Male,Electrical,IV,Sem-8,79,65,71,73,72,6.98,0,24,6,5,6,0,6,0,100,78,77,74,97,Improving,Very Good,0
+STU2026239,18,Male,Electrical,II,Sem-3,46,40,41,36,33,4.0,1,15,9,1,5,4,3,4,52,35,50,50,54,Improving,At Risk,1
+STU2026240,21,Female,Information Technology,II,Sem-4,45,35,40,33,41,4.0,1,16,2,0,1,1,4,2,79,37,50,50,40,Declining,At Risk,1
+STU2026241,22,Male,AIDS,III,Sem-5,53,50,58,45,44,4.7,2,19,2,2,2,0,5,2,81,49,54,53,56,Improving,Needs Improvement,1
+STU2026242,22,Male,Information Technology,IV,Sem-8,45,42,51,39,34,4.02,1,16,9,0,6,3,2,1,90,42,50,50,56,Improving,At Risk,1
+STU2026243,22,Male,AIDS,IV,Sem-8,53,63,64,56,63,5.88,2,19,9,1,3,6,4,3,66,51,59,55,62,Declining,Needs Improvement,1
+STU2026244,20,Female,Electronics & Comm,II,Sem-3,85,71,72,83,75,7.82,0,25,10,3,5,5,6,0,100,85,79,72,91,Improving,Very Good,0
+STU2026245,19,Female,AIDS,III,Sem-6,87,88,88,84,88,8.56,0,30,3,6,3,0,8,0,97,96,87,86,100,Declining,Excellent,0
+STU2026246,22,Female,Electronics & Comm,III,Sem-6,82,85,77,74,73,7.84,0,26,2,1,1,1,8,0,100,92,73,76,74,Improving,Very Good,0
+STU2026247,21,Male,Computer Science,II,Sem-4,91,84,83,87,86,8.58,0,27,1,0,1,0,8,0,100,100,88,93,77,Improving,Excellent,0
+STU2026248,22,Male,Information Technology,IV,Sem-8,45,42,41,34,30,4.0,3,16,8,3,4,4,3,1,88,38,50,50,56,Improving,At Risk,1
+STU2026249,18,Male,Computer Science,III,Sem-6,58,57,56,64,56,6.12,3,22,1,1,1,0,5,3,64,52,59,56,55,Improving,Needs Improvement,1
+STU2026250,22,Male,Electrical,IV,Sem-7,53,54,48,44,52,4.8,2,17,1,8,1,0,5,4,53,43,61,60,79,Declining,Needs Improvement,1
+STU2026251,19,Female,Electrical,IV,Sem-7,63,59,69,62,61,6.08,2,21,5,8,4,1,4,0,99,69,64,63,98,Improving,Very Good,0
+STU2026252,18,Female,AIDS,III,Sem-5,66,69,71,70,68,6.96,0,24,4,2,4,0,5,0,100,74,67,66,77,Improving,Good,0
+STU2026253,19,Female,Information Technology,II,Sem-3,93,87,87,78,73,8.16,0,24,1,7,1,0,5,0,100,89,76,84,100,Improving,Excellent,0
+STU2026254,20,Female,Electrical,III,Sem-6,54,56,49,50,49,5.24,3,15,0,8,0,0,6,4,55,41,50,52,72,Improving,Average,0
+STU2026255,20,Female,AIDS,II,Sem-4,99,93,97,92,84,9.24,0,26,10,3,3,7,5,0,100,96,93,94,98,Improving,Excellent,0
+STU2026256,20,Male,Mechanical,III,Sem-5,56,51,57,48,55,4.92,2,16,6,5,2,4,6,3,66,50,52,57,70,Declining,Needs Improvement,1
+STU2026257,19,Male,Computer Science,III,Sem-5,77,68,67,63,59,6.5,2,26,0,2,0,0,7,0,97,78,71,75,65,Improving,Good,0
+STU2026258,21,Female,Electronics & Comm,I,Sem-2,45,37,43,41,48,4.0,3,13,7,5,2,5,4,3,67,37,50,50,62,Declining,At Risk,1
+STU2026259,18,Female,Computer Science,III,Sem-5,75,73,67,69,72,7.06,0,22,10,8,3,7,7,0,96,80,74,73,99,Declining,Excellent,0
+STU2026260,20,Female,AIDS,II,Sem-3,74,73,77,66,60,6.88,0,22,5,3,2,3,6,0,100,81,74,78,79,Improving,Very Good,0
+STU2026261,20,Female,Electronics & Comm,IV,Sem-8,83,80,84,75,72,7.7,0,28,0,2,0,0,6,0,100,87,78,84,74,Improving,Very Good,0
+STU2026262,18,Male,Information Technology,IV,Sem-7,45,45,40,33,37,4.0,3,19,1,1,1,0,3,1,93,42,50,50,43,Declining,At Risk,1
+STU2026263,19,Male,AIDS,III,Sem-6,70,74,70,63,56,6.74,0,26,5,5,5,0,7,0,100,82,72,75,96,Improving,Very Good,0
+STU2026264,21,Male,AIDS,II,Sem-4,78,80,78,79,80,7.94,0,23,7,8,1,6,4,0,100,76,74,72,96,Declining,Excellent,0
+STU2026265,21,Female,Information Technology,III,Sem-5,45,44,40,39,40,4.1,2,16,0,7,0,0,5,3,59,35,50,50,60,Declining,Needs Improvement,1
+STU2026266,20,Male,Computer Science,III,Sem-5,63,60,65,58,55,5.88,3,22,10,6,6,4,6,2,75,61,56,62,93,Improving,Good,0
+STU2026267,19,Female,Electronics & Comm,III,Sem-6,45,44,45,47,42,4.58,3,17,9,7,2,7,6,2,76,49,50,50,74,Improving,Average,0
+STU2026268,18,Male,Information Technology,I,Sem-2,58,53,46,50,44,5.12,1,15,7,3,2,5,6,3,66,50,58,55,62,Improving,Needs Improvement,1
+STU2026269,18,Female,Computer Science,II,Sem-3,53,47,61,48,46,4.76,2,21,6,0,0,6,4,4,54,41,54,59,44,Improving,At Risk,1
+STU2026270,18,Male,Electrical,I,Sem-1,69,62,67,59,52,6.02,3,22,8,1,2,6,7,0,100,74,66,62,63,Improving,Good,0
+STU2026271,20,Male,AIDS,II,Sem-3,51,50,44,46,46,4.76,3,15,6,3,0,6,3,4,56,38,50,52,54,Improving,At Risk,1
+STU2026272,18,Male,Information Technology,IV,Sem-7,76,83,69,67,70,7.34,0,26,2,8,2,0,4,0,97,79,82,73,100,Declining,Excellent,0
+STU2026273,20,Female,Electrical,II,Sem-3,76,80,72,74,67,7.64,0,24,7,8,2,5,7,0,98,85,72,78,100,Improving,Excellent,0
+STU2026274,20,Female,AIDS,IV,Sem-8,91,93,83,78,86,8.4,0,25,7,4,6,1,7,0,100,95,87,86,100,Declining,Excellent,0
+STU2026275,18,Female,AIDS,II,Sem-3,72,78,71,72,66,7.44,0,25,8,6,1,7,7,0,100,82,68,75,87,Improving,Excellent,0
+STU2026276,20,Female,Electrical,III,Sem-5,47,38,40,37,34,4.0,1,14,1,7,1,0,2,1,92,41,50,50,67,Improving,Needs Improvement,1
+STU2026277,21,Female,Computer Science,III,Sem-5,68,65,70,77,71,7.22,0,23,10,0,2,8,7,0,100,81,64,75,66,Improving,Good,0
+STU2026278,20,Male,AIDS,I,Sem-2,45,44,40,35,34,4.0,3,16,3,3,3,0,3,2,79,38,50,50,56,Improving,At Risk,1
+STU2026279,18,Female,AIDS,IV,Sem-8,85,92,83,89,97,9.02,0,26,10,2,4,6,8,0,100,98,87,88,92,Declining,Excellent,0
+STU2026280,20,Female,Electrical,IV,Sem-8,76,73,70,74,74,7.36,0,22,7,7,3,4,4,0,95,75,72,75,97,Improving,Very Good,0
+STU2026281,18,Male,Electronics & Comm,I,Sem-2,92,99,94,83,83,8.94,0,30,8,8,4,4,6,0,96,99,83,92,100,Improving,Excellent,0
+STU2026282,20,Male,Information Technology,III,Sem-6,86,84,87,86,80,8.52,0,28,6,3,5,1,5,0,100,92,92,82,100,Improving,Excellent,0
+STU2026283,21,Male,Mechanical,III,Sem-5,83,78,72,70,72,7.32,0,24,6,6,6,0,4,0,98,82,70,82,100,Declining,Very Good,0
+STU2026284,21,Male,Electronics & Comm,I,Sem-2,65,66,67,62,55,6.36,3,24,6,7,6,0,4,0,98,72,73,66,100,Improving,Very Good,0
+STU2026285,21,Male,Information Technology,III,Sem-5,70,58,69,62,56,6.04,2,22,6,2,6,0,5,0,100,70,63,66,80,Improving,Good,0
+STU2026286,21,Male,Mechanical,II,Sem-3,48,41,45,34,30,4.0,3,16,6,5,2,4,3,3,64,35,50,50,61,Improving,At Risk,1
+STU2026287,20,Male,Electronics & Comm,IV,Sem-7,70,59,61,63,59,6.14,3,24,1,1,1,0,3,0,98,64,59,61,59,Improving,Average,0
+STU2026288,18,Female,AIDS,I,Sem-2,58,61,61,59,57,5.98,3,22,4,8,3,1,4,0,100,67,56,64,93,Improving,Good,0
+STU2026289,22,Male,Electronics & Comm,II,Sem-3,60,58,54,45,51,5.02,3,16,1,6,1,0,5,3,60,48,50,53,72,Declining,Average,0
+STU2026290,21,Male,Electrical,I,Sem-2,69,66,59,60,58,6.24,3,22,8,0,0,8,5,0,100,71,66,64,54,Improving,Average,0
+STU2026291,21,Female,AIDS,II,Sem-3,57,56,59,54,62,5.48,2,23,0,4,0,0,3,3,62,48,55,57,64,Declining,Needs Improvement,1
+STU2026292,21,Male,Computer Science,IV,Sem-7,65,56,67,60,62,5.84,2,22,2,3,2,0,4,2,73,57,63,67,69,Declining,Average,0
+STU2026293,22,Male,Electrical,II,Sem-3,58,57,51,51,53,5.34,1,21,0,5,0,0,6,3,66,52,57,53,66,Declining,Average,0
+STU2026294,19,Male,Information Technology,II,Sem-3,85,83,80,77,76,7.94,0,24,10,0,2,8,5,0,100,85,75,82,73,Improving,Very Good,0
+STU2026295,22,Female,AIDS,III,Sem-5,88,85,81,80,78,8.2,0,25,0,6,0,0,5,0,99,90,89,81,95,Improving,Excellent,0
+STU2026296,19,Male,Computer Science,II,Sem-4,89,90,88,90,89,9.0,0,27,6,0,4,2,8,0,100,97,88,88,84,Improving,Excellent,0
+STU2026297,22,Male,Mechanical,I,Sem-2,58,71,63,69,73,6.98,0,23,0,8,0,0,3,0,98,65,65,65,85,Declining,Very Good,0
+STU2026298,21,Female,Electronics & Comm,IV,Sem-7,65,69,55,67,63,6.78,0,21,10,7,0,10,3,2,80,56,58,62,79,Improving,Good,0
+STU2026299,21,Female,Electrical,I,Sem-1,69,70,62,67,61,6.82,0,20,5,2,5,0,3,0,96,65,59,69,76,Improving,Good,0
+STU2026300,21,Female,Computer Science,IV,Sem-7,59,52,57,59,55,5.62,1,23,2,2,2,0,3,4,51,45,61,65,63,Improving,Needs Improvement,1
+STU2026301,21,Female,AIDS,II,Sem-3,87,81,87,78,84,7.92,0,28,7,8,6,1,5,0,100,92,93,84,100,Declining,Excellent,0
+STU2026302,19,Female,Electrical,IV,Sem-8,45,36,43,40,38,4.0,1,14,2,0,2,0,4,1,85,44,50,50,41,Improving,At Risk,1
+STU2026303,22,Female,Electronics & Comm,I,Sem-1,45,39,46,39,45,4.0,3,17,5,0,0,5,4,3,64,37,51,50,40,Declining,At Risk,1
+STU2026304,21,Male,Electronics & Comm,IV,Sem-7,52,42,48,51,56,4.74,3,14,3,0,0,3,2,4,56,35,50,50,40,Declining,At Risk,1
+STU2026305,22,Female,Electronics & Comm,III,Sem-5,74,73,79,77,74,7.54,0,24,3,4,1,2,4,0,96,76,64,73,79,Improving,Very Good,0
+STU2026306,18,Male,Mechanical,IV,Sem-8,45,42,40,30,30,4.0,3,14,4,1,2,2,4,3,59,35,50,50,44,Improving,At Risk,1
+STU2026307,20,Female,Electrical,I,Sem-1,56,47,57,54,47,5.12,3,15,7,2,5,2,6,3,66,46,56,56,64,Improving,Needs Improvement,1
+STU2026308,18,Female,Mechanical,III,Sem-5,54,48,53,41,37,4.38,2,21,0,5,0,0,4,4,49,38,50,57,61,Improving,At Risk,1
+STU2026309,20,Female,AIDS,I,Sem-2,63,68,60,62,68,6.44,2,19,8,4,1,7,3,3,59,51,60,57,70,Declining,Average,0
+STU2026310,21,Male,Electrical,II,Sem-3,58,61,58,57,53,5.86,1,22,8,2,1,7,3,4,53,43,53,52,58,Improving,Needs Improvement,1
+STU2026311,20,Male,AIDS,I,Sem-2,59,58,65,54,55,5.56,3,19,5,3,1,4,6,0,99,72,67,71,68,Declining,Average,0
+STU2026312,21,Male,Electronics & Comm,II,Sem-3,47,56,49,49,52,5.18,3,17,4,2,4,0,5,2,73,52,50,53,64,Declining,Needs Improvement,1
+STU2026313,22,Female,Mechanical,IV,Sem-7,46,53,40,38,42,4.4,1,13,6,6,1,5,5,3,63,40,50,50,65,Declining,Needs Improvement,1
+STU2026314,22,Male,Electrical,II,Sem-3,90,83,78,87,88,8.54,0,28,10,7,3,7,6,0,98,90,78,85,100,Declining,Excellent,0
+STU2026315,20,Female,Electrical,II,Sem-4,82,82,88,72,66,7.6,0,26,1,5,1,0,8,0,97,93,81,87,91,Improving,Excellent,0
+STU2026316,20,Male,Mechanical,I,Sem-2,91,78,85,75,76,7.62,0,27,7,6,4,3,8,0,98,94,81,84,100,Declining,Excellent,0
+STU2026317,19,Female,Electrical,I,Sem-2,55,52,55,52,54,5.2,3,20,3,2,3,0,3,4,48,36,58,50,58,Declining,At Risk,1
+STU2026318,22,Male,Electrical,II,Sem-4,88,93,85,93,95,9.3,0,28,10,0,0,10,6,0,97,97,81,95,76,Declining,Excellent,0
+STU2026319,19,Male,Electrical,III,Sem-6,74,68,70,72,73,7.04,0,24,10,4,3,7,6,0,96,80,64,75,85,Declining,Very Good,0
+STU2026320,22,Female,Information Technology,III,Sem-5,61,52,51,59,54,5.62,2,23,0,3,0,0,6,3,65,55,64,60,61,Improving,Average,0
+STU2026321,21,Male,AIDS,II,Sem-4,48,45,50,49,45,4.74,2,20,10,2,1,9,2,1,93,43,50,50,49,Improving,Needs Improvement,1
+STU2026322,21,Female,Information Technology,I,Sem-1,75,80,80,77,74,7.82,0,24,8,6,4,4,7,0,100,83,76,70,97,Improving,Excellent,0
+STU2026323,19,Female,Mechanical,I,Sem-2,84,89,84,88,91,8.84,0,24,0,7,0,0,7,0,96,94,90,89,99,Declining,Excellent,0
+STU2026324,18,Male,AIDS,III,Sem-6,69,74,61,64,71,6.8,0,24,10,1,5,5,6,0,100,74,60,66,74,Declining,Good,0
+STU2026325,22,Male,Electrical,IV,Sem-8,70,69,73,69,70,6.9,0,21,0,4,0,0,6,0,95,77,77,73,74,Declining,Very Good,0
+STU2026326,19,Male,AIDS,III,Sem-5,49,49,49,52,52,5.08,1,20,4,4,4,0,5,1,84,56,53,58,73,Improving,Average,0
+STU2026327,19,Female,Electronics & Comm,II,Sem-4,80,82,78,87,80,8.5,0,25,1,2,1,0,6,0,100,88,85,87,79,Improving,Excellent,0
+STU2026328,21,Male,AIDS,IV,Sem-7,55,56,54,41,41,4.7,1,15,2,7,2,0,6,3,66,47,51,51,75,Improving,Average,0
+STU2026329,21,Female,Electronics & Comm,II,Sem-4,45,39,44,39,47,4.0,3,12,1,8,1,0,4,4,56,35,50,50,67,Declining,Needs Improvement,1
+STU2026330,20,Female,Computer Science,III,Sem-6,68,68,63,60,68,6.32,2,23,2,5,2,0,4,0,100,68,56,59,79,Declining,Good,0
+STU2026331,18,Female,Computer Science,I,Sem-2,63,55,58,53,46,5.38,1,21,1,0,1,0,4,1,84,58,53,62,51,Improving,Needs Improvement,1
+STU2026332,19,Female,AIDS,II,Sem-3,76,74,82,69,75,7.1,0,24,6,5,2,4,5,0,96,82,76,82,90,Declining,Very Good,0
+STU2026333,18,Female,Electrical,III,Sem-5,59,50,50,56,50,5.36,2,16,9,6,1,8,6,1,85,57,59,51,70,Improving,Good,0
+STU2026334,22,Male,Electrical,III,Sem-5,45,42,41,44,36,4.32,2,13,10,0,0,10,5,3,61,35,50,50,40,Improving,At Risk,1
+STU2026335,22,Male,Mechanical,IV,Sem-8,70,67,57,59,51,6.22,2,23,7,1,4,3,5,0,100,68,64,63,68,Improving,Good,0
+STU2026336,18,Male,Electronics & Comm,III,Sem-5,92,90,85,81,78,8.46,0,28,0,6,0,0,6,0,99,91,87,79,95,Improving,Excellent,0
+STU2026337,20,Female,Computer Science,IV,Sem-7,45,39,46,51,55,4.62,1,20,8,4,3,5,5,1,83,49,50,50,63,Declining,Needs Improvement,1
+STU2026338,20,Male,Electrical,I,Sem-1,88,84,88,77,76,7.98,0,23,0,2,0,0,5,0,100,88,74,79,77,Improving,Very Good,0
+STU2026339,19,Male,Information Technology,I,Sem-2,80,84,80,76,71,7.92,0,23,7,3,0,7,6,0,100,90,84,89,82,Improving,Very Good,0
+STU2026340,21,Female,Computer Science,II,Sem-4,92,81,77,79,81,7.98,0,24,1,4,1,0,8,0,97,95,86,85,89,Declining,Excellent,0
+STU2026341,19,Female,Information Technology,I,Sem-1,50,47,49,38,30,4.16,2,13,0,0,0,0,2,3,65,35,53,51,40,Improving,At Risk,1
+STU2026342,19,Male,Information Technology,III,Sem-6,57,63,54,56,63,5.88,3,17,10,4,2,8,6,1,91,65,61,59,73,Declining,Average,0
+STU2026343,18,Male,Mechanical,III,Sem-5,68,67,62,62,55,6.4,1,18,2,7,2,0,5,0,97,70,57,58,87,Improving,Very Good,0
+STU2026344,20,Female,Information Technology,IV,Sem-8,63,64,63,48,43,5.44,3,16,8,2,1,7,3,4,55,43,53,53,58,Improving,Needs Improvement,1
+STU2026345,19,Female,Mechanical,III,Sem-6,53,56,52,46,41,5.0,2,15,1,3,1,0,6,2,77,50,50,50,56,Improving,Needs Improvement,1
+STU2026346,21,Female,Computer Science,IV,Sem-7,53,50,48,52,55,5.12,1,18,3,5,2,1,4,3,61,43,50,57,68,Declining,Needs Improvement,1
+STU2026347,22,Male,Electronics & Comm,II,Sem-3,88,84,82,85,84,8.46,0,26,9,2,6,3,6,0,100,92,82,79,97,Improving,Excellent,0
+STU2026348,21,Female,Information Technology,IV,Sem-8,59,53,53,50,52,5.12,2,20,3,2,3,0,3,4,47,40,50,56,61,Declining,At Risk,1
+STU2026349,22,Male,Electrical,IV,Sem-8,89,89,78,87,94,8.78,0,24,1,8,1,0,5,0,100,88,79,78,100,Declining,Excellent,0
+STU2026350,20,Female,Information Technology,I,Sem-1,63,60,71,55,61,5.7,2,24,2,6,1,1,6,0,100,73,71,70,81,Declining,Good,0
+STU2026351,18,Male,Electrical,III,Sem-5,61,52,53,46,48,4.84,3,16,8,5,0,8,3,4,52,41,62,59,65,Declining,Needs Improvement,1
+STU2026352,18,Female,Electronics & Comm,II,Sem-3,76,65,65,69,68,6.74,0,24,1,7,1,0,5,0,98,75,71,68,89,Improving,Very Good,0
+STU2026353,20,Female,Electronics & Comm,I,Sem-1,60,59,54,64,65,6.2,2,21,5,1,1,4,6,1,84,63,64,56,56,Declining,Average,0
+STU2026354,20,Male,Computer Science,II,Sem-4,45,45,41,40,48,4.2,3,13,4,6,4,0,3,4,52,35,52,50,73,Declining,At Risk,1
+STU2026355,18,Female,Information Technology,I,Sem-1,85,93,88,89,91,9.06,0,29,10,5,3,7,8,0,100,97,85,88,100,Declining,Excellent,0
+STU2026356,19,Female,Information Technology,III,Sem-5,64,70,58,59,62,6.34,2,22,2,2,2,0,6,0,97,73,62,70,68,Declining,Good,0
+STU2026357,19,Male,Information Technology,I,Sem-1,98,88,98,91,94,8.98,0,27,3,8,3,0,5,0,100,97,92,90,100,Declining,Excellent,0
+STU2026358,19,Female,Electrical,II,Sem-4,45,44,53,39,45,4.1,2,14,0,8,0,0,4,3,66,38,50,53,69,Declining,Needs Improvement,1
+STU2026359,22,Male,Mechanical,IV,Sem-8,82,76,69,70,65,7.24,0,23,0,6,0,0,5,0,100,81,78,71,87,Improving,Very Good,0
+STU2026360,20,Male,Mechanical,II,Sem-3,89,79,79,71,65,7.42,0,27,7,1,4,3,8,0,98,92,87,80,84,Improving,Very Good,0
+STU2026361,22,Male,AIDS,III,Sem-6,53,46,50,48,51,4.72,1,16,5,5,2,3,5,1,86,49,55,53,64,Declining,Average,0
+STU2026362,21,Female,Electronics & Comm,II,Sem-4,80,74,72,72,70,7.28,0,24,7,8,2,5,4,0,100,82,81,73,100,Improving,Excellent,0
+STU2026363,18,Female,AIDS,III,Sem-6,49,52,45,44,41,4.72,2,16,8,7,0,8,5,3,66,43,56,50,68,Improving,Needs Improvement,1
+STU2026364,18,Male,Information Technology,III,Sem-6,100,94,97,84,85,8.8,0,28,2,7,2,0,6,0,95,97,84,95,100,Declining,Excellent,0
+STU2026365,20,Female,Computer Science,III,Sem-6,77,67,76,62,65,6.4,3,25,9,0,6,3,6,0,97,77,62,66,76,Declining,Good,0
+STU2026366,20,Female,AIDS,II,Sem-4,45,45,53,48,41,4.68,2,16,8,1,4,4,3,2,72,42,50,51,55,Improving,At Risk,1
+STU2026367,20,Female,AIDS,III,Sem-6,82,74,71,77,73,7.58,0,21,2,8,2,0,6,0,100,83,80,75,100,Improving,Excellent,0
+STU2026368,19,Male,Information Technology,II,Sem-3,92,91,79,87,93,8.86,0,24,1,2,0,1,8,0,100,95,83,88,78,Declining,Excellent,0
+STU2026369,20,Male,Electrical,III,Sem-5,73,82,72,74,70,7.72,0,28,2,3,2,0,5,0,98,83,72,72,82,Improving,Very Good,0
+STU2026370,21,Male,Computer Science,I,Sem-2,75,76,75,71,79,7.3,0,26,0,7,0,0,7,0,95,89,73,77,95,Declining,Excellent,0
+STU2026371,18,Male,Computer Science,II,Sem-3,47,42,43,42,42,4.2,3,16,5,2,5,0,4,1,84,49,50,52,63,Improving,At Risk,1
+STU2026372,19,Male,Electronics & Comm,II,Sem-3,89,99,89,98,100,9.84,0,28,9,2,3,6,5,0,97,96,92,90,94,Declining,Excellent,0
+STU2026373,21,Male,Mechanical,II,Sem-4,45,39,51,37,45,4.0,1,16,5,4,4,1,2,1,88,41,54,50,65,Declining,At Risk,1
+STU2026374,21,Female,Electrical,III,Sem-6,51,48,56,46,40,4.68,2,20,5,2,0,5,6,1,89,55,59,54,50,Improving,Needs Improvement,1
+STU2026375,18,Male,Information Technology,IV,Sem-8,73,81,73,69,72,7.38,0,23,5,3,4,1,7,0,96,86,75,76,88,Declining,Very Good,0
+STU2026376,21,Female,AIDS,III,Sem-6,62,60,62,63,71,6.18,2,18,7,1,0,7,5,4,54,48,58,63,52,Declining,Needs Improvement,1
+STU2026377,19,Male,Computer Science,I,Sem-1,60,61,70,66,62,6.4,2,23,9,1,6,3,4,0,100,70,73,72,77,Improving,Average,0
+STU2026378,21,Male,Electronics & Comm,IV,Sem-8,69,64,58,57,62,5.98,1,22,7,5,6,1,7,0,100,76,72,60,93,Declining,Good,0
+STU2026379,18,Male,Mechanical,III,Sem-5,62,63,70,70,65,6.72,0,23,10,7,5,5,7,0,100,75,63,68,97,Improving,Very Good,0
+STU2026380,18,Female,Electronics & Comm,IV,Sem-8,72,77,73,72,65,7.4,0,20,9,0,1,8,6,0,100,80,64,78,63,Improving,Good,0
+STU2026381,20,Female,Computer Science,IV,Sem-8,95,91,85,90,89,9.04,0,27,10,4,4,6,5,0,96,97,91,86,100,Improving,Excellent,0
+STU2026382,20,Male,Computer Science,III,Sem-5,71,63,69,62,54,6.24,3,21,9,0,2,7,7,0,100,74,68,63,59,Improving,Good,0
+STU2026383,22,Male,Electrical,I,Sem-1,59,62,59,52,53,5.6,2,19,3,7,3,0,3,2,75,51,58,52,84,Declining,Average,0
+STU2026384,20,Female,Information Technology,I,Sem-1,70,65,78,74,72,7.04,0,22,1,4,1,0,6,0,100,78,73,68,78,Improving,Very Good,0
+STU2026385,21,Female,Electronics & Comm,IV,Sem-7,93,91,83,92,90,9.16,0,29,7,4,5,2,8,0,100,97,78,88,100,Improving,Excellent,0
+STU2026386,19,Female,Electrical,II,Sem-3,50,52,48,49,54,5.02,2,20,1,3,1,0,5,3,63,41,50,50,53,Declining,Needs Improvement,1
+STU2026387,22,Male,Electrical,II,Sem-3,45,43,48,50,57,4.72,3,17,6,0,1,5,3,3,61,37,50,50,41,Declining,At Risk,1
+STU2026388,20,Male,AIDS,I,Sem-2,77,88,75,81,82,8.38,0,29,1,6,1,0,5,0,100,86,76,78,95,Declining,Excellent,0
+STU2026389,18,Male,Mechanical,III,Sem-6,86,89,82,87,89,8.78,0,30,9,6,6,3,6,0,100,94,83,82,100,Declining,Excellent,0
+STU2026390,18,Male,Information Technology,III,Sem-6,68,63,54,66,69,6.48,3,17,5,8,3,2,6,2,75,61,58,61,91,Declining,Very Good,0
+STU2026391,21,Female,Electronics & Comm,I,Sem-1,90,90,77,82,82,8.52,0,28,6,4,5,1,7,0,100,93,78,86,100,Improving,Excellent,0
+STU2026392,19,Female,Electrical,I,Sem-2,89,87,83,87,88,8.7,0,26,2,7,2,0,7,0,100,98,92,94,100,Declining,Excellent,0
+STU2026393,18,Female,Computer Science,IV,Sem-8,87,77,84,72,69,7.4,0,27,4,8,0,4,6,0,100,86,80,79,98,Improving,Excellent,0
+STU2026394,18,Male,AIDS,II,Sem-4,79,75,86,78,79,7.68,0,25,9,1,0,9,6,0,98,89,76,84,72,Declining,Very Good,0
+STU2026395,21,Female,Electrical,IV,Sem-7,57,55,55,51,49,5.26,1,18,5,2,3,2,6,2,71,53,50,56,61,Improving,Needs Improvement,1
+STU2026396,22,Male,Computer Science,IV,Sem-7,60,48,46,54,59,5.16,3,17,2,1,2,0,4,1,83,53,59,60,54,Declining,Needs Improvement,1
+STU2026397,21,Female,Computer Science,II,Sem-3,56,55,49,48,55,5.08,2,15,6,3,4,2,4,3,69,41,50,50,64,Declining,Needs Improvement,1
+STU2026398,19,Female,Information Technology,I,Sem-2,91,94,97,89,92,9.1,0,30,10,7,0,10,5,0,100,96,86,90,100,Declining,Excellent,0
+STU2026399,21,Male,AIDS,IV,Sem-8,78,73,74,70,63,7.12,0,24,3,7,2,1,4,0,95,82,78,80,100,Improving,Very Good,0
+STU2026400,22,Female,Electronics & Comm,IV,Sem-8,47,39,43,43,40,4.14,3,16,5,7,1,4,2,3,67,35,53,50,69,Improving,Needs Improvement,1
+STU2026401,20,Male,Electronics & Comm,I,Sem-1,73,63,69,69,70,6.66,0,21,9,4,4,5,6,0,100,74,63,65,83,Declining,Very Good,0
+STU2026402,21,Male,Mechanical,IV,Sem-7,45,45,46,39,46,4.14,2,15,7,6,0,7,6,1,90,53,54,55,64,Declining,Average,0
+STU2026403,22,Female,Electrical,IV,Sem-7,94,80,79,86,80,8.36,0,25,4,2,4,0,6,0,100,92,83,87,91,Improving,Excellent,0
+STU2026404,22,Male,Mechanical,I,Sem-1,57,57,69,54,56,5.52,1,20,10,1,3,7,5,1,88,63,58,56,64,Declining,Needs Improvement,1
+STU2026405,18,Female,AIDS,IV,Sem-8,72,75,65,73,66,7.38,0,26,9,7,2,7,5,0,98,78,65,79,95,Improving,Very Good,0
+STU2026406,20,Female,Computer Science,I,Sem-2,45,39,43,45,39,4.26,1,19,3,2,3,0,5,3,69,38,50,50,53,Improving,At Risk,1
+STU2026407,20,Female,Electrical,III,Sem-5,53,64,61,64,62,6.4,2,20,6,7,2,4,6,1,89,62,62,62,82,Improving,Good,0
+STU2026408,19,Female,AIDS,IV,Sem-7,45,41,40,34,41,4.0,3,17,10,8,0,10,4,4,53,35,50,50,65,Declining,At Risk,1
+STU2026409,21,Female,Information Technology,II,Sem-4,88,84,85,76,70,7.92,0,24,8,1,4,4,8,0,100,95,78,85,87,Improving,Very Good,0
+STU2026410,22,Female,Electronics & Comm,III,Sem-5,76,75,86,76,73,7.56,0,29,6,0,0,6,8,0,99,92,81,83,67,Improving,Very Good,0
+STU2026411,21,Female,Mechanical,III,Sem-6,100,97,88,88,85,9.16,0,26,9,4,6,3,5,0,100,96,81,84,100,Improving,Excellent,0
+STU2026412,21,Male,Computer Science,II,Sem-4,64,70,71,63,66,6.58,0,23,10,6,6,4,6,0,96,72,60,60,95,Declining,Very Good,0
+STU2026413,18,Male,Computer Science,I,Sem-1,84,86,81,83,88,8.42,0,30,10,8,1,9,5,0,99,90,90,81,100,Declining,Excellent,0
+STU2026414,21,Female,Computer Science,I,Sem-1,95,92,93,93,100,9.26,0,25,7,3,1,6,7,0,100,97,90,81,88,Declining,Excellent,0
+STU2026415,20,Male,Computer Science,IV,Sem-8,92,87,86,76,83,8.04,0,27,7,8,4,3,8,0,98,96,76,86,100,Declining,Excellent,0
+STU2026416,18,Female,Mechanical,III,Sem-5,57,52,61,46,53,4.84,3,20,5,7,5,0,6,1,85,57,56,59,87,Declining,Average,0
+STU2026417,19,Female,Electronics & Comm,IV,Sem-7,70,73,68,70,66,7.12,0,21,6,6,6,0,6,0,100,74,64,70,97,Improving,Very Good,0
+STU2026418,19,Female,AIDS,I,Sem-2,45,41,53,38,43,4.0,2,15,3,3,3,0,2,1,88,42,50,50,58,Declining,At Risk,1
+STU2026419,19,Male,Mechanical,I,Sem-1,52,59,56,50,49,5.36,2,18,5,5,5,0,3,3,61,47,53,63,82,Improving,Needs Improvement,1
+STU2026420,18,Female,Electrical,I,Sem-1,86,87,76,72,80,7.8,0,23,2,1,2,0,6,0,100,88,77,86,78,Declining,Very Good,0
+STU2026421,20,Female,Mechanical,IV,Sem-7,45,45,44,39,37,4.14,2,17,0,3,0,0,5,3,63,42,50,50,51,Improving,At Risk,1
+STU2026422,20,Female,AIDS,IV,Sem-8,71,68,78,70,66,6.92,0,27,6,6,3,3,7,0,100,82,76,67,94,Improving,Very Good,0
+STU2026423,21,Male,Computer Science,I,Sem-1,57,62,54,60,53,6.08,2,22,0,2,0,0,3,3,65,47,62,62,55,Improving,Needs Improvement,1
+STU2026424,22,Female,AIDS,III,Sem-6,45,46,40,40,46,4.24,3,13,8,7,5,3,4,4,50,35,50,50,75,Declining,Needs Improvement,1
+STU2026425,18,Female,Electrical,II,Sem-4,52,51,52,56,58,5.4,3,16,0,0,0,0,5,2,75,49,57,54,41,Declining,Needs Improvement,1
+STU2026426,18,Male,Electronics & Comm,III,Sem-6,51,48,41,49,50,4.86,3,18,0,7,0,0,3,2,76,40,50,50,65,Declining,Average,0
+STU2026427,22,Male,AIDS,IV,Sem-7,46,46,43,45,51,4.54,1,14,6,6,0,6,2,1,89,41,50,50,60,Declining,Needs Improvement,1
+STU2026428,19,Female,Computer Science,III,Sem-6,74,76,75,69,76,7.18,0,25,6,7,5,1,7,0,100,80,68,67,100,Declining,Excellent,0
+STU2026429,22,Male,Electrical,IV,Sem-7,96,98,86,88,94,9.2,0,29,0,2,0,0,7,0,96,100,94,85,84,Declining,Excellent,0
+STU2026430,18,Female,Mechanical,III,Sem-5,63,65,68,68,69,6.68,0,21,7,0,6,1,5,0,97,73,72,61,74,Declining,Average,0
+STU2026431,20,Female,Information Technology,II,Sem-4,45,37,40,29,34,4.0,2,16,4,7,2,2,5,4,56,35,50,50,66,Declining,At Risk,1
+STU2026432,19,Female,Electrical,IV,Sem-7,87,80,91,88,87,8.48,0,27,5,8,0,5,8,0,99,97,78,81,100,Improving,Excellent,0
+STU2026433,18,Female,Mechanical,I,Sem-1,52,50,43,55,53,5.3,2,18,0,1,0,0,4,1,87,50,50,50,44,Improving,Needs Improvement,1
+STU2026434,22,Female,Computer Science,III,Sem-6,73,77,63,71,76,7.34,0,21,6,0,6,0,6,0,100,78,71,66,77,Declining,Good,0
+STU2026435,18,Male,Mechanical,II,Sem-4,45,51,41,40,41,4.44,2,19,2,0,2,0,4,2,71,43,50,50,44,Declining,At Risk,1
+STU2026436,21,Male,Electronics & Comm,II,Sem-4,87,87,82,79,77,8.22,0,25,9,3,3,6,8,0,96,98,86,80,94,Improving,Excellent,0
+STU2026437,20,Female,Mechanical,IV,Sem-7,66,68,64,55,55,6.02,3,23,10,1,1,9,5,0,99,71,70,66,61,Improving,Average,0
+STU2026438,18,Male,Information Technology,III,Sem-5,85,81,87,72,64,7.56,0,29,7,4,5,2,6,0,95,88,73,82,99,Improving,Very Good,0
+STU2026439,20,Female,AIDS,IV,Sem-8,83,87,85,76,73,8.04,0,29,8,1,2,6,5,0,100,89,78,80,81,Improving,Very Good,0
+STU2026440,22,Female,Electrical,II,Sem-4,88,90,86,91,91,9.06,0,25,10,5,2,8,6,0,100,94,87,80,99,Improving,Excellent,0
+STU2026441,19,Male,Mechanical,IV,Sem-7,94,83,92,93,97,8.9,0,29,1,1,1,0,5,0,100,93,92,91,80,Declining,Excellent,0
+STU2026442,18,Female,Electrical,III,Sem-6,54,53,41,41,47,4.58,2,15,7,0,1,6,3,3,69,39,53,50,43,Declining,At Risk,1
+STU2026443,18,Female,AIDS,II,Sem-3,93,86,92,97,95,9.26,0,26,3,6,0,3,7,0,100,100,97,87,100,Improving,Excellent,0
+STU2026444,22,Male,AIDS,II,Sem-3,77,65,67,69,68,6.74,0,24,4,3,4,0,4,0,100,74,70,75,83,Improving,Good,0
+STU2026445,22,Female,Computer Science,IV,Sem-7,86,85,90,83,78,8.38,0,29,8,7,3,5,7,0,100,94,77,89,100,Improving,Excellent,0
+STU2026446,19,Male,Electronics & Comm,IV,Sem-8,56,52,58,48,40,4.96,3,17,6,1,1,5,4,2,76,52,58,52,53,Improving,Needs Improvement,1
+STU2026447,18,Male,Electrical,IV,Sem-7,76,78,73,69,68,7.26,0,20,7,3,2,5,4,0,100,74,70,66,77,Improving,Very Good,0
+STU2026448,22,Female,Computer Science,IV,Sem-7,45,50,40,45,47,4.7,3,13,2,0,2,0,5,1,87,46,51,50,41,Declining,Needs Improvement,1
+STU2026449,18,Male,Mechanical,I,Sem-2,87,79,90,82,74,8.08,0,27,6,7,6,0,8,0,100,96,78,83,100,Improving,Excellent,0
+STU2026450,18,Female,Mechanical,III,Sem-5,45,46,40,40,36,4.24,3,17,4,5,3,1,5,4,49,35,50,50,66,Improving,At Risk,1
+STU2026451,18,Male,Information Technology,III,Sem-6,71,72,70,65,61,6.78,0,20,7,4,4,3,6,0,99,74,70,61,83,Improving,Very Good,0
+STU2026452,22,Male,Computer Science,II,Sem-3,59,58,60,53,55,5.5,1,23,7,7,4,3,5,3,68,56,63,62,91,Declining,Average,0
+STU2026453,20,Male,Computer Science,IV,Sem-7,60,69,65,63,69,6.54,0,23,3,3,3,0,6,0,100,73,64,66,76,Declining,Good,0
+STU2026454,19,Male,Electronics & Comm,I,Sem-1,60,52,54,57,63,5.5,1,22,9,5,0,9,3,2,74,52,60,55,68,Declining,Average,0
+STU2026455,19,Female,AIDS,II,Sem-4,84,80,83,75,72,7.7,0,30,4,1,0,4,6,0,100,92,78,83,75,Improving,Very Good,0
+STU2026456,19,Female,Electrical,II,Sem-4,88,78,87,75,70,7.62,0,24,2,3,1,1,8,0,100,94,83,85,84,Improving,Excellent,0
+STU2026457,21,Male,Computer Science,II,Sem-4,82,78,74,80,76,7.92,0,29,8,7,1,7,5,0,100,87,74,77,99,Improving,Excellent,0
+STU2026458,22,Female,AIDS,III,Sem-6,64,65,70,73,80,6.98,0,24,7,7,2,5,7,0,100,77,60,64,90,Declining,Very Good,0
+STU2026459,19,Male,Electrical,II,Sem-4,50,58,55,45,48,5.02,2,19,1,2,1,0,3,3,66,41,55,50,53,Declining,At Risk,1
+STU2026460,22,Male,Electrical,III,Sem-6,64,62,66,68,70,6.56,0,20,6,0,1,5,6,0,98,71,64,68,55,Declining,Good,0
+STU2026461,18,Female,Computer Science,III,Sem-5,80,76,76,74,77,7.48,0,23,8,3,2,6,6,0,100,89,82,79,86,Declining,Very Good,0
+STU2026462,20,Female,Information Technology,II,Sem-4,45,36,43,40,44,4.0,3,18,10,0,3,7,3,4,50,35,50,50,41,Declining,At Risk,1
+STU2026463,19,Female,Information Technology,IV,Sem-8,52,55,55,60,65,5.8,1,19,7,8,0,7,5,2,80,55,54,56,79,Declining,Good,0
+STU2026464,18,Female,AIDS,III,Sem-6,51,54,55,49,51,5.1,3,15,9,0,1,8,4,3,68,43,57,52,45,Declining,At Risk,1
+STU2026465,19,Female,Computer Science,IV,Sem-7,64,67,71,63,57,6.46,1,18,10,8,1,9,4,0,100,68,72,59,89,Improving,Very Good,0
+STU2026466,19,Male,Computer Science,IV,Sem-8,47,53,44,53,46,5.3,2,18,0,2,0,0,6,4,49,42,50,50,49,Improving,Needs Improvement,1
+STU2026467,22,Female,Electrical,I,Sem-2,100,87,86,87,88,8.7,0,28,10,7,1,9,7,0,100,99,87,91,100,Declining,Excellent,0
+STU2026468,21,Female,Information Technology,I,Sem-1,70,62,62,69,71,6.62,0,22,7,7,3,4,3,0,96,65,64,67,89,Declining,Very Good,0
+STU2026469,21,Female,AIDS,III,Sem-6,79,78,69,75,74,7.62,0,21,9,6,3,6,7,0,100,82,69,77,93,Improving,Excellent,0
+STU2026470,22,Male,Electrical,I,Sem-1,85,84,88,79,77,8.1,0,27,6,8,0,6,7,0,96,96,80,88,100,Improving,Excellent,0
+STU2026471,20,Female,Electrical,II,Sem-4,45,50,42,41,47,4.46,2,17,6,3,3,3,3,1,87,48,50,56,62,Declining,Needs Improvement,1
+STU2026472,19,Female,AIDS,IV,Sem-8,59,65,63,68,64,6.68,0,21,4,2,1,3,4,0,100,68,59,60,64,Improving,Good,0
+STU2026473,20,Male,Mechanical,IV,Sem-7,48,36,43,36,42,4.0,2,14,3,0,3,0,3,4,47,35,50,50,44,Declining,At Risk,1
+STU2026474,20,Female,Computer Science,I,Sem-1,88,77,80,82,81,8.0,0,24,1,0,1,0,5,0,95,86,82,77,70,Improving,Very Good,0
+STU2026475,18,Male,Computer Science,II,Sem-3,45,35,44,40,38,4.0,3,13,8,6,3,5,2,2,74,35,50,50,67,Improving,At Risk,1
+STU2026476,20,Male,Computer Science,IV,Sem-8,45,39,40,31,31,4.0,3,16,5,0,0,5,3,4,51,35,50,50,40,Improving,At Risk,1
+STU2026477,22,Male,Electronics & Comm,I,Sem-2,99,92,88,93,90,9.26,0,31,5,7,0,5,7,0,95,100,96,91,100,Improving,Excellent,0
+STU2026478,22,Male,Mechanical,I,Sem-1,45,47,40,38,37,4.16,3,15,3,1,0,3,3,3,66,35,50,50,40,Improving,At Risk,1
+STU2026479,19,Female,Information Technology,I,Sem-1,94,89,91,83,83,8.54,0,27,10,0,4,6,8,0,100,100,88,94,86,Improving,Excellent,0
+STU2026480,18,Male,AIDS,III,Sem-6,54,45,51,48,52,4.68,3,17,2,7,2,0,3,1,90,50,50,50,77,Declining,Average,0
+STU2026481,18,Male,Information Technology,II,Sem-3,50,54,47,45,53,4.86,1,17,7,4,1,6,4,2,77,45,50,53,59,Declining,Needs Improvement,1
+STU2026482,19,Female,Electronics & Comm,IV,Sem-7,59,53,48,54,58,5.36,2,16,7,7,3,4,6,2,78,54,50,61,81,Declining,Average,0
+STU2026483,21,Female,Computer Science,III,Sem-5,66,66,73,73,74,7.02,0,23,4,6,4,0,7,0,96,78,71,65,93,Declining,Very Good,0
+STU2026484,21,Male,Information Technology,II,Sem-3,45,43,43,44,48,4.36,2,15,5,6,3,2,4,1,89,40,50,50,65,Declining,Needs Improvement,1
+STU2026485,21,Male,Information Technology,IV,Sem-8,88,85,83,87,94,8.62,0,28,5,0,5,0,8,0,100,92,79,77,82,Declining,Excellent,0
+STU2026486,21,Male,Electronics & Comm,I,Sem-1,54,56,49,50,49,5.24,3,19,10,2,0,10,3,1,93,51,58,54,52,Improving,Needs Improvement,1
+STU2026487,22,Male,Mechanical,II,Sem-4,47,45,49,53,57,4.98,3,16,6,1,0,6,4,2,75,44,50,54,43,Declining,At Risk,1
+STU2026488,21,Female,Computer Science,II,Sem-4,45,44,44,44,49,4.4,3,14,6,2,1,5,4,2,73,36,50,50,43,Declining,At Risk,1
+STU2026489,19,Male,Electrical,II,Sem-3,54,45,48,47,52,4.62,2,19,9,1,6,3,4,1,87,50,50,51,63,Declining,Needs Improvement,1
+STU2026490,18,Female,Computer Science,III,Sem-5,72,71,66,61,54,6.5,2,26,0,0,0,0,5,0,100,76,62,71,59,Improving,Good,0
+STU2026491,22,Female,Electrical,IV,Sem-8,72,70,74,72,71,7.12,0,22,10,6,3,7,4,0,100,75,73,78,93,Improving,Very Good,0
+STU2026492,18,Male,Electrical,IV,Sem-7,45,46,41,36,39,4.0,2,16,10,7,4,6,5,2,71,39,50,50,73,Declining,Needs Improvement,1
+STU2026493,20,Male,AIDS,III,Sem-6,52,50,46,52,57,5.12,2,20,1,6,1,0,4,2,79,48,50,50,69,Declining,Average,0
+STU2026494,21,Male,Electronics & Comm,IV,Sem-7,84,88,86,85,83,8.62,0,25,10,1,0,10,8,0,95,98,83,85,77,Improving,Excellent,0
+STU2026495,21,Female,Information Technology,III,Sem-6,97,85,86,96,90,9.16,0,31,5,3,4,1,5,0,100,95,90,89,100,Improving,Excellent,0
+STU2026496,21,Female,Information Technology,II,Sem-4,45,39,40,44,42,4.2,3,13,9,5,1,8,4,4,56,35,50,50,60,Improving,At Risk,1
+STU2026497,18,Male,Electrical,IV,Sem-8,88,84,76,87,86,8.58,0,23,6,0,4,2,8,0,100,92,76,78,79,Improving,Excellent,0
+STU2026498,19,Female,AIDS,IV,Sem-7,68,76,64,71,72,7.3,0,24,1,4,1,0,7,0,100,81,69,72,78,Declining,Very Good,0
+STU2026499,20,Female,Computer Science,III,Sem-5,83,90,82,75,72,8.1,0,30,7,6,2,5,6,0,95,91,86,82,100,Improving,Excellent,0
+STU2026500,21,Female,Electronics & Comm,IV,Sem-8,47,39,44,38,42,4.0,1,14,5,0,5,0,4,4,57,35,50,50,50,Declining,At Risk,1
+STU2026501,19,Female,AIDS,IV,Sem-8,87,84,85,78,81,8.04,0,30,9,1,5,4,6,0,100,94,91,90,92,Declining,Very Good,0
+STU2026502,19,Male,Computer Science,III,Sem-6,45,42,51,51,47,4.74,3,19,6,3,0,6,3,2,77,43,57,50,52,Improving,At Risk,1
+STU2026503,22,Male,AIDS,IV,Sem-7,90,87,85,79,85,8.22,0,25,0,1,0,0,5,0,96,86,87,84,72,Declining,Very Good,0
+STU2026504,22,Male,Computer Science,IV,Sem-8,73,82,73,79,86,8.02,0,27,6,4,4,2,5,0,96,82,78,71,92,Declining,Very Good,0
+STU2026505,22,Male,Electrical,I,Sem-2,72,74,76,61,69,6.62,0,26,9,8,5,4,4,0,98,73,64,65,100,Declining,Very Good,0
+STU2026506,22,Male,Computer Science,IV,Sem-8,45,47,44,40,34,4.28,3,15,0,1,0,0,4,3,67,38,50,50,41,Improving,At Risk,1
+STU2026507,18,Male,Electronics & Comm,I,Sem-2,77,70,81,75,83,7.3,0,23,9,8,4,5,5,0,96,80,67,71,100,Declining,Excellent,0
+STU2026508,18,Male,Information Technology,III,Sem-5,96,92,88,92,92,9.2,0,26,9,6,0,9,7,0,99,99,93,94,100,Improving,Excellent,0
+STU2026509,19,Female,Electrical,I,Sem-2,82,71,73,68,68,6.92,0,26,10,3,5,5,6,0,100,83,72,75,90,Improving,Very Good,0
+STU2026510,19,Female,Electrical,IV,Sem-7,90,86,91,85,80,8.54,0,30,8,6,0,8,7,0,100,100,83,89,100,Improving,Excellent,0
+STU2026511,20,Female,Information Technology,II,Sem-4,45,35,44,31,30,4.0,1,16,4,7,0,4,4,3,67,35,50,50,60,Improving,At Risk,1
+STU2026512,18,Male,Information Technology,III,Sem-6,54,52,53,53,49,5.26,2,14,10,8,5,5,4,2,73,45,54,53,87,Improving,Average,0
+STU2026513,20,Male,AIDS,III,Sem-5,77,80,81,71,77,7.46,0,23,7,8,2,5,6,0,100,83,74,73,100,Declining,Excellent,0
+STU2026514,18,Female,Electrical,III,Sem-5,69,77,72,65,62,6.98,0,25,0,1,0,0,6,0,100,81,80,79,65,Improving,Good,0
+STU2026515,18,Female,AIDS,II,Sem-4,70,69,61,68,60,6.84,0,23,3,0,3,0,7,0,100,75,69,63,64,Improving,Good,0
+STU2026516,22,Male,Mechanical,IV,Sem-7,83,77,74,70,64,7.28,0,23,2,8,2,0,4,0,100,79,82,75,100,Improving,Excellent,0
+STU2026517,19,Female,Computer Science,III,Sem-5,93,89,79,83,84,8.54,0,27,4,4,1,3,5,0,100,89,87,80,89,Declining,Excellent,0
+STU2026518,20,Male,Electrical,IV,Sem-7,61,58,60,57,60,5.74,1,17,5,2,3,2,5,1,84,60,64,60,65,Declining,Average,0
+STU2026519,19,Male,Mechanical,II,Sem-4,46,38,42,43,42,4.1,2,16,5,4,2,3,5,2,79,44,50,50,59,Improving,Needs Improvement,1
+STU2026520,21,Female,Information Technology,II,Sem-4,75,78,77,72,70,7.44,0,24,0,2,0,0,7,0,100,88,71,75,74,Improving,Very Good,0
+STU2026521,19,Female,AIDS,III,Sem-5,64,62,58,61,65,6.14,3,23,6,2,0,6,3,1,85,59,58,61,59,Declining,Average,0
+STU2026522,22,Male,AIDS,II,Sem-3,76,75,67,79,86,7.74,0,23,4,7,0,4,7,0,98,85,71,80,91,Declining,Excellent,0
+STU2026523,22,Male,Information Technology,III,Sem-5,93,82,90,82,89,8.2,0,29,1,8,1,0,6,0,98,93,80,82,100,Declining,Excellent,0
+STU2026524,18,Male,Electrical,I,Sem-2,91,92,84,89,83,9.02,0,32,0,6,0,0,7,0,100,100,89,88,100,Improving,Excellent,0
+STU2026525,20,Female,Electrical,I,Sem-2,73,68,74,75,75,7.22,0,23,6,3,2,4,4,0,97,77,66,68,79,Improving,Good,0
+STU2026526,18,Female,Information Technology,III,Sem-6,57,48,59,48,48,4.8,2,18,5,4,0,5,3,1,93,52,51,54,60,Improving,Needs Improvement,1
+STU2026527,20,Female,AIDS,III,Sem-5,72,76,78,66,61,7.0,0,22,10,1,0,10,5,0,98,79,80,69,66,Improving,Good,0
+STU2026528,18,Female,Electronics & Comm,IV,Sem-7,64,61,64,64,69,6.28,3,24,4,8,2,2,6,0,100,75,63,68,94,Declining,Very Good,0
+STU2026529,18,Female,Electrical,I,Sem-1,77,67,72,62,55,6.4,3,21,6,7,5,1,4,0,97,75,77,77,100,Improving,Very Good,0
+STU2026530,22,Female,Mechanical,IV,Sem-8,70,67,64,67,65,6.7,0,24,0,8,0,0,6,0,99,79,70,70,92,Improving,Very Good,0
+STU2026531,20,Male,Information Technology,II,Sem-3,66,61,64,66,62,6.4,2,25,0,3,0,0,5,0,100,73,63,62,68,Improving,Good,0
+STU2026532,20,Female,Electronics & Comm,I,Sem-2,79,85,79,78,71,8.08,0,27,0,5,0,0,6,0,97,85,77,72,85,Improving,Excellent,0
+STU2026533,22,Male,AIDS,IV,Sem-8,92,88,84,90,89,8.92,0,26,4,3,4,0,8,0,97,97,90,82,96,Improving,Excellent,0
+STU2026534,21,Female,Information Technology,IV,Sem-7,67,61,63,62,69,6.16,3,20,10,4,0,10,6,0,97,73,63,66,71,Declining,Good,0
+STU2026535,22,Male,Computer Science,II,Sem-3,63,69,66,55,63,6.06,1,23,0,1,0,0,6,1,84,66,55,68,55,Declining,Average,0
+STU2026536,18,Male,Information Technology,I,Sem-2,50,48,40,36,31,4.08,3,19,5,1,1,4,3,4,56,35,55,50,45,Improving,At Risk,1
+STU2026537,20,Female,Electrical,II,Sem-3,46,39,40,31,30,4.0,1,16,4,1,4,0,5,2,71,40,50,50,50,Improving,At Risk,1
+STU2026538,19,Female,Electrical,II,Sem-4,73,82,78,67,74,7.3,0,22,1,3,0,1,6,0,100,82,68,77,74,Declining,Very Good,0
+STU2026539,20,Male,Electronics & Comm,I,Sem-1,69,71,74,67,72,6.86,0,21,10,4,4,6,6,0,100,79,66,70,88,Declining,Very Good,0
+STU2026540,21,Female,Electronics & Comm,I,Sem-1,83,91,81,86,82,8.8,0,27,7,7,6,1,5,0,96,90,89,90,100,Improving,Excellent,0
+STU2026541,20,Male,Computer Science,III,Sem-5,48,47,51,53,58,5.06,2,19,6,5,1,5,4,4,53,37,57,52,63,Declining,Needs Improvement,1
+STU2026542,22,Female,Mechanical,II,Sem-4,47,42,43,35,34,4.0,2,13,3,0,2,1,5,2,72,42,50,50,41,Improving,At Risk,1
+STU2026543,20,Male,Electronics & Comm,IV,Sem-7,88,92,89,81,79,8.54,0,30,3,0,3,0,6,0,96,91,79,83,79,Improving,Very Good,0
+STU2026544,18,Female,Electronics & Comm,I,Sem-1,71,75,72,65,61,6.9,0,23,2,1,1,1,4,0,95,78,79,71,69,Improving,Good,0
+STU2026545,19,Female,AIDS,II,Sem-4,70,62,70,54,55,5.72,1,19,0,0,0,0,5,0,100,70,62,59,53,Declining,Average,0
+STU2026546,21,Female,AIDS,IV,Sem-8,93,86,87,92,89,8.96,0,27,1,8,1,0,6,0,98,95,91,91,100,Improving,Excellent,0
+STU2026547,18,Male,Electrical,II,Sem-3,86,83,85,85,89,8.42,0,24,0,5,0,0,8,0,98,94,82,77,89,Declining,Excellent,0
+STU2026548,18,Male,Electronics & Comm,III,Sem-5,47,53,47,43,41,4.7,3,15,4,3,4,0,4,1,86,52,53,50,67,Improving,Needs Improvement,1
+STU2026549,22,Male,Mechanical,IV,Sem-7,45,38,40,42,43,4.04,2,16,3,5,3,0,5,3,61,36,50,50,63,Declining,At Risk,1
+STU2026550,21,Male,Mechanical,II,Sem-3,72,71,64,70,67,7.04,0,21,10,7,0,10,4,0,98,74,68,77,87,Improving,Very Good,0
+STU2026551,19,Male,Mechanical,III,Sem-6,82,79,84,85,78,8.26,0,28,10,6,1,9,6,0,100,88,74,77,95,Improving,Excellent,0
+STU2026552,22,Female,Computer Science,I,Sem-1,80,82,74,86,81,8.44,0,26,5,2,2,3,6,0,96,88,79,83,81,Improving,Very Good,0
+STU2026553,20,Female,Computer Science,I,Sem-1,80,75,84,75,81,7.5,0,27,2,1,2,0,7,0,95,87,80,75,74,Declining,Very Good,0
+STU2026554,21,Female,Mechanical,II,Sem-4,66,61,61,59,53,5.98,3,20,8,7,2,6,3,1,86,57,52,55,83,Improving,Good,0
+STU2026555,18,Female,Electrical,II,Sem-4,84,85,91,77,80,8.02,0,27,7,8,6,1,8,0,96,96,78,80,100,Declining,Excellent,0
+STU2026556,18,Female,Electrical,II,Sem-4,56,55,64,52,59,5.32,1,18,7,0,4,3,4,4,49,45,56,56,59,Declining,At Risk,1
+STU2026557,22,Male,Mechanical,IV,Sem-7,91,95,94,95,93,9.5,0,25,3,0,3,0,8,0,99,100,88,92,84,Improving,Excellent,0
+STU2026558,19,Male,Information Technology,I,Sem-2,59,67,67,63,71,6.46,1,22,4,2,4,0,3,1,89,59,63,67,70,Declining,Average,0
+STU2026559,20,Male,Information Technology,III,Sem-6,67,69,62,68,71,6.84,0,23,9,6,6,3,4,0,100,69,63,60,96,Declining,Very Good,0
+STU2026560,22,Male,Electronics & Comm,III,Sem-5,47,54,43,51,53,5.22,1,20,10,6,2,8,2,4,49,35,55,52,68,Declining,Needs Improvement,1
+STU2026561,22,Male,Computer Science,II,Sem-3,64,67,59,63,61,6.46,2,19,3,0,2,1,5,1,87,63,63,64,57,Improving,Average,0
+STU2026562,18,Female,AIDS,IV,Sem-8,60,67,66,67,69,6.7,0,17,2,7,2,0,5,2,79,59,59,64,85,Declining,Good,0
+STU2026563,21,Female,Electronics & Comm,IV,Sem-8,85,71,71,70,64,7.04,0,27,0,6,0,0,7,0,100,86,71,81,88,Improving,Excellent,0
+STU2026564,21,Male,AIDS,III,Sem-6,56,50,55,43,41,4.58,2,15,5,7,3,2,6,1,88,55,51,54,78,Improving,Average,0
+STU2026565,20,Female,AIDS,III,Sem-6,92,92,89,82,74,8.6,0,27,0,0,0,0,6,0,100,91,85,82,70,Improving,Very Good,0
+STU2026566,19,Female,Information Technology,IV,Sem-7,73,78,65,75,71,7.62,0,25,6,2,3,3,6,0,100,80,69,72,77,Improving,Very Good,0
+STU2026567,19,Male,AIDS,II,Sem-3,80,72,73,68,70,6.96,0,22,1,1,0,1,7,0,95,82,69,67,65,Declining,Good,0
+STU2026568,22,Male,Mechanical,IV,Sem-7,77,79,82,74,73,7.6,0,27,3,4,1,2,5,0,100,84,78,83,85,Improving,Very Good,0
+STU2026569,18,Female,Computer Science,II,Sem-3,78,80,68,66,72,7.16,0,25,1,1,1,0,6,0,99,81,70,68,68,Declining,Good,0
+STU2026570,18,Female,Electronics & Comm,II,Sem-4,49,37,50,36,43,4.0,3,13,3,6,3,0,4,4,49,35,50,50,69,Declining,At Risk,1
+STU2026571,18,Male,AIDS,I,Sem-1,93,92,83,87,95,8.9,0,31,4,1,1,3,5,0,100,96,82,93,84,Declining,Excellent,0
+STU2026572,22,Male,Information Technology,III,Sem-5,84,86,83,85,79,8.54,0,30,2,4,2,0,8,0,98,98,80,86,95,Improving,Excellent,0
+STU2026573,22,Female,Electrical,IV,Sem-8,67,74,65,64,61,6.8,0,20,10,4,3,7,4,0,100,70,68,63,80,Improving,Good,0
+STU2026574,19,Female,Electrical,IV,Sem-8,70,77,73,64,68,6.92,0,23,3,5,2,1,4,0,100,75,68,65,85,Declining,Very Good,0
+STU2026575,22,Female,Mechanical,IV,Sem-8,77,73,75,74,66,7.36,0,20,2,5,2,0,5,0,100,77,70,67,86,Improving,Very Good,0
+STU2026576,19,Female,Electronics & Comm,II,Sem-4,45,49,40,45,43,4.66,2,17,5,3,4,1,2,4,51,35,50,50,61,Improving,At Risk,1
+STU2026577,19,Male,Mechanical,III,Sem-5,75,69,75,70,72,6.96,0,21,3,0,3,0,7,0,100,79,63,68,67,Declining,Good,0
+STU2026578,21,Male,Computer Science,IV,Sem-7,75,71,70,61,62,6.5,1,25,9,0,3,6,6,0,97,79,75,65,68,Declining,Good,0
+STU2026579,22,Male,Electronics & Comm,I,Sem-1,72,69,69,63,63,6.54,0,20,5,6,0,5,6,0,100,72,58,65,77,Improving,Very Good,0
+STU2026580,20,Female,Electrical,I,Sem-2,87,83,88,81,73,8.18,0,26,1,5,1,0,8,0,98,100,85,84,98,Improving,Excellent,0
+STU2026581,19,Female,Mechanical,I,Sem-1,59,46,48,43,44,4.42,1,17,5,6,2,3,4,2,80,49,60,50,74,Declining,Needs Improvement,1
+STU2026582,19,Female,Information Technology,IV,Sem-8,78,76,74,80,87,7.84,0,23,5,7,1,4,4,0,99,78,75,80,94,Declining,Excellent,0
+STU2026583,18,Female,Mechanical,II,Sem-3,73,77,69,73,65,7.46,0,27,3,7,3,0,7,0,98,86,83,71,100,Improving,Excellent,0
+STU2026584,20,Male,Mechanical,III,Sem-6,83,73,72,71,70,7.18,0,24,6,7,6,0,5,0,100,82,74,72,100,Improving,Excellent,0
+STU2026585,20,Female,Information Technology,III,Sem-5,45,51,42,43,35,4.62,2,15,4,0,3,1,5,3,63,41,50,50,47,Improving,At Risk,1
+STU2026586,18,Female,Electrical,II,Sem-3,61,61,62,51,57,5.5,2,19,1,0,1,0,6,4,50,52,62,58,53,Declining,Needs Improvement,1
+STU2026587,21,Male,Mechanical,III,Sem-6,63,70,60,64,59,6.64,0,20,1,0,0,1,6,0,98,75,61,69,56,Improving,Good,0
+STU2026588,18,Female,Information Technology,IV,Sem-8,57,64,60,65,63,6.46,1,23,3,5,3,0,5,3,59,54,56,57,79,Improving,Average,0
+STU2026589,22,Female,AIDS,III,Sem-5,51,42,45,42,44,4.2,2,15,0,7,0,0,4,1,85,48,50,50,67,Declining,Average,0
+STU2026590,19,Male,Mechanical,III,Sem-6,72,77,69,75,70,7.58,0,20,0,4,0,0,5,0,100,76,67,76,75,Improving,Very Good,0
+STU2026591,19,Male,Computer Science,III,Sem-6,69,61,63,68,68,6.52,0,20,7,0,6,1,5,0,99,69,66,66,71,Improving,Average,0
+STU2026592,22,Female,Computer Science,III,Sem-5,46,53,46,40,43,4.52,2,14,3,6,2,1,3,1,86,45,53,52,68,Declining,Needs Improvement,1
+STU2026593,18,Female,AIDS,IV,Sem-7,57,51,55,55,60,5.34,2,17,3,0,3,0,5,1,89,55,61,57,53,Declining,Needs Improvement,1
+STU2026594,20,Female,Computer Science,I,Sem-2,87,90,85,96,97,9.36,0,29,8,2,2,6,8,0,99,100,81,94,89,Declining,Excellent,0
+STU2026595,20,Male,Electrical,I,Sem-1,57,48,47,59,60,5.46,1,19,5,0,0,5,5,2,76,52,56,61,45,Declining,Needs Improvement,1
+STU2026596,22,Male,Computer Science,III,Sem-5,92,92,86,92,91,9.2,0,26,7,5,1,6,8,0,100,100,95,87,100,Improving,Excellent,0
+STU2026597,20,Female,Mechanical,III,Sem-5,74,77,71,63,61,6.86,0,22,2,6,2,0,5,0,99,75,70,64,88,Improving,Very Good,0
+STU2026598,20,Female,Mechanical,II,Sem-4,90,81,76,75,83,7.74,0,26,5,8,5,0,7,0,100,90,83,81,100,Declining,Excellent,0
+STU2026599,21,Female,Electrical,IV,Sem-7,84,94,93,81,77,8.62,0,29,4,3,4,0,7,0,97,97,87,81,98,Improving,Excellent,0
+STU2026600,21,Male,Electrical,I,Sem-2,91,84,88,74,68,7.8,0,23,4,1,2,2,5,0,99,88,88,87,79,Improving,Very Good,0
+STU2026601,20,Male,Computer Science,I,Sem-1,69,71,74,61,60,6.5,3,24,2,4,2,0,6,0,95,74,74,70,77,Improving,Good,0
+STU2026602,19,Male,Computer Science,I,Sem-1,68,73,67,69,67,7.06,0,20,7,0,6,1,7,0,100,81,64,67,78,Improving,Good,0
+STU2026603,20,Female,Electrical,II,Sem-3,88,82,90,78,83,7.96,0,25,10,0,1,9,6,0,100,91,82,80,74,Declining,Very Good,0
+STU2026604,22,Male,Electrical,IV,Sem-8,49,56,62,55,55,5.54,2,19,1,7,1,0,6,2,71,55,57,56,76,Improving,Average,0
+STU2026605,18,Female,Computer Science,III,Sem-5,79,76,80,65,68,6.94,0,22,7,7,2,5,4,0,97,77,76,76,95,Declining,Very Good,0
+STU2026606,22,Male,Electronics & Comm,IV,Sem-7,45,46,51,52,48,4.96,2,20,10,4,3,7,3,4,53,35,57,53,65,Improving,At Risk,1
+STU2026607,19,Female,Information Technology,III,Sem-6,78,70,64,61,53,6.46,3,21,3,1,3,0,4,0,100,74,77,70,72,Improving,Good,0
+STU2026608,19,Male,Computer Science,II,Sem-4,81,87,74,71,71,7.74,0,22,0,1,0,0,7,0,100,89,71,75,71,Improving,Very Good,0
+STU2026609,20,Male,AIDS,IV,Sem-8,49,48,44,41,41,4.38,2,16,10,4,1,9,3,2,77,40,50,50,57,Improving,Needs Improvement,1
+STU2026610,22,Male,AIDS,I,Sem-1,45,47,40,41,46,4.34,3,16,1,5,1,0,5,2,74,39,50,50,56,Declining,Needs Improvement,1
+STU2026611,20,Female,Mechanical,II,Sem-3,67,62,57,54,50,5.72,3,20,1,1,1,0,4,0,95,66,65,57,59,Improving,Average,0
+STU2026612,19,Female,Electronics & Comm,IV,Sem-8,48,37,44,34,33,4.0,3,16,8,4,3,5,2,1,92,39,52,50,60,Improving,At Risk,1
+STU2026613,18,Male,Electronics & Comm,IV,Sem-8,55,43,46,45,47,4.42,3,14,3,7,0,3,3,3,60,40,56,54,69,Declining,Needs Improvement,1
+STU2026614,22,Male,Mechanical,IV,Sem-7,47,47,47,58,66,5.36,1,20,5,6,3,2,5,2,71,52,50,50,77,Declining,Average,0
+STU2026615,19,Female,AIDS,I,Sem-2,47,40,40,44,49,4.24,3,13,1,7,0,1,4,3,62,35,50,50,62,Declining,Needs Improvement,1
+STU2026616,18,Male,Information Technology,I,Sem-1,56,56,44,41,40,4.7,1,15,0,2,0,0,4,3,59,43,55,51,50,Improving,At Risk,1
+STU2026617,22,Male,Electronics & Comm,II,Sem-4,60,68,59,57,57,6.14,3,19,7,5,6,1,5,0,100,70,66,64,92,Improving,Good,0
+STU2026618,22,Female,AIDS,II,Sem-4,58,57,51,47,50,5.1,2,21,9,7,2,7,3,2,73,50,56,55,80,Declining,Average,0
+STU2026619,22,Male,Computer Science,III,Sem-5,45,44,47,44,39,4.4,1,15,0,4,0,0,5,3,60,35,50,50,49,Improving,Needs Improvement,1
+STU2026620,22,Female,Electrical,I,Sem-2,54,56,58,61,58,5.9,3,20,8,0,5,3,5,1,91,62,63,54,64,Improving,Needs Improvement,1
+STU2026621,22,Female,Electronics & Comm,II,Sem-3,64,59,62,60,53,5.96,1,20,6,4,6,0,6,4,56,49,58,54,81,Improving,Average,0
+STU2026622,21,Female,AIDS,II,Sem-3,88,94,88,80,79,8.56,0,31,8,4,2,6,8,0,95,99,86,86,96,Improving,Excellent,0
+STU2026623,20,Female,AIDS,I,Sem-1,59,53,56,50,56,5.12,2,16,7,0,3,4,3,3,66,46,55,56,55,Declining,At Risk,1
+STU2026624,18,Male,Electronics & Comm,III,Sem-5,61,68,63,60,67,6.32,1,19,10,2,1,9,3,0,98,64,58,67,63,Declining,Average,0
+STU2026625,18,Male,AIDS,IV,Sem-8,45,37,40,38,38,4.0,1,17,5,8,5,0,2,2,76,35,50,50,80,Improving,Needs Improvement,1
+STU2026626,22,Female,Computer Science,I,Sem-1,52,48,55,41,46,4.38,2,15,0,5,0,0,5,3,65,44,55,52,61,Declining,Needs Improvement,1
+STU2026627,20,Male,Information Technology,III,Sem-5,50,62,47,47,45,5.3,2,20,8,5,1,7,6,1,93,59,52,56,68,Improving,Average,0
+STU2026628,18,Male,Information Technology,IV,Sem-7,89,90,78,90,98,9.0,0,28,7,5,2,5,6,0,100,92,84,81,97,Declining,Excellent,0
+STU2026629,20,Male,Electronics & Comm,II,Sem-4,51,60,55,59,64,5.94,2,16,5,8,4,1,3,3,69,46,64,60,90,Declining,Average,0
+STU2026630,19,Female,Electrical,II,Sem-3,88,95,94,83,83,8.78,0,31,4,5,2,2,5,0,96,94,92,88,100,Improving,Excellent,0
+STU2026631,22,Male,Mechanical,IV,Sem-7,91,81,84,81,86,8.1,0,27,8,7,5,3,5,0,97,92,79,87,100,Declining,Excellent,0
+STU2026632,18,Male,Computer Science,II,Sem-4,89,83,92,85,86,8.42,0,25,5,5,4,1,5,0,95,93,80,92,100,Declining,Excellent,0
+STU2026633,20,Female,Electrical,IV,Sem-8,55,58,51,49,57,5.26,1,17,0,5,0,0,6,4,52,47,62,51,65,Declining,Needs Improvement,1
+STU2026634,22,Female,Computer Science,II,Sem-4,60,68,71,64,66,6.56,0,22,5,2,1,4,4,0,98,69,71,68,65,Declining,Good,0
+STU2026635,20,Female,Computer Science,III,Sem-6,45,45,55,51,50,4.86,1,16,4,1,1,3,4,2,72,44,50,51,46,Improving,At Risk,1
+STU2026636,22,Male,Computer Science,I,Sem-1,45,45,40,39,37,4.14,2,16,6,7,4,2,3,4,51,35,50,50,72,Improving,At Risk,1
+STU2026637,18,Female,Electrical,IV,Sem-8,45,40,40,44,38,4.24,3,19,3,1,2,1,3,3,63,35,52,50,46,Improving,At Risk,1
+STU2026638,22,Male,AIDS,III,Sem-5,68,67,64,58,51,6.16,3,23,0,3,0,0,6,0,98,70,61,61,64,Improving,Good,0
+STU2026639,21,Male,Electrical,II,Sem-4,51,57,48,60,58,5.88,1,19,1,7,1,0,4,2,71,50,60,60,76,Improving,Average,0
+STU2026640,20,Female,AIDS,II,Sem-4,70,60,66,62,63,6.12,3,22,7,6,4,3,6,0,100,73,72,63,90,Declining,Very Good,0
+STU2026641,18,Male,Computer Science,III,Sem-6,93,88,96,85,82,8.62,0,29,5,1,2,3,8,0,97,100,96,96,86,Improving,Excellent,0
+STU2026642,21,Female,AIDS,II,Sem-3,56,51,60,45,47,4.74,2,21,5,6,3,2,6,4,53,47,56,50,78,Declining,Needs Improvement,1
+STU2026643,20,Female,AIDS,II,Sem-4,68,71,79,76,75,7.4,0,25,2,8,1,1,4,0,100,77,75,69,96,Improving,Very Good,0
+STU2026644,22,Male,AIDS,I,Sem-2,48,41,47,35,30,4.0,3,14,5,8,1,4,3,4,50,35,50,51,71,Improving,At Risk,1
+STU2026645,19,Female,Electronics & Comm,IV,Sem-7,67,62,62,59,67,6.02,1,24,6,7,0,6,5,0,99,74,70,63,85,Declining,Very Good,0
+STU2026646,19,Male,Computer Science,III,Sem-5,85,86,87,77,77,8.06,0,29,1,1,0,1,8,0,95,94,74,87,73,Improving,Very Good,0
+STU2026647,22,Male,Computer Science,IV,Sem-7,93,81,86,87,95,8.46,0,29,0,4,0,0,8,0,98,95,77,81,86,Declining,Excellent,0
+STU2026648,22,Female,Electrical,III,Sem-6,45,45,44,48,49,4.68,3,17,8,3,3,5,2,4,53,35,50,51,57,Declining,At Risk,1
+STU2026649,22,Male,Electrical,II,Sem-3,58,60,64,65,60,6.3,3,19,5,2,5,0,3,1,91,58,58,58,73,Improving,Average,0
+STU2026650,21,Male,Computer Science,II,Sem-4,74,73,71,63,70,6.7,0,22,6,4,5,1,6,0,97,80,65,71,91,Declining,Very Good,0
+STU2026651,22,Female,Computer Science,III,Sem-5,87,80,87,80,79,8.0,0,24,7,7,4,3,5,0,96,85,84,84,100,Improving,Excellent,0
+STU2026652,18,Female,Information Technology,I,Sem-1,63,62,65,71,66,6.74,0,19,6,7,1,5,7,0,97,77,72,67,87,Improving,Very Good,0
+STU2026653,18,Female,Computer Science,IV,Sem-8,83,75,80,79,76,7.74,0,23,4,8,4,0,5,0,100,83,80,79,100,Improving,Excellent,0
+STU2026654,22,Female,Electrical,IV,Sem-7,97,94,85,85,93,8.86,0,30,7,0,2,5,8,0,97,100,84,89,81,Declining,Excellent,0
+STU2026655,18,Male,Electronics & Comm,II,Sem-3,80,77,78,70,63,7.28,0,26,7,2,0,7,6,0,100,84,75,75,72,Improving,Very Good,0
+STU2026656,18,Male,Electronics & Comm,III,Sem-6,69,69,74,68,66,6.84,0,20,9,2,0,9,5,0,99,76,67,69,67,Improving,Good,0
+STU2026657,22,Male,Information Technology,IV,Sem-8,78,72,70,75,73,7.38,0,21,0,3,0,0,4,0,100,74,66,66,70,Improving,Very Good,0
+STU2026658,19,Female,Computer Science,III,Sem-5,83,83,93,91,98,8.78,0,26,4,8,4,0,5,0,98,92,90,86,100,Declining,Excellent,0
+STU2026659,21,Female,Electronics & Comm,III,Sem-6,71,74,66,62,62,6.68,0,24,2,6,2,0,7,0,100,77,68,72,86,Improving,Very Good,0
+STU2026660,18,Female,AIDS,III,Sem-5,45,46,47,40,45,4.24,1,16,8,3,3,5,4,2,71,37,50,50,54,Declining,At Risk,1
+STU2026661,20,Male,Computer Science,III,Sem-6,45,51,44,49,41,4.98,3,15,0,4,0,0,5,4,47,35,50,50,52,Improving,Needs Improvement,1
+STU2026662,18,Male,AIDS,IV,Sem-8,67,70,60,56,59,6.16,1,23,2,2,2,0,5,0,96,71,71,61,68,Declining,Good,0
+STU2026663,18,Female,AIDS,I,Sem-2,45,41,43,33,35,4.0,3,19,5,2,4,1,4,1,93,45,50,50,56,Declining,At Risk,1
+STU2026664,18,Male,Information Technology,II,Sem-4,45,36,44,39,47,4.0,2,14,10,0,2,8,4,3,60,36,50,50,41,Declining,At Risk,1
+STU2026665,22,Male,Mechanical,IV,Sem-7,45,40,40,39,41,4.0,3,18,0,2,0,0,2,2,81,38,50,50,45,Declining,At Risk,1
+STU2026666,18,Male,Electronics & Comm,II,Sem-3,56,60,57,50,50,5.4,1,20,5,6,1,4,4,3,62,48,54,55,73,Improving,Average,0
+STU2026667,20,Female,Electronics & Comm,I,Sem-2,57,56,64,53,46,5.42,3,20,2,8,2,0,4,4,52,46,60,56,86,Improving,Average,0
+STU2026668,20,Female,Computer Science,II,Sem-4,48,44,46,56,53,5.12,2,16,7,5,2,5,6,1,88,55,50,56,68,Improving,Average,0
+STU2026669,20,Male,Information Technology,IV,Sem-8,61,64,52,52,55,5.68,2,17,7,8,1,6,3,4,56,43,64,61,82,Declining,Average,0
+STU2026670,22,Female,AIDS,IV,Sem-8,84,88,87,84,91,8.56,0,29,6,4,0,6,6,0,100,91,78,83,86,Declining,Excellent,0
+STU2026671,21,Female,Mechanical,IV,Sem-7,45,55,49,53,51,5.38,3,20,2,2,2,0,4,1,84,48,51,55,53,Improving,Needs Improvement,1
+STU2026672,19,Female,Electrical,IV,Sem-7,68,59,62,59,60,5.9,2,18,2,3,2,0,5,0,100,70,58,69,71,Declining,Good,0
+STU2026673,19,Male,AIDS,III,Sem-5,64,59,72,66,64,6.32,2,23,6,7,5,1,5,0,96,70,69,61,97,Improving,Very Good,0
+STU2026674,20,Male,Electrical,III,Sem-6,90,90,88,86,80,8.76,0,25,7,0,1,6,6,0,98,90,85,82,73,Improving,Excellent,0
+STU2026675,20,Male,Mechanical,IV,Sem-7,71,74,72,65,63,6.86,0,23,6,1,2,4,7,0,100,83,70,74,71,Improving,Good,0
+STU2026676,19,Female,Electronics & Comm,IV,Sem-8,45,35,40,42,50,4.0,1,15,1,5,1,0,2,4,47,35,50,50,56,Declining,At Risk,1
+STU2026677,19,Female,AIDS,IV,Sem-7,70,64,70,56,57,5.92,2,21,10,1,4,6,7,0,100,75,68,72,70,Declining,Good,0
+STU2026678,21,Female,Mechanical,III,Sem-5,83,83,85,74,70,7.76,0,23,5,4,1,4,8,0,100,93,73,82,87,Improving,Excellent,0
+STU2026679,20,Male,Computer Science,IV,Sem-8,62,62,62,56,61,5.84,2,22,4,0,4,0,5,2,75,57,63,59,61,Declining,Needs Improvement,1
+STU2026680,18,Female,Electronics & Comm,III,Sem-5,71,75,64,73,72,7.38,0,21,1,8,0,1,5,0,97,77,78,71,91,Improving,Excellent,0
+STU2026681,20,Female,Electrical,II,Sem-4,45,39,40,34,30,4.0,2,16,1,5,1,0,4,4,53,35,50,50,56,Improving,At Risk,1
+STU2026682,20,Male,Electrical,I,Sem-1,69,72,69,61,64,6.54,0,24,7,3,6,1,7,0,99,79,67,68,88,Declining,Good,0
+STU2026683,22,Male,Mechanical,IV,Sem-7,75,69,80,72,64,7.08,0,27,6,2,2,4,6,0,100,83,77,70,77,Improving,Good,0
+STU2026684,19,Male,Computer Science,III,Sem-5,45,46,49,44,46,4.48,3,15,7,8,0,7,4,3,64,35,50,50,66,Declining,Needs Improvement,1
+STU2026685,19,Female,AIDS,IV,Sem-7,64,71,72,66,70,6.8,0,19,10,1,5,5,7,0,100,77,71,63,75,Declining,Good,0
+STU2026686,19,Female,Electronics & Comm,III,Sem-6,65,56,59,58,61,5.72,3,21,6,0,6,0,5,0,100,69,71,61,70,Declining,Average,0
+STU2026687,21,Male,Electrical,I,Sem-1,57,54,61,55,52,5.46,3,20,8,6,2,6,4,4,56,48,61,60,80,Improving,Needs Improvement,1
+STU2026688,20,Male,AIDS,III,Sem-6,51,51,57,49,55,4.98,1,21,2,6,2,0,3,3,66,41,50,56,72,Declining,Needs Improvement,1
+STU2026689,18,Female,Mechanical,IV,Sem-8,65,54,60,55,63,5.46,1,21,9,6,0,9,5,2,73,59,69,66,75,Declining,Average,0
+STU2026690,18,Female,Computer Science,IV,Sem-7,83,85,88,82,79,8.32,0,27,3,5,1,2,7,0,96,94,75,81,94,Improving,Excellent,0
+STU2026691,22,Female,Electrical,II,Sem-4,100,88,98,99,94,9.46,0,32,9,5,6,3,6,0,98,99,96,96,100,Improving,Excellent,0
+STU2026692,18,Male,AIDS,I,Sem-2,89,92,90,78,83,8.36,0,26,8,1,5,3,5,0,100,91,91,90,91,Declining,Very Good,0
+STU2026693,18,Female,Electrical,I,Sem-2,63,64,67,63,58,6.34,1,18,4,1,4,0,4,3,65,52,63,57,66,Improving,Needs Improvement,1
+STU2026694,19,Female,Information Technology,III,Sem-5,62,51,63,61,60,5.7,2,18,4,7,2,2,6,3,68,53,58,61,81,Improving,Average,0
+STU2026695,18,Male,Information Technology,III,Sem-5,49,53,54,49,50,5.06,3,16,9,4,3,6,6,3,61,47,50,50,67,Declining,Needs Improvement,1
+STU2026696,22,Female,Electrical,III,Sem-5,45,42,42,33,30,4.0,2,14,8,8,3,5,5,2,76,39,50,50,74,Improving,Needs Improvement,1
+STU2026697,22,Female,Mechanical,III,Sem-6,89,89,82,92,99,9.08,0,25,7,6,0,7,5,0,100,91,83,83,96,Declining,Excellent,0
+STU2026698,19,Male,Information Technology,III,Sem-5,74,74,80,64,72,6.8,0,22,3,5,3,0,4,0,100,77,69,73,91,Declining,Very Good,0
+STU2026699,22,Male,Electronics & Comm,I,Sem-1,65,59,62,61,58,6.02,3,23,3,3,3,0,6,0,97,71,57,66,73,Improving,Good,0
+STU2026700,20,Female,Computer Science,II,Sem-3,86,89,89,79,77,8.3,0,26,3,7,3,0,5,0,100,93,79,86,100,Improving,Excellent,0
+STU2026701,18,Male,Electrical,I,Sem-2,45,37,42,48,49,4.36,3,13,9,6,6,3,2,4,57,35,50,50,77,Declining,At Risk,1
+STU2026702,22,Female,Computer Science,III,Sem-6,73,75,68,71,79,7.26,0,23,8,4,5,3,6,0,99,79,70,70,90,Declining,Very Good,0
+STU2026703,20,Female,AIDS,IV,Sem-7,90,92,83,92,100,9.2,0,29,7,2,1,6,5,0,100,97,91,86,88,Declining,Excellent,0
+STU2026704,21,Female,AIDS,II,Sem-3,89,77,79,80,88,7.88,0,25,5,8,3,2,5,0,100,86,81,83,100,Declining,Excellent,0
+STU2026705,19,Male,Electronics & Comm,II,Sem-3,88,76,77,76,78,7.6,0,27,7,6,6,1,7,0,98,90,79,81,100,Declining,Excellent,0
+STU2026706,20,Female,Information Technology,III,Sem-6,87,83,80,82,83,8.24,0,25,9,6,6,3,7,0,95,87,81,72,100,Declining,Excellent,0
+STU2026707,21,Female,AIDS,II,Sem-4,76,87,78,77,77,8.1,0,25,5,0,2,3,8,0,100,92,81,82,73,Improving,Very Good,0
+STU2026708,22,Male,Information Technology,IV,Sem-8,45,39,47,49,56,4.5,1,19,10,6,5,5,5,2,75,43,51,50,75,Declining,Needs Improvement,1
+STU2026709,18,Male,AIDS,III,Sem-6,70,75,69,61,68,6.66,0,20,1,5,1,0,7,0,97,78,64,71,79,Declining,Very Good,0
+STU2026710,20,Male,Mechanical,I,Sem-2,55,53,52,58,59,5.6,3,15,2,1,2,0,5,3,66,46,52,50,53,Declining,Needs Improvement,1
+STU2026711,20,Female,Information Technology,IV,Sem-8,61,61,57,54,46,5.68,1,16,10,6,3,7,6,4,47,49,51,60,80,Improving,Average,0
+STU2026712,20,Male,Mechanical,IV,Sem-7,100,96,93,96,97,9.6,0,29,5,1,5,0,5,0,100,96,83,92,95,Declining,Excellent,0
+STU2026713,18,Male,Mechanical,I,Sem-2,70,77,66,75,75,7.58,0,23,7,2,5,2,6,0,96,79,69,76,83,Improving,Very Good,0
+STU2026714,22,Female,Electrical,IV,Sem-7,59,54,65,50,42,5.16,1,19,6,2,2,4,4,3,67,52,67,65,64,Improving,Needs Improvement,1
+STU2026715,19,Female,AIDS,II,Sem-3,79,78,78,74,66,7.56,0,27,9,0,6,3,6,0,100,88,83,75,85,Improving,Very Good,0
+STU2026716,20,Female,Information Technology,II,Sem-3,55,52,54,51,54,5.14,1,17,7,1,6,1,6,1,90,59,54,56,68,Declining,Needs Improvement,1
+STU2026717,18,Female,Electrical,IV,Sem-7,49,52,45,41,38,4.54,3,18,8,1,1,7,4,1,90,50,55,56,48,Improving,Needs Improvement,1
+STU2026718,20,Female,Information Technology,II,Sem-3,83,83,82,88,83,8.6,0,26,0,0,0,0,8,0,100,93,76,81,69,Improving,Excellent,0
+STU2026719,20,Female,Computer Science,IV,Sem-8,56,45,56,56,48,5.16,2,20,10,5,0,10,4,2,73,47,50,50,62,Improving,Average,0
+STU2026720,22,Male,Information Technology,IV,Sem-7,47,38,44,42,47,4.04,1,15,2,2,2,0,3,2,76,37,50,50,48,Declining,At Risk,1
+STU2026721,19,Male,Electrical,II,Sem-4,60,68,61,60,52,6.32,1,19,0,7,0,0,4,4,47,49,65,67,78,Improving,Average,0
+STU2026722,22,Male,Information Technology,I,Sem-1,55,52,63,49,44,5.02,2,20,6,8,3,3,4,1,87,58,66,59,89,Improving,Average,0
+STU2026723,20,Male,Electronics & Comm,III,Sem-5,70,71,63,59,58,6.38,3,19,2,3,2,0,4,0,96,68,69,63,72,Improving,Good,0
+STU2026724,22,Male,Information Technology,II,Sem-4,52,46,51,52,60,4.96,3,18,4,2,2,2,6,3,69,45,50,53,54,Declining,Needs Improvement,1
+STU2026725,18,Female,AIDS,I,Sem-1,88,87,85,89,86,8.82,0,29,5,0,4,1,8,0,100,100,93,88,89,Improving,Excellent,0
+STU2026726,22,Female,Electrical,II,Sem-4,76,73,67,70,78,7.12,0,23,5,2,2,3,6,0,100,80,78,76,74,Declining,Very Good,0
+STU2026727,18,Female,Mechanical,III,Sem-5,83,85,73,75,70,7.9,0,24,7,1,0,7,7,0,97,90,83,79,72,Improving,Very Good,0
+STU2026728,21,Female,Mechanical,I,Sem-1,63,56,57,57,49,5.66,1,22,5,8,4,1,4,1,91,60,64,63,94,Improving,Good,0
+STU2026729,19,Male,Electronics & Comm,II,Sem-3,81,79,75,70,75,7.36,0,27,3,4,0,3,7,0,99,85,79,77,79,Declining,Very Good,0
+STU2026730,21,Female,Electrical,III,Sem-5,77,71,72,76,77,7.4,0,23,9,1,0,9,7,0,97,87,73,79,69,Declining,Very Good,0
+STU2026731,19,Male,Electrical,II,Sem-4,57,56,63,52,51,5.36,2,18,6,1,5,1,4,2,78,56,57,65,69,Improving,Needs Improvement,1
+STU2026732,20,Female,Computer Science,I,Sem-2,74,70,74,64,70,6.64,0,21,1,8,1,0,7,0,97,77,61,73,91,Declining,Excellent,0
+STU2026733,20,Female,Computer Science,IV,Sem-8,45,44,42,49,50,4.7,1,17,1,1,1,0,4,2,81,41,54,51,44,Declining,At Risk,1
+STU2026734,21,Female,Computer Science,I,Sem-2,91,82,84,91,93,8.74,0,27,10,4,2,8,5,0,95,89,78,89,93,Declining,Excellent,0
+STU2026735,21,Male,Mechanical,IV,Sem-7,76,68,66,76,80,7.28,0,24,8,6,0,8,4,0,100,74,66,74,83,Declining,Very Good,0
+STU2026736,18,Male,Information Technology,III,Sem-6,90,87,76,84,90,8.52,0,29,7,8,0,7,8,0,100,94,87,86,100,Declining,Excellent,0
+STU2026737,18,Male,Mechanical,II,Sem-3,73,67,74,76,68,7.24,0,26,7,4,2,5,6,0,100,80,72,71,83,Improving,Very Good,0
+STU2026738,21,Male,Electronics & Comm,IV,Sem-8,78,77,82,83,86,8.06,0,29,2,7,2,0,5,0,100,86,82,83,100,Declining,Excellent,0
+STU2026739,22,Male,Electronics & Comm,III,Sem-5,86,92,92,89,96,9.02,0,30,2,6,1,1,7,0,100,97,90,86,100,Declining,Excellent,0
+STU2026740,21,Female,Information Technology,II,Sem-4,45,41,41,45,46,4.34,3,16,2,6,2,0,2,2,72,35,50,50,62,Declining,Needs Improvement,1
+STU2026741,22,Female,Electronics & Comm,II,Sem-4,68,63,72,61,62,6.18,3,23,1,5,1,0,7,0,95,77,67,70,79,Declining,Very Good,0
+STU2026742,19,Female,Computer Science,IV,Sem-7,83,80,83,88,86,8.48,0,25,0,4,0,0,5,0,100,89,90,84,86,Improving,Excellent,0
+STU2026743,21,Male,Electrical,II,Sem-4,74,77,73,74,74,7.52,0,24,5,5,1,4,6,0,100,80,75,68,84,Improving,Very Good,0
+STU2026744,19,Female,AIDS,II,Sem-3,49,45,51,43,38,4.38,3,14,5,8,5,0,3,4,51,35,50,50,83,Improving,Needs Improvement,1
+STU2026745,22,Female,Electrical,IV,Sem-7,89,84,96,82,85,8.28,0,28,2,1,2,0,7,0,96,99,88,92,86,Declining,Excellent,0
+STU2026746,20,Male,AIDS,IV,Sem-8,74,76,75,81,82,7.9,0,26,10,4,2,8,5,0,100,82,81,73,86,Declining,Very Good,0
+STU2026747,22,Female,Computer Science,I,Sem-2,78,65,65,77,82,7.22,0,25,2,3,1,1,5,0,97,76,62,75,74,Declining,Very Good,0
+STU2026748,21,Male,Electronics & Comm,I,Sem-1,95,95,94,94,98,9.44,0,30,7,2,6,1,7,0,97,99,83,87,100,Declining,Excellent,0
+STU2026749,20,Male,AIDS,IV,Sem-8,62,63,70,62,61,6.24,2,24,10,1,2,8,7,0,96,76,66,60,65,Improving,Good,0
+STU2026750,22,Male,Mechanical,I,Sem-2,45,45,40,33,35,4.0,2,15,0,5,0,0,2,2,74,36,53,50,56,Declining,At Risk,1
+STU2026751,22,Male,Electronics & Comm,I,Sem-1,75,67,77,66,74,6.64,0,21,7,0,4,3,4,0,100,75,66,77,71,Declining,Good,0
+STU2026752,20,Female,Computer Science,III,Sem-5,68,78,66,76,74,7.68,0,24,2,5,2,0,7,0,100,80,66,75,85,Improving,Excellent,0
+STU2026753,22,Male,Electronics & Comm,II,Sem-4,53,46,45,48,41,4.72,2,14,7,1,6,1,2,3,67,35,52,54,60,Improving,At Risk,1
+STU2026754,22,Male,Electronics & Comm,III,Sem-5,60,60,68,65,70,6.3,2,18,7,0,3,4,3,0,100,65,71,67,61,Declining,Average,0
+STU2026755,21,Female,Electrical,III,Sem-5,62,64,61,66,63,6.52,0,24,5,0,4,1,4,0,95,71,69,68,68,Improving,Average,0
+STU2026756,19,Female,Mechanical,I,Sem-2,82,85,76,85,88,8.5,0,27,0,3,0,0,7,0,97,88,77,83,78,Declining,Excellent,0
+STU2026757,20,Male,AIDS,II,Sem-4,53,52,42,40,44,4.48,1,19,1,4,0,1,4,3,61,42,56,50,57,Declining,Needs Improvement,1
+STU2026758,20,Female,Computer Science,II,Sem-3,75,74,71,74,75,7.4,0,21,10,4,3,7,4,0,100,75,76,71,84,Declining,Very Good,0
+STU2026759,20,Male,Electrical,III,Sem-5,74,66,79,67,66,6.66,0,21,10,1,0,10,5,0,100,78,66,69,65,Improving,Good,0
+STU2026760,22,Female,Information Technology,III,Sem-6,52,51,54,47,42,4.86,2,22,3,1,3,0,6,2,73,54,50,56,58,Improving,Needs Improvement,1
+STU2026761,21,Male,Computer Science,II,Sem-3,82,78,78,81,86,7.98,0,28,5,7,5,0,6,0,100,91,76,87,100,Declining,Excellent,0
+STU2026762,22,Male,Information Technology,III,Sem-5,66,68,70,65,68,6.62,0,23,3,0,3,0,7,0,97,79,71,72,67,Declining,Good,0
+STU2026763,18,Male,Information Technology,II,Sem-4,77,68,80,67,66,6.74,0,25,8,4,4,4,5,0,97,80,76,68,90,Improving,Very Good,0
+STU2026764,18,Male,Electrical,I,Sem-1,78,76,71,72,67,7.36,0,27,3,0,3,0,4,0,100,81,70,78,74,Improving,Good,0
+STU2026765,22,Male,Information Technology,I,Sem-1,46,47,47,41,42,4.34,3,16,6,7,5,1,3,4,56,35,50,50,75,Declining,Needs Improvement,1
+STU2026766,21,Female,Information Technology,IV,Sem-8,48,54,48,52,52,5.28,1,17,0,6,0,0,5,2,71,49,59,52,66,Improving,Average,0
+STU2026767,22,Male,Electrical,II,Sem-4,50,49,55,53,59,5.14,2,18,7,5,2,5,5,4,49,40,50,50,67,Declining,Needs Improvement,1
+STU2026768,19,Male,Mechanical,II,Sem-4,92,94,92,89,90,9.1,0,26,6,2,3,3,5,0,100,92,92,85,90,Declining,Excellent,0
+STU2026769,22,Female,Computer Science,II,Sem-3,53,60,61,63,68,6.18,1,19,0,3,0,0,4,3,69,49,54,62,59,Declining,Needs Improvement,1
+STU2026770,21,Male,Information Technology,IV,Sem-8,72,68,60,69,71,6.86,0,22,9,8,5,4,4,0,100,68,60,71,100,Declining,Very Good,0
+STU2026771,18,Male,Computer Science,I,Sem-1,52,55,60,52,48,5.32,1,18,1,5,1,0,5,4,54,47,60,63,70,Improving,Needs Improvement,1
+STU2026772,19,Female,Electronics & Comm,I,Sem-1,86,83,92,81,86,8.18,0,26,8,8,5,3,8,0,99,99,85,82,100,Declining,Excellent,0
+STU2026773,19,Female,Computer Science,I,Sem-1,90,86,93,82,74,8.36,0,28,5,7,4,1,6,0,100,93,77,87,100,Improving,Excellent,0
+STU2026774,22,Female,Electronics & Comm,I,Sem-2,45,44,44,44,40,4.4,1,18,10,3,5,5,4,3,60,35,50,50,62,Improving,At Risk,1
+STU2026775,21,Male,Mechanical,IV,Sem-7,57,55,59,64,56,6.04,2,19,2,0,2,0,4,3,63,51,66,59,54,Improving,Needs Improvement,1
+STU2026776,20,Male,Electronics & Comm,IV,Sem-7,51,52,49,46,47,4.84,2,17,7,6,3,4,3,3,65,47,60,57,80,Declining,Needs Improvement,1
+STU2026777,22,Female,Electrical,III,Sem-5,97,87,88,95,96,9.18,0,27,1,7,1,0,5,0,100,95,90,91,100,Declining,Excellent,0
+STU2026778,18,Male,Information Technology,I,Sem-1,45,37,40,39,33,4.0,1,13,0,5,0,0,2,2,80,35,51,50,55,Improving,At Risk,1
+STU2026779,20,Male,Mechanical,I,Sem-1,75,84,71,72,66,7.68,0,27,1,0,1,0,5,0,98,82,69,82,67,Improving,Good,0
+STU2026780,18,Female,Electronics & Comm,II,Sem-4,90,84,80,88,89,8.64,0,28,10,0,3,7,6,0,100,90,74,77,78,Declining,Very Good,0
+STU2026781,19,Male,Electronics & Comm,II,Sem-3,83,82,71,73,70,7.66,0,28,5,3,1,4,7,0,100,86,77,79,79,Improving,Very Good,0
+STU2026782,21,Female,Information Technology,IV,Sem-8,90,80,75,82,83,8.12,0,29,2,1,0,2,5,0,100,89,85,88,74,Declining,Very Good,0
+STU2026783,18,Female,Computer Science,IV,Sem-7,98,86,93,93,87,9.02,0,30,4,5,3,1,7,0,100,100,93,92,100,Improving,Excellent,0
+STU2026784,20,Female,Electronics & Comm,II,Sem-3,66,75,74,74,80,7.44,0,23,5,6,3,2,7,0,100,80,66,67,92,Declining,Excellent,0
+STU2026785,21,Female,Computer Science,II,Sem-4,67,63,56,61,64,6.18,1,20,10,2,1,9,4,2,72,55,52,60,60,Declining,Average,0
+STU2026786,21,Male,Electronics & Comm,III,Sem-5,45,35,41,37,36,4.0,1,15,9,7,3,6,5,2,78,39,50,50,70,Improving,Needs Improvement,1
+STU2026787,18,Male,Electronics & Comm,IV,Sem-8,48,46,45,49,56,4.78,1,16,10,2,2,8,4,4,56,35,50,51,52,Declining,At Risk,1
+STU2026788,19,Female,Electronics & Comm,III,Sem-5,60,53,51,62,65,5.84,2,18,3,5,3,0,4,3,69,51,67,66,78,Declining,Average,0
+STU2026789,20,Female,Mechanical,III,Sem-5,89,93,86,85,84,8.82,0,28,9,7,0,9,7,0,100,97,81,87,100,Improving,Excellent,0
+STU2026790,19,Female,Computer Science,IV,Sem-8,77,69,65,75,79,7.26,0,26,3,4,3,0,5,0,100,77,64,72,84,Declining,Very Good,0
+STU2026791,19,Male,AIDS,I,Sem-2,61,58,54,56,58,5.68,2,19,9,8,1,8,4,1,87,58,52,64,83,Declining,Good,0
+STU2026792,19,Female,Information Technology,IV,Sem-8,85,70,78,75,73,7.3,0,23,4,0,0,4,7,0,96,86,79,77,64,Improving,Very Good,0
+STU2026793,19,Female,AIDS,IV,Sem-7,78,69,66,69,75,6.9,0,22,3,7,2,1,5,0,100,76,67,70,93,Declining,Very Good,0
+STU2026794,18,Male,Computer Science,III,Sem-6,58,65,63,48,53,5.48,3,19,6,2,2,4,3,3,64,49,53,62,63,Declining,Needs Improvement,1
+STU2026795,18,Male,Electrical,I,Sem-1,45,47,44,43,37,4.46,2,16,5,1,3,2,4,1,90,47,52,50,51,Improving,At Risk,1
+STU2026796,18,Female,AIDS,IV,Sem-7,64,75,67,72,69,7.32,0,19,4,3,1,3,4,0,100,72,61,63,72,Improving,Good,0
+STU2026797,19,Female,Computer Science,I,Sem-1,77,86,76,86,88,8.6,0,24,6,6,0,6,7,0,100,89,71,83,91,Declining,Excellent,0
+STU2026798,21,Male,Computer Science,II,Sem-3,53,50,42,51,45,5.06,3,17,8,2,3,5,4,2,79,46,50,55,58,Improving,Needs Improvement,1
+STU2026799,22,Female,Electronics & Comm,III,Sem-6,45,52,48,47,45,4.9,2,16,6,1,5,1,4,4,47,36,55,52,58,Improving,At Risk,1
+STU2026800,22,Female,Information Technology,II,Sem-3,46,35,40,36,37,4.0,3,17,3,4,2,1,5,1,93,44,50,50,55,Declining,Needs Improvement,1
+STU2026801,20,Male,Mechanical,I,Sem-2,45,34,42,35,42,4.0,3,15,5,7,3,2,3,4,54,35,50,50,69,Declining,At Risk,1
+STU2026802,19,Male,Mechanical,I,Sem-1,90,78,77,83,75,8.1,0,26,7,6,5,2,6,0,96,92,77,83,100,Improving,Excellent,0
+STU2026803,19,Male,Electrical,III,Sem-5,58,47,55,44,39,4.52,2,17,4,7,4,0,4,1,93,54,50,56,84,Improving,Average,0
+STU2026804,19,Male,Computer Science,I,Sem-1,67,68,64,61,53,6.38,3,22,7,1,5,2,4,0,98,67,58,64,72,Improving,Average,0
+STU2026805,21,Male,Computer Science,IV,Sem-8,86,79,76,75,69,7.66,0,30,4,4,4,0,8,0,98,95,82,77,98,Improving,Excellent,0
+STU2026806,20,Male,Information Technology,IV,Sem-7,89,99,97,98,97,9.84,0,31,0,4,0,0,5,0,100,97,94,93,94,Improving,Excellent,0
+STU2026807,21,Male,Electronics & Comm,III,Sem-5,60,54,61,51,55,5.22,2,19,5,4,1,4,6,4,52,48,62,52,65,Declining,Needs Improvement,1
+STU2026808,22,Female,Information Technology,III,Sem-6,76,79,71,65,67,7.06,0,25,10,2,4,6,6,0,100,81,70,80,81,Declining,Very Good,0
+STU2026809,22,Male,Information Technology,IV,Sem-7,80,85,76,90,85,8.8,0,27,0,4,0,0,6,0,98,90,84,84,86,Improving,Excellent,0
+STU2026810,18,Female,AIDS,III,Sem-6,75,66,66,68,73,6.72,0,24,1,3,1,0,7,0,97,77,65,72,71,Declining,Very Good,0
+STU2026811,18,Male,Electrical,II,Sem-3,76,73,80,76,74,7.48,0,26,10,1,6,4,5,0,95,82,68,70,86,Improving,Good,0
+STU2026812,20,Male,Information Technology,II,Sem-3,45,36,48,43,47,4.02,1,17,9,4,2,7,5,3,62,37,50,50,57,Declining,At Risk,1
+STU2026813,22,Female,AIDS,I,Sem-2,95,90,94,82,82,8.52,0,31,7,6,6,1,5,0,100,97,93,95,100,Improving,Excellent,0
+STU2026814,21,Male,Electrical,I,Sem-2,77,80,80,72,66,7.52,0,24,10,1,3,7,8,0,100,91,78,82,80,Improving,Very Good,0
+STU2026815,21,Male,Electronics & Comm,III,Sem-6,50,44,43,44,36,4.4,3,18,1,8,1,0,6,3,68,47,56,58,77,Improving,Average,0
+STU2026816,22,Male,Electronics & Comm,I,Sem-2,49,45,46,39,40,4.14,3,16,6,1,5,1,4,1,86,49,57,51,59,Declining,At Risk,1
+STU2026817,19,Male,Electrical,II,Sem-4,45,37,44,45,44,4.18,3,15,1,1,1,0,3,2,80,36,50,50,41,Improving,At Risk,1
+STU2026818,21,Female,AIDS,IV,Sem-7,84,76,72,80,87,7.84,0,22,4,6,4,0,7,0,96,86,70,72,100,Declining,Excellent,0
+STU2026819,20,Female,Electrical,IV,Sem-7,86,82,80,83,77,8.26,0,29,2,3,2,0,7,0,100,97,86,88,92,Improving,Excellent,0
+STU2026820,18,Male,Mechanical,IV,Sem-7,67,65,65,68,64,6.68,0,25,6,0,2,4,4,0,100,73,61,64,63,Improving,Average,0
+STU2026821,22,Female,Mechanical,I,Sem-2,85,85,85,92,90,8.92,0,25,10,7,3,7,8,0,98,97,80,82,100,Improving,Excellent,0
+STU2026822,21,Male,Information Technology,II,Sem-3,82,86,79,81,80,8.3,0,29,6,5,1,5,7,0,100,94,77,91,94,Improving,Excellent,0
+STU2026823,21,Male,Electronics & Comm,IV,Sem-7,54,56,53,51,57,5.3,3,20,3,2,3,0,6,2,74,50,52,52,57,Declining,Needs Improvement,1
+STU2026824,18,Female,Mechanical,I,Sem-2,45,46,40,33,36,4.0,2,15,4,7,4,0,4,3,67,35,50,50,75,Declining,Needs Improvement,1
+STU2026825,21,Female,Electrical,II,Sem-4,62,57,59,63,57,6.06,2,21,4,4,4,0,5,2,76,55,60,55,75,Improving,Average,0
+STU2026826,22,Male,Electronics & Comm,III,Sem-5,87,87,88,82,82,8.4,0,27,6,3,6,0,6,0,99,91,80,87,100,Improving,Excellent,0
+STU2026827,20,Female,Information Technology,IV,Sem-7,49,52,47,41,39,4.54,3,19,10,5,1,9,5,3,62,40,51,50,60,Improving,Needs Improvement,1
+STU2026828,20,Female,Mechanical,III,Sem-5,47,50,48,54,58,5.24,1,15,3,4,3,0,6,3,67,49,59,51,68,Declining,Needs Improvement,1
+STU2026829,20,Male,Electrical,IV,Sem-7,65,63,60,58,55,6.0,1,20,0,0,0,0,4,0,99,68,60,67,54,Improving,Average,0
+STU2026830,22,Female,Information Technology,I,Sem-2,53,52,43,39,34,4.42,2,18,4,4,3,1,4,2,74,46,52,53,66,Improving,Needs Improvement,1
+STU2026831,20,Male,Information Technology,I,Sem-2,78,86,84,76,68,8.0,0,24,1,4,1,0,8,0,96,91,74,77,86,Improving,Excellent,0
+STU2026832,21,Male,Information Technology,IV,Sem-7,86,85,82,78,77,8.08,0,29,4,6,4,0,8,0,100,98,83,83,100,Improving,Excellent,0
+STU2026833,18,Male,Electrical,IV,Sem-8,46,53,51,36,36,4.28,1,19,7,6,6,1,4,3,59,39,56,50,80,Improving,Needs Improvement,1
+STU2026834,22,Female,Electrical,II,Sem-4,45,48,51,41,45,4.38,1,15,5,5,3,2,4,2,75,43,50,50,67,Declining,Needs Improvement,1
+STU2026835,22,Female,Computer Science,II,Sem-3,70,56,67,64,67,6.08,2,18,7,6,5,2,6,0,100,71,58,64,91,Declining,Very Good,0
+STU2026836,20,Female,Information Technology,III,Sem-6,88,89,85,84,83,8.6,0,31,9,8,4,5,6,0,95,95,90,86,100,Improving,Excellent,0
+STU2026837,18,Male,Computer Science,II,Sem-3,75,65,72,64,72,6.44,2,23,2,4,1,1,7,0,99,82,69,69,79,Declining,Very Good,0
+STU2026838,21,Female,Information Technology,I,Sem-1,91,80,83,85,92,8.3,0,27,2,3,0,2,6,0,100,93,78,80,84,Declining,Excellent,0
+STU2026839,18,Female,Information Technology,I,Sem-2,69,73,66,63,60,6.7,0,21,0,5,0,0,5,0,99,74,61,71,77,Improving,Very Good,0
+STU2026840,22,Male,Electrical,II,Sem-3,45,47,40,38,41,4.16,3,18,4,7,1,3,5,2,72,40,50,50,65,Declining,Needs Improvement,1
+STU2026841,22,Male,Computer Science,IV,Sem-7,45,40,46,40,44,4.0,3,15,10,8,2,8,5,3,67,35,50,50,70,Declining,Needs Improvement,1
+STU2026842,22,Female,Information Technology,I,Sem-1,45,49,44,35,40,4.06,2,16,4,5,0,4,4,4,50,35,50,50,55,Declining,At Risk,1
+STU2026843,21,Male,Electrical,II,Sem-4,56,53,59,64,64,5.96,2,20,7,7,2,5,4,4,49,48,66,55,84,Improving,Average,0
+STU2026844,19,Male,AIDS,I,Sem-2,58,59,63,62,56,6.08,3,19,5,8,4,1,6,1,90,63,54,59,93,Improving,Good,0
+STU2026845,20,Male,Electronics & Comm,II,Sem-3,91,97,92,84,76,8.92,0,30,3,8,2,1,5,0,100,97,94,90,100,Improving,Excellent,0
+STU2026846,22,Female,Electronics & Comm,III,Sem-6,65,60,54,62,69,6.12,2,23,8,0,5,3,3,2,77,53,62,63,64,Declining,Needs Improvement,1
+STU2026847,21,Female,Information Technology,II,Sem-3,45,41,48,40,33,4.04,1,15,0,2,0,0,5,2,77,42,50,50,44,Improving,At Risk,1
+STU2026848,22,Female,Information Technology,I,Sem-1,45,45,55,39,38,4.14,2,15,10,7,0,10,2,4,52,35,53,50,67,Improving,At Risk,1
+STU2026849,20,Female,AIDS,III,Sem-5,83,79,75,72,71,7.48,0,27,0,6,0,0,6,0,100,82,75,76,86,Improving,Excellent,0
+STU2026850,21,Male,Mechanical,III,Sem-6,45,45,44,41,40,4.26,2,14,1,8,1,0,4,4,53,35,52,50,71,Improving,Needs Improvement,1
+STU2026851,20,Female,Computer Science,II,Sem-3,78,67,75,64,69,6.52,0,24,6,2,3,3,7,0,95,82,74,72,77,Declining,Good,0
+STU2026852,18,Female,Information Technology,IV,Sem-8,91,92,87,92,97,9.2,0,31,3,4,1,2,6,0,100,96,84,91,94,Declining,Excellent,0
+STU2026853,20,Female,Computer Science,I,Sem-1,47,36,40,45,52,4.14,1,19,10,2,0,10,2,4,49,35,50,50,43,Declining,At Risk,1
+STU2026854,20,Female,AIDS,III,Sem-5,45,39,40,31,30,4.0,1,16,0,3,0,0,3,4,54,35,50,50,45,Improving,At Risk,1
+STU2026855,22,Female,Mechanical,I,Sem-2,47,48,47,41,49,4.38,1,17,9,3,5,4,4,1,89,47,50,52,65,Declining,Needs Improvement,1
+STU2026856,19,Female,Electrical,III,Sem-6,60,61,59,57,56,5.86,2,21,5,3,1,4,6,2,73,55,50,51,60,Improving,Average,0
+STU2026857,18,Male,Information Technology,I,Sem-2,50,39,47,45,47,4.26,3,14,7,6,3,4,2,3,62,35,55,51,70,Declining,At Risk,1
+STU2026858,18,Female,Information Technology,IV,Sem-7,52,51,58,59,56,5.58,2,20,10,6,6,4,5,4,49,48,61,63,90,Improving,Needs Improvement,1
+STU2026859,21,Female,Mechanical,II,Sem-3,84,83,91,78,85,8.0,0,26,2,0,1,1,6,0,100,93,91,83,75,Declining,Very Good,0
+STU2026860,19,Male,Electrical,I,Sem-1,79,71,76,73,65,7.22,0,21,7,8,1,6,5,0,97,78,75,77,96,Improving,Excellent,0
+STU2026861,22,Female,Mechanical,IV,Sem-7,68,67,56,66,67,6.64,0,22,7,0,2,5,5,0,95,68,68,66,58,Declining,Good,0
+STU2026862,18,Female,Electrical,IV,Sem-7,98,91,88,93,93,9.22,0,27,10,0,6,4,6,0,100,96,87,88,92,Improving,Excellent,0
+STU2026863,20,Male,Mechanical,II,Sem-3,57,51,50,52,44,5.16,2,15,1,4,1,0,6,1,91,55,53,58,61,Improving,Average,0
+STU2026864,22,Male,Electrical,II,Sem-4,90,77,85,81,78,7.94,0,27,10,3,0,10,8,0,96,92,82,84,80,Improving,Excellent,0
+STU2026865,19,Female,Computer Science,I,Sem-1,97,87,86,89,89,8.82,0,28,2,6,1,1,6,0,100,96,82,94,100,Improving,Excellent,0
+STU2026866,20,Female,Mechanical,I,Sem-1,100,87,84,90,84,8.88,0,32,4,2,0,4,8,0,100,100,85,93,85,Improving,Excellent,0
+STU2026867,22,Female,Mechanical,I,Sem-2,74,80,69,76,70,7.76,0,23,2,6,2,0,5,0,100,80,74,80,92,Improving,Excellent,0
+STU2026868,18,Male,Computer Science,II,Sem-3,59,63,56,62,65,6.24,1,18,6,6,0,6,6,2,73,57,56,61,71,Declining,Good,0
+STU2026869,21,Male,AIDS,II,Sem-4,71,68,71,70,68,6.92,0,20,0,7,0,0,4,0,100,73,72,63,85,Improving,Very Good,0
+STU2026870,20,Female,Electrical,I,Sem-2,82,81,80,92,87,8.76,0,28,2,7,2,0,7,0,96,94,77,91,100,Improving,Excellent,0
+STU2026871,20,Male,Electronics & Comm,IV,Sem-8,45,34,42,34,34,4.0,2,13,4,5,4,0,5,1,91,44,50,50,65,Improving,Needs Improvement,1
+STU2026872,21,Female,AIDS,III,Sem-6,45,38,40,31,30,4.0,3,16,9,1,2,7,2,1,87,37,50,50,43,Improving,At Risk,1
+STU2026873,18,Male,Mechanical,II,Sem-3,49,48,46,50,51,4.92,1,18,0,4,0,0,3,3,63,42,50,50,58,Declining,Needs Improvement,1
+STU2026874,18,Male,Mechanical,I,Sem-1,83,88,90,90,85,8.92,0,26,2,8,2,0,6,0,96,94,87,82,100,Improving,Excellent,0
+STU2026875,19,Male,AIDS,I,Sem-2,55,46,48,56,55,5.2,2,15,10,8,2,8,4,4,55,39,51,50,80,Improving,Average,0
+STU2026876,21,Male,Mechanical,IV,Sem-7,83,82,79,86,91,8.44,0,27,4,4,1,3,5,0,100,89,82,87,89,Declining,Excellent,0
+STU2026877,22,Female,Computer Science,I,Sem-2,77,68,67,66,61,6.68,0,25,3,2,3,0,4,0,98,74,70,76,76,Improving,Good,0
+STU2026878,18,Male,AIDS,IV,Sem-7,91,86,83,88,83,8.72,0,31,0,6,0,0,7,0,98,100,95,86,100,Improving,Excellent,0
+STU2026879,19,Male,Electronics & Comm,III,Sem-6,61,62,60,63,61,6.26,3,18,3,6,2,1,4,2,78,55,67,58,79,Improving,Good,0
+STU2026880,21,Male,Electronics & Comm,I,Sem-2,58,69,57,68,76,6.84,0,20,3,6,0,3,6,0,97,72,65,62,77,Declining,Very Good,0
+STU2026881,19,Female,Computer Science,IV,Sem-7,71,68,70,75,73,7.22,0,25,4,7,3,1,6,0,97,78,77,68,96,Improving,Very Good,0
+STU2026882,21,Male,Computer Science,II,Sem-4,62,61,56,52,52,5.56,3,19,8,4,5,3,3,3,69,50,61,65,80,Improving,Needs Improvement,1
+STU2026883,21,Male,Computer Science,I,Sem-1,88,93,86,94,91,9.36,0,30,7,8,0,7,6,0,95,94,88,93,100,Improving,Excellent,0
+STU2026884,22,Female,Mechanical,III,Sem-5,61,59,66,68,68,6.44,3,24,4,3,4,0,7,0,100,75,68,60,78,Improving,Good,0
+STU2026885,21,Female,Mechanical,II,Sem-3,63,54,60,61,60,5.82,3,18,7,3,3,4,3,1,84,54,54,54,68,Improving,Average,0
+STU2026886,21,Male,Information Technology,IV,Sem-8,74,62,63,72,68,6.8,0,20,3,3,2,1,4,0,95,71,68,62,74,Improving,Good,0
+STU2026887,22,Female,Computer Science,III,Sem-6,84,86,86,81,75,8.3,0,30,4,8,4,0,6,0,95,94,93,91,100,Improving,Excellent,0
+STU2026888,20,Male,AIDS,I,Sem-2,82,89,88,83,78,8.54,0,23,8,3,4,4,7,0,95,92,87,87,93,Improving,Excellent,0
+STU2026889,20,Female,Electrical,II,Sem-3,84,81,71,77,75,7.86,0,23,2,3,2,0,4,0,97,82,76,75,84,Improving,Very Good,0
+STU2026890,19,Male,Electronics & Comm,IV,Sem-7,73,77,71,66,61,7.04,0,26,3,5,3,0,6,0,100,82,79,70,91,Improving,Very Good,0
+STU2026891,18,Male,Electrical,IV,Sem-7,45,49,45,50,45,4.96,1,20,2,3,0,2,3,4,48,35,55,50,51,Improving,At Risk,1
+STU2026892,19,Female,AIDS,III,Sem-6,50,48,46,51,56,4.98,1,18,7,4,2,5,4,2,71,44,50,50,61,Declining,Needs Improvement,1
+STU2026893,20,Female,Mechanical,IV,Sem-7,83,92,82,78,77,8.36,0,29,8,1,4,4,8,0,100,97,81,79,88,Improving,Excellent,0
+STU2026894,22,Male,Mechanical,II,Sem-3,45,53,46,48,42,5.0,2,19,8,1,2,6,5,3,67,46,50,50,53,Improving,At Risk,1
+STU2026895,18,Female,Electrical,II,Sem-3,81,87,76,89,85,8.82,0,27,7,1,3,4,5,0,100,87,87,78,82,Improving,Very Good,0
+STU2026896,20,Female,Computer Science,I,Sem-1,89,84,73,71,65,7.62,0,25,2,1,0,2,6,0,100,88,75,82,72,Improving,Very Good,0
+STU2026897,22,Female,Computer Science,I,Sem-1,94,92,87,99,100,9.62,0,32,4,4,1,3,5,0,100,97,86,94,96,Declining,Excellent,0
+STU2026898,22,Female,Electronics & Comm,IV,Sem-7,53,52,48,52,45,5.2,2,17,7,0,4,3,5,4,47,37,50,51,50,Improving,At Risk,1
+STU2026899,18,Male,AIDS,III,Sem-5,63,57,53,60,68,5.88,2,21,2,6,2,0,3,2,77,53,56,66,79,Declining,Average,0
+STU2026900,20,Male,Electronics & Comm,III,Sem-5,66,54,63,49,42,5.1,3,20,0,6,0,0,4,4,56,47,66,62,72,Improving,Needs Improvement,1
+STU2026901,20,Male,Mechanical,II,Sem-3,45,47,40,34,38,4.0,2,18,8,1,4,4,2,3,69,35,50,50,50,Declining,At Risk,1
+STU2026902,19,Female,Electrical,II,Sem-3,65,55,53,61,61,5.86,1,18,10,1,1,9,6,3,61,55,61,60,56,Improving,Needs Improvement,1
+STU2026903,20,Male,Computer Science,II,Sem-4,77,78,85,76,71,7.68,0,24,4,1,3,1,5,0,100,85,80,83,80,Improving,Very Good,0
+STU2026904,21,Male,Electronics & Comm,III,Sem-6,82,81,90,83,86,8.22,0,26,8,2,2,6,6,0,95,93,78,86,86,Declining,Very Good,0
+STU2026905,21,Female,Electrical,III,Sem-6,74,68,59,63,58,6.5,2,20,8,8,4,4,5,0,99,72,69,72,99,Improving,Very Good,0
+STU2026906,19,Female,Mechanical,I,Sem-2,45,44,40,39,38,4.1,1,13,3,5,1,2,4,3,60,35,50,50,56,Improving,At Risk,1
+STU2026907,19,Male,Computer Science,I,Sem-1,80,79,83,71,64,7.42,0,26,3,3,3,0,4,0,100,81,75,78,86,Improving,Very Good,0
+STU2026908,19,Male,Electrical,III,Sem-5,45,47,40,32,30,4.0,3,18,8,7,6,2,4,4,48,35,50,50,79,Improving,At Risk,1
+STU2026909,21,Male,Computer Science,II,Sem-3,91,77,78,84,89,8.12,0,23,8,2,6,2,5,0,98,88,86,82,96,Declining,Very Good,0
+STU2026910,21,Female,Electronics & Comm,III,Sem-5,93,98,83,87,91,9.14,0,27,9,5,1,8,5,0,96,96,90,93,99,Declining,Excellent,0
+STU2026911,18,Male,Mechanical,III,Sem-5,66,64,72,74,81,7.0,0,21,0,2,0,0,7,0,98,78,65,73,65,Declining,Good,0
+STU2026912,19,Male,Mechanical,II,Sem-3,49,50,54,54,48,5.24,1,17,0,4,0,0,6,1,88,56,50,59,59,Improving,Average,0
+STU2026913,20,Male,Electrical,IV,Sem-8,69,66,56,68,63,6.72,0,18,2,6,2,0,3,0,95,64,61,57,82,Improving,Good,0
+STU2026914,22,Male,Electronics & Comm,IV,Sem-8,84,93,78,89,85,9.06,0,29,7,1,2,5,6,0,96,94,82,92,83,Improving,Excellent,0
+STU2026915,19,Female,Electronics & Comm,III,Sem-5,87,85,80,86,81,8.56,0,26,10,7,3,7,6,0,100,90,80,84,100,Improving,Excellent,0
+STU2026916,20,Female,AIDS,I,Sem-1,54,45,58,47,49,4.62,2,16,7,8,5,2,4,4,47,40,51,50,90,Declining,Needs Improvement,1
+STU2026917,20,Male,Computer Science,I,Sem-2,69,56,56,69,72,6.38,3,22,1,4,1,0,4,0,95,67,70,62,71,Declining,Good,0
+STU2026918,22,Male,Electrical,IV,Sem-8,92,83,92,78,86,8.0,0,26,2,8,2,0,7,0,100,95,88,89,100,Declining,Excellent,0
+STU2026919,22,Male,Information Technology,III,Sem-5,61,56,56,50,47,5.24,1,16,2,3,2,0,4,4,53,43,50,56,63,Improving,Needs Improvement,1
+STU2026920,22,Male,Mechanical,IV,Sem-7,56,60,66,50,56,5.4,1,22,3,4,3,0,4,2,76,56,64,65,75,Declining,Average,0
+STU2026921,19,Male,AIDS,I,Sem-2,85,83,78,78,83,8.0,0,26,0,8,0,0,6,0,100,91,85,85,100,Declining,Excellent,0
+STU2026922,19,Female,AIDS,III,Sem-5,83,84,85,83,88,8.34,0,28,1,3,0,1,8,0,100,92,75,85,80,Declining,Excellent,0
+STU2026923,19,Male,Mechanical,III,Sem-6,100,87,92,88,88,8.76,0,29,8,2,1,7,7,0,100,100,90,95,88,Improving,Excellent,0
+STU2026924,18,Male,Information Technology,IV,Sem-7,45,45,44,40,44,4.2,1,12,1,6,1,0,3,1,84,38,50,50,59,Declining,Needs Improvement,1
+STU2026925,20,Male,Computer Science,I,Sem-2,71,71,67,59,60,6.38,3,23,1,5,0,1,7,0,100,77,65,72,76,Declining,Very Good,0
+STU2026926,22,Male,Mechanical,IV,Sem-8,68,77,76,70,70,7.28,0,23,0,7,0,0,7,0,100,82,73,73,89,Improving,Excellent,0
+STU2026927,19,Male,AIDS,IV,Sem-7,86,85,83,72,68,7.72,0,24,0,8,0,0,4,0,100,81,84,78,97,Improving,Excellent,0
+STU2026928,18,Male,Mechanical,I,Sem-2,45,43,41,31,30,4.0,1,13,7,3,0,7,3,3,64,35,50,50,45,Improving,At Risk,1
+STU2026929,20,Female,Computer Science,IV,Sem-7,61,70,61,57,51,6.22,3,19,0,6,0,0,5,0,100,70,63,66,77,Improving,Good,0
+STU2026930,20,Male,Electrical,IV,Sem-8,56,55,65,51,52,5.26,2,19,9,0,5,4,4,3,59,51,56,60,64,Declining,At Risk,1
+STU2026931,20,Male,Computer Science,IV,Sem-8,48,50,60,50,50,5.0,1,19,7,8,0,7,4,4,54,42,53,51,77,Improving,Needs Improvement,1
+STU2026932,18,Male,Information Technology,I,Sem-2,92,89,84,81,79,8.42,0,26,8,6,1,7,7,0,100,96,92,83,100,Improving,Excellent,0
+STU2026933,21,Male,Mechanical,II,Sem-3,83,86,87,88,80,8.72,0,26,3,7,3,0,5,0,100,90,88,84,100,Improving,Excellent,0
+STU2026934,18,Female,Electrical,I,Sem-2,88,82,89,92,88,8.8,0,30,0,5,0,0,5,0,100,90,80,80,91,Improving,Excellent,0
+STU2026935,19,Male,Information Technology,III,Sem-6,72,75,78,65,67,6.9,0,25,7,1,5,2,6,0,100,83,71,80,82,Declining,Good,0
+STU2026936,18,Male,Computer Science,II,Sem-4,71,75,63,68,67,7.08,0,23,9,8,2,7,4,0,97,73,65,64,96,Improving,Very Good,0
+STU2026937,20,Male,Mechanical,II,Sem-4,97,96,91,98,99,9.72,0,31,2,4,2,0,7,0,100,100,84,94,99,Declining,Excellent,0
+STU2026938,18,Female,Electronics & Comm,IV,Sem-8,99,99,84,95,89,9.66,0,27,2,3,2,0,8,0,100,100,93,91,94,Improving,Excellent,0
+STU2026939,19,Male,Computer Science,IV,Sem-8,55,61,54,63,70,6.22,3,21,7,6,4,3,4,4,55,47,67,65,85,Declining,Average,0
+STU2026940,19,Male,Electronics & Comm,II,Sem-4,89,98,94,99,91,9.86,0,29,10,2,5,5,6,0,100,99,84,96,100,Improving,Excellent,0
+STU2026941,20,Male,AIDS,III,Sem-6,63,57,66,50,42,5.28,3,17,2,4,2,0,4,3,64,51,60,58,71,Improving,Needs Improvement,1
+STU2026942,19,Female,Electrical,IV,Sem-7,53,52,48,41,40,4.54,3,15,10,8,5,5,4,4,50,35,50,50,85,Improving,Needs Improvement,1
+STU2026943,22,Male,Electronics & Comm,IV,Sem-7,57,56,55,47,49,5.06,3,18,2,5,2,0,4,2,77,49,53,59,70,Declining,Average,0
+STU2026944,19,Female,Mechanical,III,Sem-5,52,45,55,51,54,4.86,1,20,7,8,2,5,6,3,59,47,55,58,80,Declining,Average,0
+STU2026945,21,Female,Electronics & Comm,II,Sem-3,53,51,45,55,49,5.34,1,17,9,7,1,8,3,2,79,44,53,54,72,Improving,Average,0
+STU2026946,19,Female,Computer Science,I,Sem-2,48,44,53,49,55,4.7,1,17,5,3,0,5,4,2,76,46,50,51,53,Declining,Needs Improvement,1
+STU2026947,21,Male,Information Technology,IV,Sem-8,81,78,85,79,74,7.86,0,26,1,0,1,0,7,0,97,94,89,84,74,Improving,Very Good,0
+STU2026948,22,Male,AIDS,IV,Sem-7,80,67,79,62,62,6.4,2,21,3,8,3,0,6,0,100,79,68,68,100,Improving,Very Good,0
+STU2026949,20,Female,Electrical,I,Sem-2,91,87,90,90,96,8.88,0,26,4,2,1,3,8,0,100,97,86,90,83,Declining,Excellent,0
+STU2026950,20,Female,AIDS,IV,Sem-8,83,87,83,77,85,8.1,0,24,4,1,0,4,8,0,100,93,73,77,72,Declining,Very Good,0
+STU2026951,18,Male,Computer Science,II,Sem-4,56,61,58,51,50,5.5,1,22,1,5,1,0,5,1,86,61,52,59,72,Improving,Average,0
+STU2026952,20,Female,Computer Science,II,Sem-4,66,72,64,68,69,6.96,0,22,8,8,4,4,7,0,100,78,76,65,100,Declining,Excellent,0
+STU2026953,21,Male,Electrical,IV,Sem-8,77,81,83,72,64,7.56,0,23,5,8,5,0,5,0,100,83,78,74,100,Improving,Excellent,0
+STU2026954,18,Male,Information Technology,I,Sem-1,45,44,47,43,35,4.34,3,16,9,1,0,9,6,1,84,53,50,50,44,Improving,Needs Improvement,1
+STU2026955,20,Female,Information Technology,II,Sem-4,60,53,65,59,67,5.66,3,17,10,7,1,9,4,3,66,50,65,57,79,Declining,Average,0
+STU2026956,20,Female,Mechanical,III,Sem-6,45,52,40,45,41,4.78,3,13,8,7,3,5,3,1,89,45,50,50,75,Improving,Average,0
+STU2026957,19,Female,Computer Science,IV,Sem-7,45,38,41,45,43,4.22,3,17,9,2,6,3,2,3,61,35,50,50,60,Improving,At Risk,1
+STU2026958,22,Male,AIDS,IV,Sem-7,98,90,92,83,84,8.58,0,26,8,8,1,7,6,0,97,97,91,93,100,Declining,Excellent,0
+STU2026959,20,Male,Mechanical,II,Sem-4,68,66,74,62,69,6.36,3,25,7,7,1,6,5,0,100,75,70,66,88,Declining,Very Good,0
+STU2026960,18,Female,Electronics & Comm,III,Sem-6,78,66,69,76,82,7.2,0,20,2,2,2,0,4,0,97,75,65,71,74,Declining,Good,0
+STU2026961,19,Female,Mechanical,IV,Sem-7,55,57,53,44,52,4.92,1,16,2,0,2,0,3,2,76,45,56,57,47,Declining,At Risk,1
+STU2026962,18,Male,Information Technology,I,Sem-1,55,53,59,59,67,5.66,3,21,9,7,2,7,4,3,69,45,58,50,78,Declining,Average,0
+STU2026963,19,Female,Computer Science,I,Sem-1,45,35,44,31,33,4.0,1,15,1,5,1,0,3,2,80,35,50,50,55,Declining,At Risk,1
+STU2026964,19,Male,AIDS,III,Sem-5,45,44,44,49,47,4.7,1,17,3,0,3,0,5,4,48,35,50,50,45,Improving,At Risk,1
+STU2026965,22,Female,Computer Science,I,Sem-1,65,55,57,53,51,5.38,1,17,10,7,3,7,6,2,71,60,56,64,87,Improving,Good,0
+STU2026966,18,Male,Computer Science,IV,Sem-8,45,37,40,35,41,4.0,1,18,5,8,5,0,5,2,74,43,50,50,83,Declining,Needs Improvement,1
+STU2026967,20,Male,Electrical,IV,Sem-8,45,53,47,54,55,5.36,3,15,2,4,1,1,3,1,87,48,50,57,60,Declining,Needs Improvement,1
+STU2026968,22,Female,AIDS,II,Sem-4,90,89,87,80,76,8.36,0,28,4,6,1,3,5,0,100,90,82,90,98,Improving,Excellent,0
+STU2026969,20,Female,AIDS,IV,Sem-7,90,86,75,79,82,8.18,0,24,9,7,6,3,5,0,96,88,80,83,100,Declining,Excellent,0
+STU2026970,18,Male,Electronics & Comm,II,Sem-4,94,88,92,92,93,9.04,0,31,2,3,2,0,5,0,99,94,82,93,93,Declining,Excellent,0
+STU2026971,19,Male,Information Technology,IV,Sem-7,61,64,59,66,65,6.52,0,22,7,4,0,7,4,1,90,62,56,62,67,Improving,Good,0
+STU2026972,21,Male,Electrical,II,Sem-3,45,46,41,45,47,4.54,2,19,2,0,1,1,4,1,86,46,50,50,40,Declining,At Risk,1
+STU2026973,18,Female,Electrical,IV,Sem-8,65,56,53,59,65,5.78,3,22,5,5,2,3,6,2,74,59,60,61,75,Declining,Average,0
+STU2026974,18,Male,Electronics & Comm,IV,Sem-8,45,40,40,31,39,4.0,1,12,3,0,3,0,5,2,72,38,50,50,41,Declining,At Risk,1
+STU2026975,20,Male,Electrical,II,Sem-4,69,60,62,68,74,6.48,1,20,9,0,6,3,4,0,100,70,60,68,73,Declining,Average,0
+STU2026976,18,Male,Mechanical,I,Sem-2,61,56,69,60,62,5.84,1,18,4,5,4,0,5,0,100,69,65,61,85,Declining,Good,0
+STU2026977,21,Male,Computer Science,II,Sem-3,45,34,43,45,48,4.06,2,15,6,4,3,3,2,2,72,35,50,50,57,Declining,At Risk,1
+STU2026978,19,Male,Mechanical,IV,Sem-7,86,91,83,87,91,8.86,0,26,2,1,2,0,5,0,100,88,81,79,80,Declining,Excellent,0
+STU2026979,21,Male,Computer Science,I,Sem-2,61,55,62,60,52,5.8,1,23,1,0,1,0,6,4,48,53,61,55,53,Improving,Needs Improvement,1
+STU2026980,18,Female,Mechanical,II,Sem-3,88,89,83,74,76,8.0,0,24,10,1,2,8,6,0,95,90,82,86,80,Declining,Very Good,0
+STU2026981,22,Male,Mechanical,III,Sem-6,91,95,96,87,81,9.02,0,26,7,7,5,2,5,0,100,94,91,91,100,Improving,Excellent,0
+STU2026982,22,Female,Computer Science,IV,Sem-8,89,87,97,90,83,8.88,0,28,7,4,1,6,6,0,97,97,91,89,95,Improving,Excellent,0
+STU2026983,19,Male,AIDS,III,Sem-5,96,98,84,85,85,9.02,0,27,6,2,0,6,6,0,100,99,84,94,86,Improving,Excellent,0
+STU2026984,21,Male,Computer Science,I,Sem-2,45,45,40,39,34,4.14,3,18,1,3,1,0,5,2,72,40,50,50,49,Improving,At Risk,1
+STU2026985,18,Female,AIDS,I,Sem-1,94,99,91,91,87,9.42,0,27,1,7,1,0,6,0,100,98,95,92,100,Improving,Excellent,0
+STU2026986,20,Female,Computer Science,II,Sem-3,83,84,76,86,93,8.52,0,25,7,1,6,1,6,0,98,90,86,85,91,Declining,Very Good,0
+STU2026987,18,Female,Mechanical,IV,Sem-7,86,75,77,86,93,8.16,0,28,9,4,6,3,6,0,100,87,84,82,100,Declining,Excellent,0
+STU2026988,22,Male,Electrical,IV,Sem-8,70,72,68,76,75,7.44,0,26,1,4,1,0,4,0,100,78,79,70,81,Improving,Very Good,0
+STU2026989,20,Female,Computer Science,IV,Sem-7,46,51,48,48,52,4.92,2,14,7,6,1,6,5,1,92,51,55,55,67,Declining,Average,0
+STU2026990,20,Female,Electrical,II,Sem-4,92,83,89,94,100,8.96,0,27,2,1,2,0,5,0,97,94,90,83,85,Declining,Excellent,0
+STU2026991,21,Male,Information Technology,III,Sem-5,85,81,79,74,82,7.68,0,27,3,4,3,0,8,0,100,95,81,86,95,Declining,Excellent,0
+STU2026992,18,Female,Information Technology,III,Sem-6,71,66,71,57,62,6.06,1,22,1,1,1,0,4,0,98,69,60,68,61,Declining,Average,0
+STU2026993,19,Female,AIDS,II,Sem-3,74,74,75,83,88,7.94,0,22,5,2,1,4,4,0,99,81,79,79,76,Declining,Very Good,0
+STU2026994,22,Male,Electrical,III,Sem-5,89,96,88,88,95,9.12,0,26,4,1,4,0,5,0,100,93,88,91,90,Declining,Excellent,0
+STU2026995,18,Male,AIDS,III,Sem-6,45,39,45,31,38,4.0,3,15,1,8,1,0,4,1,91,41,50,50,68,Declining,Needs Improvement,1
+STU2026996,21,Male,Computer Science,III,Sem-5,63,64,58,60,62,6.16,3,19,6,6,2,4,6,0,100,71,62,68,82,Declining,Good,0
+STU2026997,22,Female,AIDS,IV,Sem-8,91,92,90,82,84,8.6,0,27,9,4,2,7,5,0,96,94,82,91,97,Declining,Excellent,0
+STU2026998,19,Male,Computer Science,IV,Sem-8,52,59,45,53,48,5.54,1,18,1,6,1,0,3,2,80,46,58,50,70,Improving,Average,0
+STU2026999,21,Female,Information Technology,IV,Sem-7,46,41,47,44,37,4.28,2,16,0,0,0,0,4,2,75,41,50,50,40,Improving,At Risk,1
+STU2027000,18,Female,Electrical,IV,Sem-8,88,88,86,85,92,8.62,0,26,0,5,0,0,8,0,99,93,77,75,88,Declining,Excellent,0

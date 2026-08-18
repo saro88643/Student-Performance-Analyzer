@@ -1,0 +1,25 @@
+.custom-btn{
+
+background:#2563EB;
+
+color:white;
+
+padding:12px 22px;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+font-size:15px;
+
+transition:.3s;
+
+}
+
+.custom-btn:hover{
+
+background:#1E40AF;
+
+}

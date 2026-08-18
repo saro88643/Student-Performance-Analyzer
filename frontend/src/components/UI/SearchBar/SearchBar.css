@@ -1,0 +1,31 @@
+.search-bar{
+
+width:300px;
+
+}
+
+.search-bar input{
+
+width:100%;
+
+padding:12px;
+
+border-radius:10px;
+
+border:1px solid #ddd;
+
+font-size:15px;
+
+outline:none;
+
+transition:.3s;
+
+}
+
+.search-bar input:focus{
+
+border-color:#2563EB;
+
+box-shadow:0 0 8px rgba(37,99,235,.3);
+
+}

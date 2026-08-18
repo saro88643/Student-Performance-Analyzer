@@ -1,0 +1,57 @@
+.student-toolbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.student-toolbar h1{
+    color:#1E3A8A;
+}
+
+.student-toolbar p{
+    color:#6B7280;
+}
+
+.toolbar-right{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.toolbar-right input,
+.toolbar-right select{
+
+    padding:12px;
+
+    border:1px solid #D1D5DB;
+
+    border-radius:8px;
+
+    font-size:15px;
+}
+
+.toolbar-right button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
+
+.toolbar-right button:hover{
+
+    background:#1D4ED8;
+
+}

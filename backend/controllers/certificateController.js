@@ -1,8 +1,22 @@
 const Certificate = require("../models/Certificate");
+const Student = require("../models/Student");
 
 const addCertificate = async (req, res) => {
   try {
-    const cert = new Certificate(req.body);
+    const { studentId } = req.body;
+
+    // Check ownership
+    const student = await Student.findOne({ _id: studentId, teacherId: req.user._id });
+    if (!student) {
+      return res.status(403).json({ success: false, message: "Unauthorized to add certificates for this student" });
+    }
+
+    const certificateData = {
+      ...req.body,
+      fileUrl: req.file ? `/uploads/certificates/${req.file.filename}` : ""
+    };
+
+    const cert = new Certificate(certificateData);
     const saved = await cert.save();
     res.status(201).json({ success: true, message: "Certificate registered successfully", certificate: saved });
   } catch (error) {

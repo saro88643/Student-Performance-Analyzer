@@ -1,20 +1,20 @@
 import { useState, useEffect } from "react";
 import API from "../../services/api";
-import { FaCertificate, FaPlus, FaCheckCircle, FaTrash } from "react-icons/fa";
+import { FaCertificate, FaPlus, FaCheckCircle, FaTrash, FaImage } from "react-icons/fa";
 
 function CertificateListPage() {
   const [students, setStudents] = useState([]);
   const [selectedStudent, setSelectedStudent] = useState("");
   const [certificates, setCertificates] = useState([]);
   const [showModal, setShowModal] = useState(false);
+  const [imageFile, setImageFile] = useState(null);
 
   const [formData, setFormData] = useState({
     title: "",
     category: "Technical",
     organization: "",
     level: "College",
-    description: "",
-    fileUrl: ""
+    description: ""
   });
 
   useEffect(() => {
@@ -48,13 +48,32 @@ function CertificateListPage() {
     loadCertificates(selectedStudent);
   }, [selectedStudent]);
 
+  const handleFileChange = (e) => {
+    setImageFile(e.target.files[0]);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post("/certificates", { ...formData, studentId: selectedStudent });
+      const data = new FormData();
+      data.append("studentId", selectedStudent);
+      data.append("title", formData.title);
+      data.append("category", formData.category);
+      data.append("organization", formData.organization);
+      data.append("level", formData.level);
+      data.append("description", formData.description);
+      if (imageFile) {
+        data.append("image", imageFile);
+      }
+
+      const res = await API.post("/certificates", data, {
+        headers: { "Content-Type": "multipart/form-data" }
+      });
+
       if (res.data.success) {
         setShowModal(false);
-        setFormData({ title: "", category: "Technical", organization: "", level: "College", description: "", fileUrl: "" });
+        setFormData({ title: "", category: "Technical", organization: "", level: "College", description: "" });
+        setImageFile(null);
         loadCertificates(selectedStudent);
       }
     } catch (err) {
@@ -101,31 +120,41 @@ function CertificateListPage() {
       </div>
 
       {/* Certificates Cards Grid */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }}>
         {certificates.length === 0 ? (
           <div className="card" style={{ gridColumn: "span 3", textAlign: "center", padding: "40px", color: "#64748b" }}>
             No certificates added for this student. Click "Add Certificate" to upload records.
           </div>
         ) : (
           certificates.map((cert) => (
-            <div className="card" key={cert._id} style={{ position: "relative" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
-                <span className="badge badge-verygood">{cert.category}</span>
-                <span className="badge badge-low">{cert.level}</span>
-              </div>
-              <h3 style={{ margin: "0 0 6px 0", fontSize: "1.1rem", color: "#0f172a" }}>{cert.title}</h3>
-              <div style={{ fontSize: "0.85rem", color: "#64748b", marginBottom: "12px" }}>
-                Issued by: <strong>{cert.organization}</strong>
-              </div>
-              {cert.description && <p style={{ fontSize: "0.85rem", color: "#334155", margin: "0 0 14px 0" }}>{cert.description}</p>}
-              
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #e2e8f0", paddingTop: "12px" }}>
-                <span style={{ color: "#10b981", fontSize: "0.85rem", fontWeight: 600, display: "flex", alignItems: "center", gap: "4px" }}>
-                  <FaCheckCircle /> Verified
-                </span>
-                <button onClick={() => handleDelete(cert._id)} style={{ background: "transparent", border: "none", color: "#ef4444", cursor: "pointer" }}>
-                  <FaTrash />
-                </button>
+            <div className="card" key={cert._id} style={{ padding: "0", overflow: "hidden", display: "flex", flexDirection: "column" }}>
+              {cert.fileUrl && (
+                <div style={{ width: "100%", height: "180px", overflow: "hidden", background: "#f1f5f9" }}>
+                  <img
+                    src={`http://localhost:5000${cert.fileUrl}`}
+                    alt={cert.title}
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  />
+                </div>
+              )}
+              <div style={{ padding: "20px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+                  <span className="badge badge-verygood">{cert.category}</span>
+                  <span className="badge badge-low">{cert.level}</span>
+                </div>
+                <h3 style={{ margin: "0 0 6px 0", fontSize: "1.1rem", color: "#0f172a" }}>{cert.title}</h3>
+                <div style={{ fontSize: "0.85rem", color: "#64748b", marginBottom: "12px" }}>
+                  Issued by: <strong>{cert.organization}</strong>
+                </div>
+
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #e2e8f0", paddingTop: "12px", marginTop: "auto" }}>
+                  <span style={{ color: "#10b981", fontSize: "0.85rem", fontWeight: 600, display: "flex", alignItems: "center", gap: "4px" }}>
+                    <FaCheckCircle /> Verified
+                  </span>
+                  <button onClick={() => handleDelete(cert._id)} style={{ background: "transparent", border: "none", color: "#ef4444", cursor: "pointer" }}>
+                    <FaTrash />
+                  </button>
+                </div>
               </div>
             </div>
           ))
@@ -135,7 +164,7 @@ function CertificateListPage() {
       {/* Add Modal */}
       {showModal && (
         <div style={{ position: "fixed", inset: 0, background: "rgba(15, 23, 42, 0.6)", display: "flex", alignItems: "center", justifyContent: "center", zIndex: 1000 }}>
-          <div className="card" style={{ width: "100%", maxWidth: "500px", background: "white" }}>
+          <div className="card" style={{ width: "100%", maxWidth: "550px", background: "white", maxHeight: "90vh", overflowY: "auto" }}>
             <h3 style={{ marginTop: 0 }}>Add Certificate Record</h3>
             <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <div>
@@ -143,17 +172,29 @@ function CertificateListPage() {
                 <input type="text" required value={formData.title} onChange={(e) => setFormData({ ...formData, title: e.target.value })} placeholder="AWS Certified Solutions Architect" style={{ width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #cbd5e1" }} />
               </div>
 
-              <div>
-                <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, marginBottom: "4px" }}>Category</label>
-                <select value={formData.category} onChange={(e) => setFormData({ ...formData, category: e.target.value })} style={{ width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #cbd5e1" }}>
-                  <option value="Technical">Technical</option>
-                  <option value="NPTEL">NPTEL</option>
-                  <option value="Hackathon">Hackathon</option>
-                  <option value="Workshop">Workshop</option>
-                  <option value="Internship">Internship</option>
-                  <option value="Sports">Sports</option>
-                  <option value="Cultural">Cultural</option>
-                </select>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px" }}>
+                <div>
+                  <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, marginBottom: "4px" }}>Category</label>
+                  <select value={formData.category} onChange={(e) => setFormData({ ...formData, category: e.target.value })} style={{ width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #cbd5e1" }}>
+                    <option value="Technical">Technical</option>
+                    <option value="NPTEL">NPTEL</option>
+                    <option value="Hackathon">Hackathon</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Internship">Internship</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Cultural">Cultural</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, marginBottom: "4px" }}>Event Level</label>
+                  <select value={formData.level} onChange={(e) => setFormData({ ...formData, level: e.target.value })} style={{ width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #cbd5e1" }}>
+                    <option value="College">College</option>
+                    <option value="State">State</option>
+                    <option value="National">National</option>
+                    <option value="International">International</option>
+                  </select>
+                </div>
               </div>
 
               <div>
@@ -162,13 +203,19 @@ function CertificateListPage() {
               </div>
 
               <div>
-                <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, marginBottom: "4px" }}>Event Level</label>
-                <select value={formData.level} onChange={(e) => setFormData({ ...formData, level: e.target.value })} style={{ width: "100%", padding: "8px", borderRadius: "6px", border: "1px solid #cbd5e1" }}>
-                  <option value="College">College</option>
-                  <option value="State">State</option>
-                  <option value="National">National</option>
-                  <option value="International">International</option>
-                </select>
+                <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, marginBottom: "4px" }}>Upload Virtual Certificate (Image)</label>
+                <div style={{ border: "2px dashed #cbd5e1", borderRadius: "8px", padding: "20px", textAlign: "center", cursor: "pointer", position: "relative" }}>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    onChange={handleFileChange}
+                    style={{ position: "absolute", inset: 0, opacity: 0, cursor: "pointer" }}
+                  />
+                  <FaImage style={{ fontSize: "2rem", color: "#94a3b8", marginBottom: "8px" }} />
+                  <div style={{ fontSize: "0.85rem", color: "#64748b" }}>
+                    {imageFile ? <strong>Selected: {imageFile.name}</strong> : "Click or drag image to upload"}
+                  </div>
+                </div>
               </div>
 
               <div style={{ display: "flex", gap: "10px", marginTop: "12px" }}>

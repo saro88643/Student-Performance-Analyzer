@@ -74,6 +74,8 @@ function MLDashboardPage() {
       ]
     : [];
 
+  const hasPieData = pieData.length > 0 && pieData.some(d => d.value > 0);
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "28px" }}>
       {/* Top Banner */}
@@ -149,11 +151,15 @@ function MLDashboardPage() {
           <div style={{ height: "300px" }}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
-                <Pie data={pieData} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={95} label>
-                  {pieData.map((entry, idx) => (
-                    <Cell key={`cell-${idx}`} fill={entry.color} />
-                  ))}
-                </Pie>
+                {hasPieData ? (
+                  <Pie data={pieData.filter(d => d.value > 0)} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={95} label>
+                    {pieData.map((entry, idx) => (
+                      <Cell key={`cell-${idx}`} fill={entry.color} />
+                    ))}
+                  </Pie>
+                ) : (
+                  <Pie data={[{ name: "No Analyzed Data", value: 1 }]} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={95} fill="#e2e8f0" label />
+                )}
                 <Tooltip />
                 <Legend />
               </PieChart>

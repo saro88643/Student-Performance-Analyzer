@@ -86,6 +86,11 @@ const studentSchema = new mongoose.Schema(
       type: String,
       enum: ["Active", "Inactive", "Graduated"],
       default: "Active"
+    },
+    teacherId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true
     }
   },
   {

@@ -14,9 +14,10 @@ const PYTHON_ML_URL = process.env.PYTHON_ML_URL || "http://localhost:5001";
 const analyzeStudentPerformance = async (req, res) => {
   try {
     const { studentId } = req.params;
-    const student = await Student.findById(studentId);
+    // Verify ownership
+    const student = await Student.findOne({ _id: studentId, teacherId: req.user._id });
     if (!student) {
-      return res.status(404).json({ success: false, message: "Student not found" });
+      return res.status(404).json({ success: false, message: "Student not found or access denied" });
     }
 
     // 1. Collect real features
@@ -135,8 +136,14 @@ const analyzeStudentPerformance = async (req, res) => {
 // GET ML DASHBOARD DATA
 const getMLDashboardStats = async (req, res) => {
   try {
-    const totalStudents = await Student.countDocuments();
-    const predictions = await PerformancePrediction.find().populate("studentId", "firstName lastName registerNumber department year section");
+    const totalStudents = await Student.countDocuments({ teacherId: req.user._id });
+
+    // Find students belonging to this teacher first
+    const teacherStudents = await Student.find({ teacherId: req.user._id });
+    const studentIds = teacherStudents.map(s => s._id);
+
+    const predictions = await PerformancePrediction.find({ studentId: { $in: studentIds } })
+      .populate("studentId", "firstName lastName registerNumber department year section");
 
     const categoryCounts = {
       Excellent: 0,
@@ -165,7 +172,23 @@ const getMLDashboardStats = async (req, res) => {
       }
     });
 
-    const avgScore = predictions.length > 0 ? (sumScore / predictions.length).toFixed(1) : 78.4;
+    const avgScore = predictions.length > 0 ? (sumScore / predictions.length).toFixed(1) : 0;
+
+    // Calculate global averages for this teacher
+    const totalAttendance = await Attendance.find({ studentId: { $in: studentIds } });
+    const avgAttendance = totalAttendance.length > 0
+      ? ((totalAttendance.filter(a => a.status === 'Present').length / totalAttendance.length) * 100).toFixed(1)
+      : 0;
+
+    const totalMarks = await Marks.find({ studentId: { $in: studentIds } });
+    let totalGradePoints = 0, totalCredits = 0;
+    const gradePointMap = { O: 10, "A+": 9, A: 8, "B+": 7, B: 6, F: 0 };
+    totalMarks.forEach(m => {
+      totalGradePoints += (gradePointMap[m.grade] || 0) * (m.credits || 3);
+      totalCredits += (m.credits || 3);
+    });
+    const avgCgpa = totalCredits > 0 ? (totalGradePoints / totalCredits).toFixed(2) : 0;
+
     const metadata = await MLModelMetadata.findOne().sort({ createdAt: -1 });
 
     res.json({
@@ -173,6 +196,8 @@ const getMLDashboardStats = async (req, res) => {
       totalAnalyzed: predictions.length,
       totalStudents,
       avgScore: Number(avgScore),
+      avgAttendance: Number(avgAttendance),
+      avgCgpa: Number(avgCgpa),
       categoryCounts,
       riskCounts,
       atRiskStudents,
@@ -194,7 +219,7 @@ const getMLDashboardStats = async (req, res) => {
 // TRIGGER BATCH ML ANALYSIS FOR ALL STUDENTS
 const runBatchMLAnalysis = async (req, res) => {
   try {
-    const students = await Student.find();
+    const students = await Student.find({ teacherId: req.user._id });
     let updatedCount = 0;
 
     for (let student of students) {
@@ -263,4 +288,94 @@ const runBatchMLAnalysis = async (req, res) => {
   }
 };
 
-module.exports = { analyzeStudentPerformance, getMLDashboardStats, runBatchMLAnalysis };
+const fs = require("fs");
+const path = require("path");
+
+// EXPORT REAL STUDENT DATA TO CSV FOR ML TRAINING
+const exportDataForTraining = async (req, res) => {
+  try {
+    const students = await Student.find({ teacherId: req.user._id });
+    const data = [];
+
+    for (let student of students) {
+      const studentId = student._id;
+      const attendanceRecords = await Attendance.find({ studentId });
+      const totalClasses = attendanceRecords.length;
+      const presentClasses = attendanceRecords.filter((a) => a.status === "Present").length;
+      const attendance_percentage = totalClasses > 0 ? (presentClasses / totalClasses) * 100 : 80;
+
+      const marksRecords = await Marks.find({ studentId });
+      let totalInternal = 0, totalAssignment = 0, totalExam = 0, count = marksRecords.length;
+      marksRecords.forEach((m) => {
+        totalInternal += m.internalMarks || 0;
+        totalAssignment += m.assignmentScore || 0;
+        totalExam += m.semesterExamScore || m.modelExamScore || 0;
+      });
+
+      const internal_marks = count > 0 ? totalInternal / count : 75;
+      const assignment_score = count > 0 ? totalAssignment / count : 78;
+      const exam_score = count > 0 ? totalExam / count : 72;
+      const cgpa = count > 0 ? (internal_marks * 0.4 + exam_score * 0.6) / 10 : 7.5;
+
+      const certs = await Certificate.find({ studentId });
+      const acts = await Activity.find({ studentId });
+      const behs = await Behavior.find({ studentId });
+
+      const posCount = behs.filter((b) => b.type === "Positive").length;
+      const negCount = behs.filter((b) => b.type === "Negative").length;
+
+      const prediction = await PerformancePrediction.findOne({ studentId });
+
+      data.push({
+        student_id: student.registerNumber,
+        age: 20, // Placeholder if not in student model
+        gender: student.gender,
+        department: student.department,
+        year: student.year,
+        semester: student.semester,
+        attendance_percentage: Math.round(attendance_percentage),
+        internal_marks: Math.round(internal_marks),
+        assignment_score: Math.round(assignment_score),
+        exam_score: Math.round(exam_score),
+        previous_semester_score: Math.round(exam_score - 2),
+        cgpa: Number(cgpa.toFixed(2)),
+        arrear_count: 0,
+        study_hours: 15,
+        activity_count: acts.length,
+        certificate_count: certs.length,
+        technical_activity_count: acts.filter(a => ["Hackathons", "Coding Competitions"].includes(a.category)).length,
+        sports_activity_count: acts.filter(a => a.category === "Sports").length,
+        positive_review_count: posCount,
+        negative_review_count: negCount,
+        discipline_score: 100 - (negCount * 10),
+        teacher_feedback_score: 70 + (posCount * 5) - (negCount * 5),
+        communication_score: 80,
+        teamwork_score: 80,
+        skill_score: 60 + (certs.length * 5),
+        academic_progress: "Stable",
+        performance_category: prediction ? prediction.category : "Good",
+        at_risk: (prediction && (prediction.riskLevel === "High" || prediction.riskLevel === "Critical")) ? 1 : 0
+      });
+    }
+
+    if (data.length === 0) {
+      return res.status(400).json({ success: false, message: "No student data available for export" });
+    }
+
+    const header = Object.keys(data[0]).join(",");
+    const rows = data.map(obj => Object.values(obj).join(",")).join("\n");
+    const csvContent = `${header}\n${rows}`;
+
+    const dirPath = path.join(__dirname, "../../dataset/processed");
+    if (!fs.existsSync(dirPath)) fs.mkdirSync(dirPath, { recursive: true });
+
+    const filePath = path.join(dirPath, "real_student_data.csv");
+    fs.writeFileSync(filePath, csvContent);
+
+    res.json({ success: true, message: "Real student data exported to CSV for ML training", filePath });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
+
+module.exports = { analyzeStudentPerformance, getMLDashboardStats, runBatchMLAnalysis, exportDataForTraining };

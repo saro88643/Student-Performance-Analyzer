@@ -319,13 +319,24 @@ function Student360Page() {
             </div>
           ) : (
             certificates.map((cert) => (
-              <div className="card" key={cert._id}>
-                <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px" }}>
-                  <span className="badge badge-verygood">{cert.category}</span>
-                  <span className="badge badge-low">{cert.level}</span>
+              <div className="card" key={cert._id} style={{ padding: "0", overflow: "hidden", display: "flex", flexDirection: "column" }}>
+                {cert.fileUrl && (
+                  <div style={{ width: "100%", height: "150px", overflow: "hidden", background: "#f1f5f9" }}>
+                    <img
+                      src={`http://localhost:5000${cert.fileUrl}`}
+                      alt={cert.title}
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                )}
+                <div style={{ padding: "16px" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px" }}>
+                    <span className="badge badge-verygood">{cert.category}</span>
+                    <span className="badge badge-low">{cert.level}</span>
+                  </div>
+                  <h4 style={{ margin: "0 0 6px 0", color: "#0f172a" }}>{cert.title}</h4>
+                  <div style={{ fontSize: "0.85rem", color: "#64748b" }}>Issued by: {cert.organization}</div>
                 </div>
-                <h4 style={{ margin: "0 0 6px 0", color: "#0f172a" }}>{cert.title}</h4>
-                <div style={{ fontSize: "0.85rem", color: "#64748b" }}>Issued by: {cert.organization}</div>
               </div>
             ))
           )}

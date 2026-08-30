@@ -42,11 +42,13 @@ const markAttendance = async (req, res) => {
   }
 };
 
-// GET ATTENDANCE BY CLASS / DATE
+// GET ATTENDANCE BY CLASS / DATE (FILTERED BY TEACHER)
 const getAttendanceByClass = async (req, res) => {
   try {
     const { department, year, section, date, subject } = req.query;
-    let query = {};
+
+    // Only fetch students registered by this teacher
+    let query = { teacherId: req.user._id };
     if (department) query.department = department;
     if (year) query.year = year;
     if (section) query.section = section;
@@ -80,6 +82,13 @@ const getAttendanceByClass = async (req, res) => {
 const getStudentAttendanceStats = async (req, res) => {
   try {
     const { studentId } = req.params;
+
+    // Ownership check
+    const student = await Student.findOne({ _id: studentId, teacherId: req.user._id });
+    if (!student) {
+        return res.status(403).json({ success: false, message: "Access denied" });
+    }
+
     const records = await Attendance.find({ studentId }).sort({ date: -1 });
 
     const total = records.length;

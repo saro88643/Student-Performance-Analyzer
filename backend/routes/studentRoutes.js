@@ -11,6 +11,8 @@ const { protect } = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
+router.use(protect);
+
 router.route("/")
   .get(getStudents)
   .post(createStudent);

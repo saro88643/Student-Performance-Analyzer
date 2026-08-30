@@ -1,5 +1,6 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 import LoginPage from "../features/auth/LoginPage";
 import RegisterTeacherPage from "../features/auth/RegisterTeacherPage";
@@ -24,27 +25,34 @@ function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* Public Routes */}
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register-teacher" element={<RegisterTeacherPage />} />
 
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<DashboardPage />} />
-          
-          <Route path="students" element={<StudentListPage />} />
-          <Route path="students/register" element={<StudentRegisterPage />} />
-          <Route path="students/:id" element={<Student360Page />} />
-          <Route path="students/:id/edit" element={<StudentEditPage />} />
+        {/* Protected Internal Routes */}
+        <Route element={<ProtectedRoute />}>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<DashboardPage />} />
 
-          <Route path="attendance" element={<AttendancePage />} />
-          <Route path="marks" element={<MarksPage />} />
-          <Route path="certificates" element={<CertificateListPage />} />
-          <Route path="activities" element={<ActivityListPage />} />
-          <Route path="behavior" element={<BehaviorListPage />} />
+            <Route path="students" element={<StudentListPage />} />
+            <Route path="students/register" element={<StudentRegisterPage />} />
+            <Route path="students/:id" element={<Student360Page />} />
+            <Route path="students/:id/edit" element={<StudentEditPage />} />
 
-          <Route path="ml-dashboard" element={<MLDashboardPage />} />
-          <Route path="at-risk" element={<AtRiskStudentsPage />} />
-          <Route path="reports" element={<ReportsPage />} />
+            <Route path="attendance" element={<AttendancePage />} />
+            <Route path="marks" element={<MarksPage />} />
+            <Route path="certificates" element={<CertificateListPage />} />
+            <Route path="activities" element={<ActivityListPage />} />
+            <Route path="behavior" element={<BehaviorListPage />} />
+
+            <Route path="ml-dashboard" element={<MLDashboardPage />} />
+            <Route path="at-risk" element={<AtRiskStudentsPage />} />
+            <Route path="reports" element={<ReportsPage />} />
+          </Route>
         </Route>
+
+        {/* Fallback for undefined routes */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );

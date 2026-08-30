@@ -30,15 +30,22 @@ function DashboardPage() {
     const loadDashboard = async () => {
       try {
         const studentRes = await API.get("/students");
-        const mlRes = await API.get("/ml/dashboard");
+        if (studentRes.data.success) {
+          setStats(prev => ({
+            ...prev,
+            totalStudents: studentRes.data.count || 0
+          }));
+        }
 
-        if (studentRes.data.success && mlRes.data.success) {
-          setStats({
-            totalStudents: studentRes.data.count || 0,
-            avgAttendance: 85.2,
-            avgCgpa: 7.74,
-            atRiskCount: mlRes.data.atRiskStudents ? mlRes.data.atRiskStudents.length : 0
-          });
+        const mlRes = await API.get("/ml/dashboard");
+        if (mlRes.data.success) {
+          setStats(prev => ({
+            ...prev,
+            atRiskCount: mlRes.data.atRiskStudents ? mlRes.data.atRiskStudents.length : 0,
+            avgAttendance: mlRes.data.avgAttendance || 0,
+            avgCgpa: mlRes.data.avgCgpa || 0,
+            avgScore: mlRes.data.avgScore || 0
+          }));
           setMlSummary(mlRes.data);
         }
       } catch (err) {
@@ -50,21 +57,19 @@ function DashboardPage() {
     loadDashboard();
   }, []);
 
-  const pieData = mlSummary?.categoryCounts
+  const hasData = mlSummary && Object.values(mlSummary.categoryCounts).some(v => v > 0);
+
+  const pieData = hasData
     ? [
-        { name: "Excellent", value: mlSummary.categoryCounts.Excellent || 15, color: "#4f46e5" },
-        { name: "Very Good", value: mlSummary.categoryCounts["Very Good"] || 35, color: "#06b6d4" },
-        { name: "Good", value: mlSummary.categoryCounts.Good || 40, color: "#10b981" },
-        { name: "Average", value: mlSummary.categoryCounts.Average || 20, color: "#f59e0b" },
-        { name: "Needs Improvement", value: mlSummary.categoryCounts["Needs Improvement"] || 8, color: "#f97316" },
-        { name: "At Risk", value: mlSummary.categoryCounts["At Risk"] || 5, color: "#ef4444" }
-      ]
+        { name: "Excellent", value: mlSummary.categoryCounts.Excellent || 0, color: "#4f46e5" },
+        { name: "Very Good", value: mlSummary.categoryCounts["Very Good"] || 0, color: "#06b6d4" },
+        { name: "Good", value: mlSummary.categoryCounts.Good || 0, color: "#10b981" },
+        { name: "Average", value: mlSummary.categoryCounts.Average || 0, color: "#f59e0b" },
+        { name: "Needs Improvement", value: mlSummary.categoryCounts["Needs Improvement"] || 0, color: "#f97316" },
+        { name: "At Risk", value: mlSummary.categoryCounts["At Risk"] || 0, color: "#ef4444" }
+      ].filter(item => item.value > 0)
     : [
-        { name: "Excellent", value: 25, color: "#4f46e5" },
-        { name: "Very Good", value: 35, color: "#06b6d4" },
-        { name: "Good", value: 25, color: "#10b981" },
-        { name: "Average", value: 10, color: "#f59e0b" },
-        { name: "At Risk", value: 5, color: "#ef4444" }
+        { name: "No Data", value: 1, color: "#e2e8f0" }
       ];
 
   const barData = [

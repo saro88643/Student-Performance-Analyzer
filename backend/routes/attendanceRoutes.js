@@ -4,6 +4,8 @@ const { protect } = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
+router.use(protect);
+
 router.post("/", markAttendance);
 router.get("/class", getAttendanceByClass);
 router.get("/student/:studentId", getStudentAttendanceStats);

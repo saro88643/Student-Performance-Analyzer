@@ -9,7 +9,14 @@ const PerformancePrediction = require("../models/PerformancePrediction");
 // CREATE STUDENT
 const createStudent = async (req, res) => {
   try {
-    const student = new Student(req.body);
+    if (!req.user) {
+      return res.status(401).json({ success: false, message: "Login required to register students" });
+    }
+    const studentData = {
+      ...req.body,
+      teacherId: req.user._id // Assign to the logged-in teacher
+    };
+    const student = new Student(studentData);
     const savedStudent = await student.save();
     res.status(201).json({
       success: true,
@@ -24,11 +31,13 @@ const createStudent = async (req, res) => {
   }
 };
 
-// GET ALL STUDENTS (WITH SEARCH & FILTER)
+// GET ALL STUDENTS (FILTERED BY LOGGED-IN TEACHER)
 const getStudents = async (req, res) => {
   try {
     const { search, department, year, section, status } = req.query;
-    let query = {};
+
+    // Always restrict to students added by this teacher
+    let query = { teacherId: req.user._id };
 
     if (search) {
       query.$or = [
@@ -62,9 +71,9 @@ const getStudents = async (req, res) => {
 // GET SINGLE STUDENT
 const getStudentById = async (req, res) => {
   try {
-    const student = await Student.findById(req.params.id);
+    const student = await Student.findOne({ _id: req.params.id, teacherId: req.user._id });
     if (!student) {
-      return res.status(404).json({ success: false, message: "Student not found" });
+      return res.status(404).json({ success: false, message: "Student not found or access denied" });
     }
     res.json({ success: true, student });
   } catch (error) {
@@ -75,12 +84,16 @@ const getStudentById = async (req, res) => {
 // UPDATE STUDENT
 const updateStudent = async (req, res) => {
   try {
-    const student = await Student.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true
-    });
+    const student = await Student.findOneAndUpdate(
+      { _id: req.params.id, teacherId: req.user._id },
+      req.body,
+      {
+        new: true,
+        runValidators: true
+      }
+    );
     if (!student) {
-      return res.status(404).json({ success: false, message: "Student not found" });
+      return res.status(404).json({ success: false, message: "Student not found or access denied" });
     }
     res.json({ success: true, message: "Student updated successfully", student });
   } catch (error) {
@@ -91,9 +104,9 @@ const updateStudent = async (req, res) => {
 // DELETE STUDENT
 const deleteStudent = async (req, res) => {
   try {
-    const student = await Student.findByIdAndDelete(req.params.id);
+    const student = await Student.findOneAndDelete({ _id: req.params.id, teacherId: req.user._id });
     if (!student) {
-      return res.status(404).json({ success: false, message: "Student not found" });
+      return res.status(404).json({ success: false, message: "Student not found or access denied" });
     }
 
     // Clean up related records
@@ -114,9 +127,9 @@ const deleteStudent = async (req, res) => {
 const getStudent360 = async (req, res) => {
   try {
     const studentId = req.params.id;
-    const student = await Student.findById(studentId);
+    const student = await Student.findOne({ _id: studentId, teacherId: req.user._id });
     if (!student) {
-      return res.status(404).json({ success: false, message: "Student not found" });
+      return res.status(404).json({ success: false, message: "Student not found or access denied" });
     }
 
     // 1. Attendance aggregation

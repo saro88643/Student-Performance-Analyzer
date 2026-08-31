@@ -5,7 +5,7 @@ dist/
 *.log
 __pycache__/
 *.pyc
-ml/models/*.joblib
+
 database/sqlite/*.db
 .idea/
 .vscode/

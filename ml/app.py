@@ -69,5 +69,6 @@ def retrain():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    print("Starting Python Machine Learning API on http://localhost:5001")
-    app.run(host="0.0.0.0", port=5001, debug=False)
+    port = int(os.environ.get("PORT", 5001))
+    print(f"Starting Python Machine Learning API on port {port}")
+    app.run(host="0.0.0.0", port=port, debug=False)

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
-import API from "../../services/api";
+import API, { API_BASE_URL } from "../../services/api";
 import {
   FaUserGraduate, FaBrain, FaCalendarCheck, FaClipboardList,
   FaCertificate, FaRunning, FaComments, FaArrowLeft, FaSync,
@@ -323,7 +323,11 @@ function Student360Page() {
                 {cert.fileUrl && (
                   <div style={{ width: "100%", height: "150px", overflow: "hidden", background: "#f1f5f9" }}>
                     <img
-                      src={`http://localhost:5000${cert.fileUrl}`}
+                      src={
+  cert.fileUrl?.startsWith("http")
+    ? cert.fileUrl
+    : `${API_BASE_URL}${cert.fileUrl}`
+}
                       alt={cert.title}
                       style={{ width: "100%", height: "100%", objectFit: "cover" }}
                     />

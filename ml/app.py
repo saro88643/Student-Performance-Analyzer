@@ -9,10 +9,14 @@ CORS(app)
 
 predictor = None
 
+# Base directory of the ml/ folder
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def load_predictor():
     global predictor
-    # Try both root-relative and local-relative paths
-    model_path = "ml/models" if os.path.exists("ml/models") else "models"
+    # Robust path to models folder
+    model_path = os.path.join(BASE_DIR, "models")
+
     try:
         predictor = StudentPerformancePredictor(model_path)
         print(f"Scikit-Learn ML Predictor loaded from {model_path} successfully.")
@@ -31,7 +35,6 @@ def health_check():
 
 @app.route("/predict", methods=["POST"])
 def predict():
-
     global predictor
     if predictor is None:
         load_predictor()
@@ -48,15 +51,12 @@ def predict():
 
 @app.route("/retrain", methods=["POST"])
 def retrain():
-
     global predictor
     try:
-        # Check path for dataset
-        csv_path = "dataset/raw/student_performance_dataset.csv"
-        if not os.path.exists(csv_path):
-            csv_path = "../dataset/raw/student_performance_dataset.csv"
-
-        output_dir = "ml/models" if os.path.exists("ml/models") else "models"
+        # Robust path for dataset
+        # If running from ml/ on Render, dataset/ is usually at ../dataset/
+        csv_path = os.path.abspath(os.path.join(BASE_DIR, "..", "dataset", "raw", "student_performance_dataset.csv"))
+        output_dir = os.path.join(BASE_DIR, "models")
 
         metrics = train_pipeline(csv_path, output_dir)
         load_predictor()
@@ -66,6 +66,7 @@ def retrain():
             "metrics": metrics
         })
     except Exception as e:
+        print("Retrain Error:", e)
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":

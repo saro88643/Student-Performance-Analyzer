@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import API from "../../services/api";
+import API, { API_BASE_URL } from "../../services/api";
 import { FaCertificate, FaPlus, FaCheckCircle, FaTrash, FaImage } from "react-icons/fa";
 
 function CertificateListPage() {
@@ -131,7 +131,11 @@ function CertificateListPage() {
               {cert.fileUrl && (
                 <div style={{ width: "100%", height: "180px", overflow: "hidden", background: "#f1f5f9" }}>
                   <img
-                    src={`http://localhost:5000${cert.fileUrl}`}
+                    src={
+  cert.fileUrl?.startsWith("http")
+    ? cert.fileUrl
+    : `${API_BASE_URL}${cert.fileUrl}`
+}
                     alt={cert.title}
                     style={{ width: "100%", height: "100%", objectFit: "cover" }}
                   />

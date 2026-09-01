@@ -10,16 +10,21 @@ from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier
 from sklearn.cluster import KMeans
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, accuracy_score, precision_score, recall_score, f1_score
 
+# Base directory of the ml/ folder
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 def train_pipeline(csv_path=None, output_dir=None):
     if csv_path is None:
-        csv_path = "dataset/raw/student_performance_dataset.csv"
+        # Robust path for dataset
+        csv_path = os.path.abspath(os.path.join(BASE_DIR, "..", "dataset", "raw", "student_performance_dataset.csv"))
+        # Fallback if the above doesn't work (e.g. repo root)
         if not os.path.exists(csv_path):
-            csv_path = "../dataset/raw/student_performance_dataset.csv"
+             csv_path = os.path.abspath(os.path.join(os.getcwd(), "dataset", "raw", "student_performance_dataset.csv"))
 
     if output_dir is None:
-        output_dir = "ml/models"
-        if not os.path.exists(output_dir) and os.path.exists("models"):
-            output_dir = "models"
+        output_dir = os.path.join(BASE_DIR, "models")
+        if not os.path.exists(output_dir):
+            output_dir = os.path.join(os.getcwd(), "ml", "models")
 
     print(f"Loading dataset from {csv_path}...")
     df = pd.read_csv(csv_path)

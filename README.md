@@ -64,3 +64,7 @@ Alternatively, run them separately:
 
 ## Important Note
 This system uses a genuine Scikit-Learn pipeline. It does NOT use hardcoded weighted formulas for its final results. The model learns from the provided dataset and improves as more data is collected.
+
+
+## deployed link
+https://student-performance-analyzer-eta.vercel.app
